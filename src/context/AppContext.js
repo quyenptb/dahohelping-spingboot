@@ -265,8 +265,6 @@ const AppProvider = ({ children }) => {
         }
    }, [choosenUni]); // Note the empty dependency array
 
-   
-
   const contextValue = {
     card,
     setCard,
@@ -311,7 +309,6 @@ const AppProvider = ({ children }) => {
       </div>
     );
   }
-
 
   return (
     <AppContext.Provider value={{...contextValue}}>

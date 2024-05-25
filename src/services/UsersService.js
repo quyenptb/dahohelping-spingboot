@@ -20,8 +20,8 @@ export const signin = async (user) => {
     if (response?.data) return true;
     return false;
   } catch (e) {
-    console.log('Error logging in', e);
-    throw new Error('Login failed');
+    console.log('Error sign in', e);
+    throw new Error('Sign in failed');
   }
 };
 

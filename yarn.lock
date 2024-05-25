@@ -1098,7 +1098,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.24.0"
 
-"@babel/plugin-transform-runtime@^7.16.4":
+"@babel/plugin-transform-runtime@^7.12.1", "@babel/plugin-transform-runtime@^7.16.4":
   version "7.24.3"
   resolved "https://registry.npmjs.org/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.24.3.tgz"
   integrity sha512-J0BuRPNlNqlMTRJ72eVptpt9VcInbxO6iP3jaxr+1NPhC0UkKL+6oeX6VXMEYdADnuqmMmsBspt4d5w8Y/TCbQ==
@@ -9288,6 +9288,15 @@ react-autosuggest@^10.1.0:
     section-iterator "^2.0.0"
     shallow-equal "^1.2.1"
 
+react-avatar-editor@^13.0.2:
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/react-avatar-editor/-/react-avatar-editor-13.0.2.tgz#7ed5a1fd7a9e7bd4b320a3a65df32d3d0e21eb10"
+  integrity sha512-a4ajbi7lwDh98kgEtSEeKMu0vs0CHTczkq4Xcxr1EiwMFH1GlgHCEtwGU8q/H5W8SeLnH4KPK8LUjEEaZXklxQ==
+  dependencies:
+    "@babel/plugin-transform-runtime" "^7.12.1"
+    "@babel/runtime" "^7.12.5"
+    prop-types "^15.7.2"
+
 react-bootstrap@^2.10.2:
   version "2.10.2"
   resolved "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.10.2.tgz"
@@ -9381,6 +9390,11 @@ react-loader-spinner@^6.1.6:
   dependencies:
     react-is "^18.2.0"
     styled-components "^6.1.2"
+
+react-oauth-google@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/react-oauth-google/-/react-oauth-google-0.9.0.tgz#e139b910c74e113c2a94aada8248d2373f9addd8"
+  integrity sha512-3qFEvZxT6JJs41kukbVnwVZLJ0DmaZO/+CF80nzCv2mF0vRKOswKz5bideyNEzwAQKMQ3Cv04rc23LsVqhfL8g==
 
 react-pdf@^8.0.2:
   version "8.0.2"

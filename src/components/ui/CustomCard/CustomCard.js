@@ -118,13 +118,14 @@ const CustomCard = ({ card }) => {
                 bullist numlist outdent indent | removeformat | help'
             }}
             onEditorChange={handleEditorChange}
-          /> : <> Hãy <Link to={"/login"}> Đăng nhập</Link> để trả lời câu hỏi này nhé! </> }
+          /> : <div> <strong> Hãy <Link to={"/login"}> Đăng nhập</Link> để trả lời câu hỏi này nhé! </strong> </div> }
+          { currentUser ? <>
           <button className="custom-card-submit-btn" type="submit" onClick={handleCommentSubmit}>Gửi</button>
           <button className="custom-card-save-btn" type="button" onClick={handleButtonSave}>{isSaved ? 'Đã lưu!' : 'Lưu câu hỏi'} </button>
           <span>
           <button className="custom-card-report-btn" type="button" onClick={handleReportClick}>Báo vi phạm</button>
           {isReportModalVisible && <ReportModal isClicked={isReportModalVisible} updateIsReportSubmitted={updateIsReportSubmitted} updateIsReportModalVisible={updateIsReportModalVisible}/>}
-          </span>
+          </span> </> : <></> }
           </form>
       </div>
       <div className="custom-card-footer">

@@ -5,6 +5,9 @@ import dahohelping from '../../assets/icons/DahoHelping1.png'
 import {daho_data, fal_data, maj_data, sub_data, uni_data, user_data} from '../../data/index'
 import { signin } from 'src/services/UsersService';
 import Notification from 'src/components/ui/Notification/Notification';
+import { avatar } from 'src/utils/images';
+import AvatarEditor from 'react-avatar-editor';
+import { Button, Modal } from 'react-bootstrap';
 
 const fal = fal_data;
 const maj = maj_data;
@@ -23,6 +26,10 @@ const hometown = [
   "Hà Nội", "TP HCM"
 ];
 
+const uniIcon = {
+ 0:"default_icon.png", 1: "bku.webp", 2: "khtn.png", 3: "ussh.png", 4: "iu.png", 5: "uit.png", 6: "uel.png", 7: "agu.png", 8: "khsk.png", 9: "thsp.png", 10: "ptnk.png", 11: "bentre.png",
+}
+
 const UserContext = createContext();
 
 const UserInfo = () => {
@@ -31,18 +38,19 @@ const UserInfo = () => {
 
   const [isEditing, setIsEditing] = useState(false);
 
+
   return (
     <div className="user-page">
         <>
           <div className="user-header">
           <img src={userDetails.avatar} alt={userDetails.username} className="avatar" />
             <h1>
-                <img src={userDetails.uni_id} alt={userDetails.uni_id} className='user-uni' />
+                <img src={require(`src/assets/icons/${uniIcon[userDetails.uni_id]}`)} style={{ width: '60px', height: '60px' }} alt={userDetails.uni_id} className='user-uni' />
                 {userDetails.fullName}
             </h1>
                 <p><i> {`@${userDetails.username}`}</i></p>
             <p>{userDetails.email}</p>
-            <p>Khoa {userDetails.fal_id}, ngành {userDetails.maj_id}</p>
+            <p> {userDetails.fal_id ? userDetails.fal_id : 'Khoa'  }, {userDetails.maj_id? userDetails.maj_id : "ngành"  }</p>
           </div>
           <div className="user-details">
             <h2>Thông tin cá nhân</h2>
@@ -58,6 +66,9 @@ const UserInfo = () => {
 
 const RegisterPage = () => {
   const nativate = useNavigate();
+  const [editor, setEditor] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const editorRef = useRef(null);
   const [notisetting, setNotiSetting] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
   const [userDetails, setUserDetails] = useState({
@@ -66,7 +77,7 @@ const RegisterPage = () => {
     password: '',
     email: '',
     hometown: '',
-    uni_id: '',
+    uni_id: 0,
     fal_id: '',
     maj_id: '',
     hobby: '',
@@ -85,9 +96,11 @@ const RegisterPage = () => {
           ...prevDetails,
           avatar: reader.result
         }))
+        console.log(userDetails.avatar);
       };
       reader.readAsDataURL(file);
         }
+        setShowModal(true);
   };
 
   const handleChange = (e) => {
@@ -120,6 +133,18 @@ const RegisterPage = () => {
     }
   };
 
+  const handleImageSave = () => {
+    if (editorRef.current) {
+      const canvas = editorRef.current.getImageScaledToCanvas();
+      const newImage = canvas.toDataURL();
+      setUserDetails(prevDetails => ({
+        ...prevDetails,
+        avatar: newImage
+      }));
+      setShowModal(false);
+    }
+  };
+  
   return (
     <UserProvider value={{userDetails, setUserDetails}}>
     <>
@@ -149,13 +174,31 @@ const RegisterPage = () => {
         <input type="text" name="hobby" placeholder="Sở thích" onChange={handleChange} required />
         <textarea value={userDetails.bio} name="bio" placeholder="Giới thiệu bản thân" onChange={handleChange}></textarea>
         <input type="file" onChange={handleImageUpload} />
-      {imageSrc && (
+      {imageSrc && <>
+          <Modal show={showModal} onHide={() => setShowModal(false)}>
+            <Modal.Header closeButton> Chỉnh sửa ảnh đại diện </Modal.Header>
+            <Modal.Body>
+            <AvatarEditor
+        ref={editorRef}
+        image={userDetails.avatar}
+        width={250}
+        height={250}
+        border={50}
+        color={[255, 255, 255, 0.6]} // RGBA
+        scale={1.2}
+        rotate={0}
+      />
+      </Modal.Body>
+      <Modal.Footer> <Button type="submit" onClick={handleImageSave} >Lưu ảnh</Button></Modal.Footer>
+      </Modal>
         <div>
           <p>Ảnh đại diện:</p>
-          <img src={imageSrc} alt="Ảnh đại diện" style={{ maxWidth: '100%' }} />
+          
+          <img src={userDetails.avatar} alt="Ảnh đại diện" style={{ maxWidth: '100%' }} />
         </div>
-      )}
-        <button type="submit">Đăng kí</button>
+        </>
+      }
+        <button type="submit" onClick={handleSubmit} >Đăng kí</button>
       </form>
       
     </div>

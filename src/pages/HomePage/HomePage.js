@@ -4,50 +4,30 @@ import { React, useContext,Routes, Route, Link,
   Button, Table, FontAwesomeIcon, faPlusMinus, faCode, faComputer, faBook, faMicrochip, faLanguage}
   from 'src/utils/import.js';
 
-import banner from 'src/assets/CarouselImage/dahohelping-banner.png'
+import banner1 from 'src/assets/CarouselImage/banner1.png'
+import banner2 from 'src/assets/CarouselImage/banner2.png'
+import banner3 from 'src/assets/CarouselImage/banner3.png'
 
-import { Carousel, CreateQuestionButton, CustomCard, DRL, FilterDropdown, Footer, GroupCards, IntroductionContent, NavBar, Notification, NotificationBoard, RankingTable, ReportModal, Sidebar, UserInfo, UserNote, WeatherComponent } from '../../components/index.js';
+import { Carousel, Pagination, CreateQuestionButton, CustomCard, DRL, FilterDropdown, Footer, GroupCards, IntroductionContent, NavBar, Notification, NotificationBoard, RankingTable, ReportModal, Sidebar, UserInfo, UserNote, WeatherComponent } from '../../components/index.js';
 
 import { AppContext, AppProvider } from 'src/context/AppContext.js';
 
-
 export default function HomePage() {
+  
+  const [currentPage, setCurrentPage] = useState(1);
+  const [cardsPerPage, setCardsPerPage] = useState(5);
   const {
-        ranking,
-        setRanking,
+    cards,
         subjects_uit,
+        setSub,
         subjects_target, 
-        notisetting,
-        setNotiSetting, //nội dung thông báo
-        showNotification, //hiển thị thông báo
-        setShowNotification, //gán giá trị hiển thị thông báo
-        filterState, //lọc trường, khoa, ngành, môn
-        setFilterState, //gán lọc trường, khoa, ngành, môn
-        currentUser, //user hiện tại (principal)
-        setCurrentUser, //gán user hiện tại
-        //cards, //danh sách thẻ cho các component cần dùng
-        setCards, //gán danh sách thẻ
-        card, //thẻ được chọn
-        setCard, //gán danh sách thẻ
-        dahoHelping, //lọc dahohelping
-        setDahoHelping, //gán lọc dahohelping
         choosenUni, //trường được chọn
-        setChoosenUni, //gán trường trường được chọn
-        uni, //danh sách trường
-        setUni, //gán danh sách trường
-        fal, //danh sách khoa
-        setFal, //gán danh sách khoa
-        choosenFal, //khoa được chọn
-        setChoosenFal, //gán khoa được chọn
-        maj, //danh sách ngành
-        setMaj, //gán danh sách ngành
-        sub, //danh sách môn học
-        setSub, //gán danh sách môn học
-        choosenSub, //môn học được chọn
-        setChoosenSub, //gán môn học được chọn
-        choosenMaj, //ngành được chọn
-        setChoosenMaj //gán ngành được chọn
       } = useContext(AppContext);
+
+      const indexOfLastCard = currentPage * cardsPerPage;
+      const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+      const currentCards = cards.slice(indexOfFirstCard, indexOfLastCard);
+
 
   useEffect(() => {
     if (choosenUni === "Trường Đại học") {
@@ -57,16 +37,13 @@ export default function HomePage() {
     }
   }, [choosenUni]);
 
+  const paginate = pageNumber => setCurrentPage(pageNumber);
+
   return (
     <div>
       <NavBar />
-      <Link to="/sign-in" className="link" target="_blank">
-        <img
-          src={banner}
-          alt="DahoHelpingBanner"
-          style={{ width: "100%", height: "100vh" }}
-        />
-      </Link>
+      
+      <Carousel src1={banner1} src2={banner2} src3={banner3}/>
       <div className="main">
         <Sidebar className="sidebar" />
         <div className="little-main">
@@ -75,6 +52,11 @@ export default function HomePage() {
             className="filter-dropdown"
           />
           <GroupCards />
+          <Pagination
+        cardsPerPage={cardsPerPage}
+        totalCards={cards.length}
+        paginate={paginate}
+      />
         </div>
         <div className="right">
           <UserNote />

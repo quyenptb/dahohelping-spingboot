@@ -1,4 +1,6 @@
-export const banner = require('src/assets/CarouselImage/dahohelping-banner.png');
+export const banner1 = require('src/assets/CarouselImage/banner1.png');
+export const banner2 = require('src/assets/CarouselImage/banner2.png');
+export const banner3 = require('src/assets/CarouselImage/banner3.png');
 export const account = require('src/assets/icons/account.png');
 export const DahoHelping = require('src/assets/icons/DahoHelping1.png');
 export const khtn = require('src/assets/icons/khtn.webp');

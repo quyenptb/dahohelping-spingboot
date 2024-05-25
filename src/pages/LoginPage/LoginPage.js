@@ -5,10 +5,13 @@ import { useNavigate } from 'react-router-dom';
 import { getUserByUsername, login } from 'src/services/UsersService';
 import { Notification } from '../../components/index.js';
 import { AppContext } from 'src/context';
+import GoogleIcon from 'src/assets/icons/logingg.png'
 
 import './LoginPage.css';
+import GoogleLogin from 'src/components/ui/LoginWithGoogle/LoginWithGoogle';
 
 const LoginPage = () => {
+  const [clicked, setClicked] = useState(false); //for click in Google Login Button
   const {currentUser, setCurrentUser} = useContext(AppContext);
   const [notisetting, setNotiSetting] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
@@ -82,6 +85,18 @@ const [usernameError, setUsernameError] = useState('')
       return
     }
   }
+  //for Google Login
+  const [user, setUser] = useState(null);
+  const [error, setError] = useState(null);
+
+  const handleLoginSuccess = (userInfo) => {
+    setUser(userInfo);
+  };
+
+  const handleLoginError = (error) => {
+    setError('Failed to login');
+    console.error('Login Failed:', error);
+  };
   return (
     
      <div className='login-container'> 
@@ -119,6 +134,13 @@ const [usernameError, setUsernameError] = useState('')
           </label>
           <button type="submit" className='login-button' onClick={onButtonClick}>Đăng nhập</button>
         </form>
+        
+        <img style={{marginTop: "20px", width:"100%", height: "100%"}} src={GoogleIcon} onClick={() => setClicked(!clicked)} />
+          {clicked &&
+        <GoogleLogin clicked={clicked}
+        onSuccess={handleLoginSuccess}
+        onError={handleLoginError}
+      /> } 
       </div>
       {
   showNotification === true && (

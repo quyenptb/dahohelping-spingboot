@@ -1,3 +1,18 @@
+/* Ẩn thanh cuộn cho Chrome, Safari và Opera */
+::-webkit-scrollbar {
+  width: 0px;  /* Xóa thanh cuộn Y */
+  height: 0px; /* Xóa thanh cuộn X */
+}
+
+/* Ẩn thanh cuộn cho IE, Edge và Firefox */
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+body {
+  overflow:-moz-hidden-unscrollable;
+}
 * {
   font-family: 'Noto Sans JP', sans-serif;
 }

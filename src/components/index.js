@@ -1,4 +1,5 @@
 // Import các component từ các tệp riêng biệt
+import Pagination from './ui/Pagination/Pagination';
 import Carousel from './ui/Carousel/UncontrolledCarousel';
 import CreateQuestionButton from './ui/CreateQuestionButton/CreateQuestionButton';
 import CustomCard from './ui/CustomCard/CustomCard';
@@ -19,6 +20,7 @@ import WeatherComponent from './ui/WeatherComponent/WeatherComponent';
 
 // Xuất tất cả các component này để có thể import từ tệp khác
 export {
+  Pagination,
   Carousel,
   CreateQuestionButton,
   CustomCard,
