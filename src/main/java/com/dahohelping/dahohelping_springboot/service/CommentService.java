@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -32,8 +33,14 @@ public class CommentService implements ICommentService {
 
     @Override
     public Optional<Comment> getCommentById(Integer id) {
-        return Optional.empty();
+
+        return commentRepository.findById(id);
     }
+
+    public List<Comment> getCommentByCardId(Integer id) {
+        return commentRepository.findByCardId(id);
+    }
+
 
     /*
     LocalDateTime createdDate;

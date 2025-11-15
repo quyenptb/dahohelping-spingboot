@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -23,8 +24,13 @@ public class CommentController {
     private CommentService commentService;
 
     @GetMapping("/{id}")
-    public Optional<Comment> getNotificationById(@PathVariable Integer id) {
+    public Optional<Comment> getCommentById(@PathVariable Integer id) {
         return commentService.getCommentById(id);
+    }
+
+    @GetMapping("/card/{id}")
+    public List<Comment> getCommentByCardId(@PathVariable Integer id) {
+        return commentService.getCommentByCardId(id);
     }
 
 

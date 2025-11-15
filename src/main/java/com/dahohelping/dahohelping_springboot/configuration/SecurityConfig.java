@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -24,11 +25,22 @@ import javax.crypto.spec.SecretKeySpec;
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
-public class SecurityConfig { //Authentication of this webapp
+public class SecurityConfig {
 
-    private final String[] PUBLIC_ENDPOINTS = {"api/upload/**","/users/**",
-            "auth/login/**", "auth/logout", "auth/signin/**", "auth/introspect", "search/**", "cards/**", "universities/**",
-            "faculties/**", "majors/**", "subjects/**", "badges/**"
+    private final String[] PUBLIC_ENDPOINTS = {
+            "/api/upload/**",
+            "/users/**",
+            "/auth/login/**",
+            "/auth/logout",
+            "/auth/signin/**",
+            "/auth/introspect",
+            "/search/**",
+            "/cards/**",
+            "/universities/**",
+            "/faculties/**",
+            "/majors/**",
+            "/subjects/**",
+            "/badges/**"
     };
 
     @Autowired
@@ -36,16 +48,15 @@ public class SecurityConfig { //Authentication of this webapp
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.
-                authorizeHttpRequests(request ->
-                request.requestMatchers(HttpMethod.POST, PUBLIC_ENDPOINTS).permitAll() //dang-nhap,...
-                .requestMatchers(HttpMethod.GET, PUBLIC_ENDPOINTS).permitAll()
-                        //.requestMatchers(HttpMethod.GET, "/users").hasAuthority("SCOPE_ADMIN")
-                        .anyRequest().authenticated());
+        httpSecurity
+                .cors(Customizer.withDefaults())
+                .authorizeHttpRequests(request ->
+                        request.requestMatchers(HttpMethod.POST, PUBLIC_ENDPOINTS).permitAll()
+                                .requestMatchers(HttpMethod.GET, PUBLIC_ENDPOINTS).permitAll()
+                                .anyRequest().authenticated());
 
         httpSecurity.oauth2ResourceServer(oauth2 ->
-                oauth2.jwt(jwtConfigurer -> jwtConfigurer.decoder(customJwtDecoder)) //authentication provider (nhà cung cấp
-                //token authentication, in this case our webapp generate it (token)
+                oauth2.jwt(jwtConfigurer -> jwtConfigurer.decoder(customJwtDecoder))
         );
 
         httpSecurity.csrf(AbstractHttpConfigurer::disable);
@@ -59,7 +70,7 @@ public class SecurityConfig { //Authentication of this webapp
         configuration.setAllowCredentials(true);
         configuration.addAllowedOrigin("http://localhost:3000");
         configuration.addAllowedHeader("*");
-        configuration.addAllowedMethod("*"); // GET, POST, PATCH, DELETE, OPTIONS, ...
+        configuration.addAllowedMethod("*");
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
