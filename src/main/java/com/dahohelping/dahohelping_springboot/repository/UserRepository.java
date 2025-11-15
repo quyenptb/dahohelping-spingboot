@@ -14,10 +14,8 @@ import java.util.Set;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, String> {
-    // Các phương thức xử lý dữ liệu của User
-
     @Query("SELECT u FROM User u ORDER BY u.score DESC")
-    List<User> getRanking(Pageable pageable);
+    Set<User> getRanking(Pageable pageable);
 
     @Query("SELECT u FROM User u WHERE u.username = ?1")
     User findByUsername(String username);
