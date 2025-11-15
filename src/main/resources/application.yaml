@@ -1,0 +1,27 @@
+server:
+   port: 8080
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/orcl21pdb1
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: C##DAHO_FORUM
+    password: 123
+  security:
+    user:
+     password: 0987
+
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: validate # hoặc create-drop nếu muốn drop table khi shutdown
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  sql:
+    init:
+      mode: never
+
+jwt:
+  signerKey: "IHHdeH3i4T0FXlwXUmwl9kfOCv8Exr+WMaUPMSACB5g="
