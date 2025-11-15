@@ -72,67 +72,67 @@ public class CardService {
         }
     }
 
-    public Set<CardResponse> getCardsByTitleContaining(String keyword) {
+    public List<CardResponse> getCardsByTitleContaining(String keyword) {
         List<Card> cards = cardRepository.findByTitleContaining(keyword);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsByDahohelpingId(Integer dahoId) {
+    public List<CardResponse> getCardsByDahohelpingId(Integer dahoId) {
         List<Card> cards = cardRepository.findByDahohelpingId(dahoId);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsByUniversityId(Integer universityId) {
+    public List<CardResponse> getCardsByUniversityId(Integer universityId) {
         List<Card> cards = cardRepository.findByUniversityId(universityId);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsByUserId(Integer userId) {
+    public List<CardResponse> getCardsByUserId(Integer userId) {
         List<Card> cards = cardRepository.findByUserId(userId);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsBySubjectId(Integer subjectId) {
+    public List<CardResponse> getCardsBySubjectId(Integer subjectId) {
         List<Card> cards = cardRepository.findBySubjectId(subjectId);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsByDate(LocalDateTime date) {
+    public List<CardResponse> getCardsByDate(LocalDateTime date) {
         List<Card> cards = cardRepository.findByDate(date);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getCardsByCreatedDateBetween(LocalDateTime startDate, LocalDateTime endDate) {
+    public List<CardResponse> getCardsByCreatedDateBetween(LocalDateTime startDate, LocalDateTime endDate) {
         List<Card> cards = cardRepository.findByCreatedDateBetween(startDate, endDate);
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getReportedCards() {
+    public List<CardResponse> getReportedCards() {
         List<Card> cards = cardRepository.findReportedCard();
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<CardResponse> getUncommentedCards() {
+    public List<CardResponse> getUncommentedCards() {
         List<Card> cards = cardRepository.findIsNotCommentedCard();
         return cards.stream()
                 .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     public boolean deleteCardById(Integer id) {

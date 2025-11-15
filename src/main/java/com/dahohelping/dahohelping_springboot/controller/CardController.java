@@ -39,7 +39,7 @@ public class CardController {
     }
 
     @GetMapping("/user/userId")
-    public Set<CardResponse> getCardsById(@RequestParam Integer userId) {
+    public List<CardResponse> getCardsById(@RequestParam Integer userId) {
         return cardService.getCardsByUserId(userId);
     }
 

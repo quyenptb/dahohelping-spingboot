@@ -37,11 +37,11 @@ public class SubjectService {
         return customMapper.toSubjectResponse(subject);
     }
 
-    public Set<SubjectResponse> getSubjectByNameContaining(String s) {
+    public List<SubjectResponse> getSubjectByNameContaining(String s) {
         List<Subject> subjects = subjectRepository.findByNameContaining(s);
         return subjects.stream()
                 .map(customMapper::toSubjectResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     public SubjectResponse getSubjectByName(String name) {

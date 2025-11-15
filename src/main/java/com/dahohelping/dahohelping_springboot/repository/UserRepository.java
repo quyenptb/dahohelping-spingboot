@@ -15,7 +15,7 @@ import java.util.Set;
 @Repository
 public interface UserRepository extends JpaRepository<User, String> {
     @Query("SELECT u FROM User u ORDER BY u.score DESC")
-    Set<User> getRanking(Pageable pageable);
+    List<User> getRanking(Pageable pageable);
 
     @Query("SELECT u FROM User u WHERE u.username = ?1")
     User findByUsername(String username);
@@ -31,8 +31,6 @@ public interface UserRepository extends JpaRepository<User, String> {
 
     @Query("SELECT u FROM User u WHERE u.username LIKE %?1%")
     List<User> findByUsernameContaining(String keyword);
-
-
 
 }
 

@@ -52,11 +52,11 @@ public class MajorService {
         return customMapper.toMajorResponse(major);
     }
 
-    public Set<MajorResponse> getMajorByNameContaining(String s) {
+    public List<MajorResponse> getMajorByNameContaining(String s) {
         List<Major> majors = majorRepository.findByNameContaining(s);
         return majors.stream()
                 .map(customMapper::toMajorResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     public MajorResponse getMajorByName(String name) {
@@ -84,25 +84,25 @@ public class MajorService {
         }
     }
 
-    public Set<MajorResponse> getMajorsByFacultyId(Integer facultyId) {
+    public List<MajorResponse> getMajorsByFacultyId(Integer facultyId) {
         List<Major> majors = majorRepository.findByFacultyId(facultyId);
         return majors.stream()
                 .map(customMapper::toMajorResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<MajorResponse> getMajorsByUniversityId(Integer universityId) {
+    public List<MajorResponse> getMajorsByUniversityId(Integer universityId) {
         List<Major> majors = majorRepository.findByUniversityId(universityId);
         return majors.stream()
                 .map(customMapper::toMajorResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<MajorResponse> getMajorsByUniversityCode(String code) {
+    public List<MajorResponse> getMajorsByUniversityCode(String code) {
         List<Major> majors = majorRepository.findByUniversityCode(code);
         return majors.stream()
                 .map(customMapper::toMajorResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     @PreAuthorize("hasAuthority('SCOPE_ADMIN')")

@@ -34,4 +34,10 @@ public class UserResponse {
     String hobby;
     String bio;
     Set<Role> roles;
+
+    //for test usage
+    public UserResponse(String username, String email) {
+        this.username = username;
+        this.email = email;
+    }
 }

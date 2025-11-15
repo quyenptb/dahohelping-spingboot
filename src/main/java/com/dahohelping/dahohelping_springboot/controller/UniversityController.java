@@ -36,7 +36,7 @@ public class UniversityController {
     }
 
     @GetMapping("/nameContaining/{s}")
-    public Set<UniversityResponse> getUniversityByNameContaining(@PathVariable String s) {
+    public List<UniversityResponse> getUniversityByNameContaining(@PathVariable String s) {
         return universityService.getUniversityByNameContaining(s);
     }
 

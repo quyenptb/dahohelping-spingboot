@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 @RestController
 @RequestMapping("/search")
@@ -28,12 +26,12 @@ public class SearchController {
     private SubjectService subjectService;
 
     @GetMapping
-    public Set<?> performSearch(@RequestParam String slug, @RequestParam String type) {
+    public List<?> performSearch(@RequestParam String slug, @RequestParam String type) {
         if (slug == null || slug.isEmpty() || type == null || type.isEmpty()) {
-            Set<?> _list = new HashSet<>();
+            List<?> _list = new ArrayList<>();
             //throw new IllegalArgumentException("Slug và Type không được để trống");
         }
-        Set<?> _list = null;
+        List<?> _list = null;
         switch (type) {
             case "Người dùng":
                 _list = userService.getUsersByUsernameContaining(slug);

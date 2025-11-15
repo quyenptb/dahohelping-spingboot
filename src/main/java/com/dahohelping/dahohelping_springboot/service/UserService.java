@@ -38,17 +38,22 @@ public class UserService {
     private PasswordEncoder passwordEncoder;
 
 
-    public Set<UserResponse> getRanking(int limit) {
+    public List<UserResponse> getRanking(int limit) {
         PageRequest top = PageRequest.of(0, limit);
-        Set<User> topUsers = userRepository.getRanking(top);
+        List<User> topUsers = userRepository.getRanking(top);
         return topUsers.stream()
                 .map(userMapper::toUserResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
 
     public UserResponse getMyInfo() {
-        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+        var auth = SecurityContextHolder.getContext().getAuthentication();
+        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catched
+        if (auth == null || auth.getName() == null) {
+            throw new AppException(ErrorCode.UNAUTHORIZED);
+        }
+        String username = auth.getName();
         User user = userRepository.findByUsername(username);
         if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
         return userMapper.toUserResponse(user);

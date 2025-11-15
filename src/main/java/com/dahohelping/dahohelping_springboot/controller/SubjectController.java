@@ -22,7 +22,7 @@ public class SubjectController {
     }
 
     @GetMapping("/nameContaining/{s}")
-    public Set<SubjectResponse> getSubjectByNameContaining(@PathVariable String s) {
+    public List<SubjectResponse> getSubjectByNameContaining(@PathVariable String s) {
         return subjectService.getSubjectByNameContaining(s);
     }
 

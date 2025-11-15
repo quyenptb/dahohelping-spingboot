@@ -27,7 +27,7 @@ public class MajorController {
     }
 
     @GetMapping("/nameContaining/{s}")
-    public Set<MajorResponse> getMajorByNameContaining(@PathVariable String s) {
+    public List<MajorResponse> getMajorByNameContaining(@PathVariable String s) {
         return majorService.getMajorByNameContaining(s);
     }
 
@@ -47,17 +47,17 @@ public class MajorController {
     }
 
     @GetMapping("/byFaculty/{facultyId}")
-    public Set<MajorResponse> getMajorsByFacultyId(@PathVariable Integer facultyId) {
+    public List<MajorResponse> getMajorsByFacultyId(@PathVariable Integer facultyId) {
         return majorService.getMajorsByFacultyId(facultyId);
     }
 
     @GetMapping("/byUniversityId/{universityId}")
-    public Set<MajorResponse> getMajorsByUniversityId(@PathVariable Integer universityId) {
+    public List<MajorResponse> getMajorsByUniversityId(@PathVariable Integer universityId) {
         return majorService.getMajorsByUniversityId(universityId);
     }
 
     @GetMapping("/byUniversityCode/{code}")
-    public Set<MajorResponse> getMajorsByUniversityCode(@PathVariable String code) {
+    public List<MajorResponse> getMajorsByUniversityCode(@PathVariable String code) {
         return majorService.getMajorsByUniversityCode(code);
     }
 

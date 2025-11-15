@@ -77,7 +77,7 @@ public class UserController {
 
     //pass
     @GetMapping("/ranking/top/{number}")
-    public Set<UserResponse> getRanking(@PathVariable("number") Integer number) {
+    public List<UserResponse> getRanking(@PathVariable("number") Integer number) {
         return userService.getRanking(number);
     }
 

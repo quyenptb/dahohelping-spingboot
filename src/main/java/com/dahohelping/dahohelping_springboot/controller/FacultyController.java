@@ -27,7 +27,7 @@ public class FacultyController {
     }
 
     @GetMapping("/nameContaining/{keyword}")
-    public Set<FacultyResponse> getFacultyByNameContaining(@PathVariable String keyword) {
+    public List<FacultyResponse> getFacultyByNameContaining(@PathVariable String keyword) {
         return facultyService.getFacultyByNameContaining(keyword);
     }
 
@@ -37,12 +37,12 @@ public class FacultyController {
     }
 
     @GetMapping("/universityCode/{code}")
-    public Set<FacultyResponse> getFacultyByUniversityCode(@PathVariable String code) {
+    public List<FacultyResponse> getFacultyByUniversityCode(@PathVariable String code) {
         return facultyService.getFacultyByUniversityCode(code);
     }
 
     @GetMapping("/universityId/{id}")
-    public Set<FacultyResponse> getFacultyByUniversityId(@PathVariable Integer id) {
+    public List<FacultyResponse> getFacultyByUniversityId(@PathVariable Integer id) {
         return facultyService.getFacultyByUniversityId(id);
     }
 

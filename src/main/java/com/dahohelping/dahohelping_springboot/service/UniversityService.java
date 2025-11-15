@@ -65,9 +65,9 @@ public class UniversityService {
         );
     }
 
-    public Set<UniversityResponse> getUniversityByNameContaining(String s) {
+    public List<UniversityResponse> getUniversityByNameContaining(String s) {
         List<University> list = universityRepository.findByNameContaining(s);
-        Set<UniversityResponse> _list = new HashSet<>();
+        List<UniversityResponse> _list = new ArrayList<>();
         for (University i : list ) {
             _list.add(customMapper.toUniversityResponse(i));
         }

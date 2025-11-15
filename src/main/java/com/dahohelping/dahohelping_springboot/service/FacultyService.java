@@ -55,11 +55,11 @@ public class FacultyService {
         }
     }
 
-    public Set<FacultyResponse> getFacultyByNameContaining(String s) {
+    public List<FacultyResponse> getFacultyByNameContaining(String s) {
         List<Faculty> faculties = facultyRepository.findByNameContaining(s);
         return faculties.stream()
                 .map(customMapper::toFacultyResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     public FacultyResponse getFacultyByName(String name) {
@@ -89,18 +89,18 @@ public class FacultyService {
         }
     }
 
-    public Set<FacultyResponse> getFacultyByUniversityCode(String code) {
+    public List<FacultyResponse> getFacultyByUniversityCode(String code) {
         List<Faculty> faculties = facultyRepository.findByUniversityCode(code);
         return faculties.stream()
                 .map(customMapper::toFacultyResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
-    public Set<FacultyResponse> getFacultyByUniversityId(Integer id) {
+    public List<FacultyResponse> getFacultyByUniversityId(Integer id) {
         List<Faculty> faculties = facultyRepository.findByUniversityId(id);
         return faculties.stream()
                 .map(customMapper::toFacultyResponse)
-                .collect(Collectors.toSet());
+                .collect(Collectors.toList());
     }
 
     @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
