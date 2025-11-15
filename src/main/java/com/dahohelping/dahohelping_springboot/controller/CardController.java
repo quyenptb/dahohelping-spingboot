@@ -28,9 +28,20 @@ public class CardController {
         return cardService.createCard(request);
     }
 
-    @GetMapping
-    public Set<CardResponse> getAllCards() {
-        return cardService.getAllCards();
+    @GetMapping("/filter")
+    public List<CardResponse> filterCards(
+            @RequestParam(required = false) Integer dahoId,
+            @RequestParam(required = false) Integer uniId,
+            @RequestParam(required = false) Integer falId,
+            @RequestParam(required = false) Integer majId,
+            @RequestParam(required = false) Integer subId
+    ) {
+        return cardService.getCardByFilter(dahoId, uniId, falId, majId, subId);
+    }
+
+    @GetMapping("/details")
+    public List<CardResponse> getAllCardDetails() {
+        return cardService.getAllCardDetails();
     }
 
     @GetMapping("/id/{cardId}")
@@ -38,9 +49,9 @@ public class CardController {
         return cardService.getCardById(cardId);
     }
 
-    @GetMapping("/user/userId")
-    public List<CardResponse> getCardsById(@RequestParam Integer userId) {
-        return cardService.getCardsByUserId(userId);
+    @GetMapping("/user/{username}")
+    public List<CardResponse> getCardsByUsername(@PathVariable String username) {
+        return cardService.getCardsByUsername(username);
     }
 
 

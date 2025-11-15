@@ -47,11 +47,9 @@ public class SearchService {
         return _list;
     }
 
-    public Set<CardResponse> getCardsByTitleContaining(String keyword) {
-        List<Card> cards = cardRepository.findByTitleContaining(keyword);
-        return cards.stream()
-                .map(cardMapper::toCardResponse)
-                .collect(Collectors.toSet());
+    public List<CardResponse> getCardsByTitleContaining(String keyword) {
+        List<CardResponse> cards = cardRepository.findCardDetailsByTitleContaining(keyword);
+        return cards;
     }
 
 }

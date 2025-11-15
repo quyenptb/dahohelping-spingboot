@@ -134,8 +134,8 @@ public class UserServiceTest {
 
     //User đã login nhưng bị xóa trong db
     @Test
-    @DisplayName("getMyInfo_whenUserIsNullFromDB_shouldReturnNullPointerException")
-    void getMyInfo_whenUserIsNullFromDB_shouldReturnNullPointerException() {
+    @DisplayName("getMyInfo_whenUserIsNullFromDB_shouldReturnException")
+    void getMyInfo_whenUserIsNullFromDB_shouldReturnException() {
         // Arrange
         Authentication auth = mock(Authentication.class);
 
@@ -180,8 +180,9 @@ public class UserServiceTest {
         verify(userRepository, times(1)).findByUsername("happyUser");
         verify(userMapper, times(1)).toUserResponse(happyUser);
 
-
     }
+
+
 
 
 }

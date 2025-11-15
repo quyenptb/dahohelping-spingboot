@@ -20,11 +20,15 @@ public class CardResponse {
     String images;
     Boolean isReported;
     Boolean isAnswered;
-    Integer dahohelpingId; //tính
-    Integer universityId; //tính
-    Integer majorId; //tính
-    Integer facultyId; //tính
-    Integer userId; //động
-    Integer subjectId; //tính
-}
 
+    Integer userId;
+    String username;
+    String userAvatar;
+
+    String dahohelpingName;
+    String universityName;
+    String universityCode;
+    String facultyName;
+    String majorName;
+    String subjectName;
+}

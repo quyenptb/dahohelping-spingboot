@@ -4,6 +4,7 @@ import com.dahohelping.dahohelping_springboot.entity.Role;
 import com.dahohelping.dahohelping_springboot.entity.User;
 import com.dahohelping.dahohelping_springboot.exception.AppException;
 import com.dahohelping.dahohelping_springboot.exception.ErrorCode;
+import com.dahohelping.dahohelping_springboot.exception.InvalidScoreException;
 import com.dahohelping.dahohelping_springboot.mapper.UserMapper;
 import com.dahohelping.dahohelping_springboot.repository.UserRepository;
 import com.dahohelping.dahohelping_springboot.service.dto.request.UserCreationRequest;
@@ -49,7 +50,7 @@ public class UserService {
 
     public UserResponse getMyInfo() {
         var auth = SecurityContextHolder.getContext().getAuthentication();
-        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catched
+        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
         if (auth == null || auth.getName() == null) {
             throw new AppException(ErrorCode.UNAUTHORIZED);
         }
@@ -59,22 +60,43 @@ public class UserService {
         return userMapper.toUserResponse(user);
     }
 
+    private Boolean isAuthenticatedUser(String username) {
+        var auth = SecurityContextHolder.getContext().getAuthentication();
+        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
+        if (auth == null || auth.getName() == null) {
+            return false;
+        }
+        return true;
+    }
+
 
     @Transactional
-    @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
     public void updateScoreById(Integer userId, Integer deltaScore) {
+        var auth = SecurityContextHolder.getContext().getAuthentication();
+        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
+        if (auth == null || auth.getName() == null) {
+            throw new AppException(ErrorCode.UNAUTHORIZED);
+        }
+        String username = auth.getName();
         User user = userRepository._findById(userId);
         if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
+
+        if (deltaScore > 100_000_000 || deltaScore < 0) throw new InvalidScoreException("Số điểm không hợp lệ");
         int newScore = user.getScore() - deltaScore;
         user.setScore(Math.max(newScore, 0)); // tránh âm
         userRepository.save(user);
     }
 
+    /*
+    1. hàm này để user trigger update điểm thông qua action, điểm là output, là phần thưởng
+    2. check authentication đúng user đó mới được thêm.
+    3. nếu user biết endpoint này, có thể cố tình gian lận? ->
+     */
+
 
     public Integer getScoreById(Integer userId) {
         User user = userRepository._findById(userId);
         if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
-        // TODO: kiểm tra quyền nếu cần
         return user.getScore();
     }
 
