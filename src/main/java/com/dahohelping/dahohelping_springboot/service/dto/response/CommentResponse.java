@@ -2,7 +2,6 @@ package com.dahohelping.dahohelping_springboot.service.dto.response;
 
 import com.dahohelping.dahohelping_springboot.entity.Card;
 import com.dahohelping.dahohelping_springboot.entity.Comment;
-import com.dahohelping.dahohelping_springboot.entity.User;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
 import lombok.*;

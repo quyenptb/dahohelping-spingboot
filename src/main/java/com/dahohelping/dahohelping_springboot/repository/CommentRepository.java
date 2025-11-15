@@ -29,17 +29,11 @@ public interface CommentRepository extends JpaRepository<Comment, Integer> {
     @Query("SELECT c FROM Comment c WHERE c.text LIKE %?1%")
     List<Comment> findByTextContaining(String keyword);
 
-    @Query("SELECT c FROM Comment c WHERE c.card.id = ?1")
+    @Query("SELECT c FROM Comment c WHERE c.cardId = ?1")
     List<Comment> findByCardId(Integer cardId);
 
-    @Query("SELECT c FROM Comment c WHERE c.card.title = ?1")
-    List<Comment> findByCardTitle(String cardTitle);
-
-    @Query("SELECT c FROM Comment c WHERE c.user.id = ?1")
+    @Query("SELECT c FROM Comment c WHERE c.userId = ?1")
     List<Comment> findByUserId(Integer userId);
-
-    @Query("SELECT c FROM Comment c WHERE c.user.username = ?1")
-    List<Comment> findByUsername(String username);
 
 
     @Query("SELECT c FROM Comment c WHERE c.createdDate BETWEEN ?1 AND ?2")

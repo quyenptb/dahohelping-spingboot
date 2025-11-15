@@ -92,10 +92,11 @@ public class UserController {
         return;
     }
 
-    @PatchMapping("/update/{userId}")
-    public void updateUser(@RequestBody Map<String, Object> updates, @PathVariable("userId") Integer userId) {
-        userService.updateUser(updates, userId);
-    }
+@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PATCH, RequestMethod.DELETE})
+@PatchMapping("/update/{userId}")
+public void updateUser(@RequestBody Map<String, Object> updates, @PathVariable("userId") Integer userId) {
+    userService.updateUser(updates, userId);
+}
 
     @DeleteMapping("/delete/me")
     public ResponseEntity<?> deleteMe(Principal principal) {

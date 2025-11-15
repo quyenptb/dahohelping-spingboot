@@ -1,7 +1,7 @@
 package com.dahohelping.dahohelping_springboot.service.dto.response;
 
 import com.dahohelping.dahohelping_springboot.entity.University;
-import com.dahohelping.dahohelping_springboot.entity.User;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
