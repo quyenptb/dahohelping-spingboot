@@ -1,0 +1,46 @@
+
+.notification-board {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffc09f ;
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    align-self: center;
+
+}
+
+.notification-board h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification-board ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-board li {
+    background-color: #fff1e6   ;
+    color: #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.notification-board li:hover {
+    transform: translateY(-4px);
+}
+
+.notification-board li h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.notification-board li p {
+    margin: 0;
+    font-size: 1em;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "My React App",
+  "short_name": "React App",
+  "description": "A simple React application",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/homepage",
+  "display": "standalone",
+  "theme_color": "#007bff",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}

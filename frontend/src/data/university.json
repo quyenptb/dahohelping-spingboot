@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "name": "Trường Đại học Bách Khoa",
+      "icon": "./icons/bku.webp",
+      "code": "bku",
+      "src": ["'./CarouselImage/bku1.webp'", "./CarouselImage/bku2.webp", "./CarouselImage/bku3.jpg"],
+      "drl": 1,
+      "desc": "Được thành lập vào năm 1957, Trường Đại học Bách Khoa là một trong những trường đại học hàng đầu về kỹ thuật và công nghệ tại Việt Nam. Trường có nhiều chương trình đào tạo từ cử nhân đến tiến sĩ, với một lượng lớn sinh viên và đội ngũ giảng viên chất lượng cao. Trường Đại học Bách Khoa không chỉ nổi tiếng với chất lượng đào tạo mà còn với môi trường nghiên cứu sôi động, thu hút nhiều học giả và nhà nghiên cứu hàng đầu."
+    },
+    {
+      "id": 2,
+      "name": "Trường Đại học Khoa học tự nhiên",
+      "icon": "./icons/khtn.webp",
+      "code": "khtn",
+      "src": ["./CarouselImage/khtn1.jpg", "./CarouselImage/khtn2.jpg", "./CarouselImage/khtn3.jpg"],
+      "drl": 2,
+      "desc": "Trường Đại học Khoa học tự nhiên, thành lập vào năm 1996, là một trường đại học nổi tiếng với các chương trình đào tạo trong lĩnh vực khoa học tự nhiên như toán học, vật lý, hóa học, sinh học, và nhiều ngành khác. Trường có một đội ngũ giảng viên tận tâm và nhiều cơ sở vật chất hiện đại, tạo điều kiện tốt nhất cho sinh viên nghiên cứu và học tập."
+    },
+    {
+      "id": 3,
+      "name": "Trường Đại học Khoa học Xã hội và Nhân văn",
+      "icon": "./icons/ussh.png",
+      "code": "ussh",
+      "src": ["./CarouselImage/ussh1.jpg", "./CarouselImage/ussh2.jpg", "./CarouselImage/ussh3.jpg"],
+      "drl": 1,
+      "desc": "Trường Đại học Khoa học Xã hội và Nhân văn, một trong những thành viên đầu tiên của ĐHQG HCM, được thành lập vào năm 1957. Trường tập trung vào các ngành học trong lĩnh vực xã hội và nhân văn, bao gồm lịch sử, văn học, triết học, ngôn ngữ học, và nhiều ngành khác."
+    },
+    {
+      "id": 4,
+      "name": "Trường Đại học Quốc tế",
+      "icon": "./icons/iu.png",
+      "code": "iu",
+      "src": ["./CarouselImage/iu1.jpg", "./CarouselImage/iu2.jpg", "./CarouselImage/iu3.jpg"],
+      "drl": 5,
+      "desc": "Trường Đại học Quốc tế, một thành viên của Đại học Quốc gia Hồ Chí Minh, được thành lập vào năm 2003. Trường cung cấp một môi trường học tập quốc tế với nhiều chương trình đào tạo bằng tiếng Anh và có nhiều cơ hội học tập tại nước ngoài. Trường Đại học Quốc tế đặc biệt mạnh về các ngành học như Kinh doanh và Quản trị, Khoa học và Công nghệ, và Khoa học Xã hội và Nhân văn."
+    },
+    {
+      "id": 5,
+      "name": "Trường Đại học Công nghệ thông tin",
+      "icon": "./icons/uit.png",
+      "code": "uit",
+      "src": ["./CarouselImage/uit1.jpg", "./CarouselImage/uit2.jpg", "./CarouselImage/uit3.jpg"],
+      "drl": 3,
+      "desc": "Trường Đại học Công nghệ thông tin, thành lập vào năm 2006, là một trường đại học chuyên về đào tạo trong lĩnh vực công nghệ thông tin và kỹ thuật máy tính. Trường có mục tiêu đào tạo ra những chuyên gia công nghệ thông tin hàng đầu, có khả năng cạnh tranh với các chuyên gia quốc tế."
+    },
+    {
+      "id": 6,
+      "name": "Trường Đại học Kinh tế - Luật",
+      "icon": "./icons/uel.png",
+      "code": "uel",
+      "src": ["./CarouselImage/uel1.jpg", "./CarouselImage/uel2.jpg", "./CarouselImage/uel3.jpg"],
+      "drl": 5,
+      "desc": "Trường Đại học Kinh tế - Luật, thành lập vào năm 2010, là một trường đại học chuyên về kinh tế và luật. Trường cung cấp các chương trình đào tạo từ cử nhân đến tiến sĩ, giúp sinh viên phát triển kỹ năng phân tích và hiểu biết sâu rộng về kinh tế và hệ thống pháp luật."
+    },
+    {
+      "id": 7,
+      "name": "Trường Đại học An Giang",
+      "icon": "./icons/agu.png",
+      "code": "agu",
+      "src": ["./CarouselImage/agu1.jpg", "./CarouselImage/agu2.jpg", "./CarouselImage/agu3.jpg"],
+      "drl": 10,
+      "desc": "Trường Đại học An Giang, thành lập vào năm 1999, là một trường đại học đa ngành, đa bậc, đa hình thức, đáp ứng nhu cầu đào tạo nguồn nhân lực chất lượng cao cho khu vực Đồng bằng sông Cửu Long nói chung và tỉnh An Giang nói riêng."
+    },
+    {
+      "id": 8,
+      "name": "Trường Đại học Khoa học sức khỏe",
+      "icon": "./icons/khsk.png",
+      "code": "khsk",
+      "src": ["./CarouselImage/khsk1.jpg", "./CarouselImage/khsk2.jpg", "./CarouselImage/khsk3.jpg"],
+      "drl": 1,
+      "desc": "Trường Đại học Khoa học sức khỏe, tiền thân là Khoa Y - ĐHQG HCM được thành lập vào năm 2009, là trường đại học chuyên về đào tạo trong lĩnh vực y tế và sức khỏe. Trường có mục tiêu đào tạo ra những chuyên gia y tế chất lượng cao, có khả năng cung cấp dịch vụ y tế chất lượng cho cộng đồng."
+
+    },
+    {
+      "id": 9,
+      "name": "Viện Môi trường - Tài nguyên",
+      "icon": "./icons/mttn.png",
+      "code": "mttn",
+      "src": ["./CarouselImage/mttn1.jpg", "./CarouselImage/mttn2.jpg", "./CarouselImage/mttn3.jpg"],
+      "desc": "Viện Môi trường - Tài nguyên, thành lập vào năm 1996 , là một đơn vị trực thuộc Đại học Quốc gia Hồ Chí Minh. Viện tập trung vào nghiên cứu và đào tạo trong lĩnh vực quản lý môi trường và tài nguyên, giúp sinh viên hiểu rõ về tầm quan trọng của việc bảo vệ môi trường và sử dụng tài nguyên một cách bền vững."
+    },
+    {
+      "id": 10,
+      "name": "Khoa Chính trị - Hành chính",
+      "icon": "./icons/tthc.png",
+      "code": "tthc",
+      "src": ["./CarouselImage/tthc2.jpg", "./CarouselImage/tthc3.jpg", "./CarouselImage/tthc1.jpg"],
+      "desc": "Khoa chính trị - Hành chính là đơn vị trực thuộc ĐHQG-HCM. Khoa được thành lập vào năm 2019 trên cơ sở nâng cấp Trung tâm lý luận chính trị. Khoa cung cấp các chương trình đào tạo trong lĩnh vực chính trị học và quản lý công, giúp sinh viên phát triển kỹ năng lãnh đạo và hiểu biết về hệ thống chính trị."
+    },
+    {
+      "id": 11,
+      "name": "Phân hiệu ĐHQG tại Bến Tre",
+      "icon": "./icons/bentre.png",
+      "code": "bentre",
+      "src": ["./CarouselImage/bentre1.jpg", "./CarouselImage/bentre2.jpg", "./CarouselImage/bentre3.jpg"],
+      "desc": "Phân hiệu ĐHQG tại Bến Tre, thành lập vào năm 2017, là một đơn vị trực thuộc Đại học Quốc gia Hồ Chí Minh. Phân hiệu cung cấp nhiều chương trình đào tạo đa dạng để phục vụ nhu cầu đào tạo nguồn nhân lực cho khu vực."
+    },
+    {
+      "id": 12,
+      "name": "Trường Phổ thông Năng khiếu",
+      "icon": "./icons/ptnk.png",
+      "code": "ptnk",
+      "src": ["./CarouselImage/ptnk1.jpg", "./CarouselImage/ptnk2.jpg", "./CarouselImage/ptnk3.jpg"],
+      "desc": "Trường Phổ thông Năng khiếu, thành lập vào năm 1996, là một trường phổ thông chuyên chất lượng cao của Đại học Quốc gia Hồ Chí Minh. Trường cung cấp một môi trường học tập chất lượng cao cho học sinh phổ thông, với mục tiêu phát triển toàn diện cả về học thuật và năng khiếu."
+    },
+    {
+      "id": 13,
+      "name": "Trường Trung học Thực hành sư phạm An Giang",
+      "icon": "./icons/thsp.png",
+      "code": "thsp",
+      "src": ["./CarouselImage/thsp1.jpg", "./CarouselImage/thsp2.jpg", "./CarouselImage/thsp3.jpg"],
+      "desc": "Trường Trung học Thực hành sư phạm An Giang, thành lập vào năm 1989, là một trường trung học chất lượng cao của Trường Đại học An Giang. Trường là nơi thực hành sư phạm cho sinh viên ngành Giáo dục, đồng thời cung cấp một môi trường học tập chất lượng cho học sinh trên địa bàn tỉnh An Giang nói riêng và vùng Đồng bằng Sông Cửu Long nói chung."
+    }
+  ]
+  

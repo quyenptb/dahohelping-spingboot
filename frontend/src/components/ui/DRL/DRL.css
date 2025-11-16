@@ -1,0 +1,93 @@
+.drl-container {
+  margin-left: 4vh;
+}
+.drl-title {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .bangquydoi {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+  }
+  
+  .bangquydoi thead {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .bangquydoi th,
+  .bangquydoi td {
+    text-align: center;
+    padding: 0.75rem;
+    border: 1px solid #ecf0f1;
+  }
+  
+  .bangquydoi tfoot td {
+    padding-top: 1.5rem;
+  }
+
+  .bangquydoi .header {
+    background-color: #3498db; /* Màu nền của tiêu đề */
+    color: #ffffff; /* Màu chữ của tiêu đề */
+  }
+  
+  .bangquydoi .header {
+    text-align: center; /* Căn giữa chữ */
+    padding: 10px; /* Đệm xung quanh chữ */
+    font-size: 20px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm của chữ */
+  }
+  
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+  
+  .resultBehaviourScore {
+    font-size: 1.1rem;
+    color: #16a085;
+    margin-bottom: 1rem;
+  }
+  
+  #submit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #2980b9;
+  }
+  
+  .Notification {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #f1c40f;
+    color: #2c3e50;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .Notification.error {
+    background-color: #e74c3c;
+  }
+  
+  .Notification.success {
+    background-color: #2ecc71;
+  }
+  

@@ -1,0 +1,160 @@
+[
+    {
+        "maj_id": 1,
+        "fal_id": 1,
+        "name": "Ngành Cơ khí",
+        "desc": "Ngành Cơ khí liên quan đến việc thiết kế, sản xuất và vận hành các hệ thống cơ khí, máy móc và công cụ.",
+        "img": "./major/cokhi.jpg"
+    },
+    {
+        "maj_id": 2,
+        "fal_id": 2,
+        "name": "Ngành Công nghệ Vật liệu",
+        "desc": "Ngành Công nghệ Vật liệu nghiên cứu và ứng dụng các vật liệu mới, cũng như cải tiến và chế tạo các vật liệu hiện có để đáp ứng nhu cầu của công nghiệp và xã hội.",
+        "img": "./major/congnghevatlieu.jpg"
+    },
+    {
+        "maj_id": 3,
+        "fal_id": 12,
+        "name": "Ngành Công nghệ thông tin",
+        "desc": "Ngành Công nghệ thông tin liên quan đến việc nghiên cứu, phát triển và ứng dụng các công nghệ và phần mềm để xây dựng các hệ thống thông tin và giải quyết các vấn đề liên quan đến thông tin trong xã hội và doanh nghiệp.",
+        "img": "./major/congnghethongtin.jpg"
+    },
+    {
+        "maj_id": 4,
+        "fal_id": 13,
+        "name": "Ngành Toán – Tin học",
+        "desc": "Ngành Toán – Tin học kết hợp giữa kiến thức toán học và công nghệ thông tin để nghiên cứu và giải quyết các vấn đề phức tạp trong nhiều lĩnh vực khác nhau như khoa học máy tính, trí tuệ nhân tạo, khoa học dữ liệu, và các hệ thống thông tin.",
+        "img": "./major/toantinhoc.jpg"
+    },
+    {
+        "maj_id": 5,
+        "fal_id": 22,
+        "name": "Ngành Ngữ văn Anh",
+        "desc": "Ngành Ngữ văn Anh tập trung vào việc nghiên cứu và hiểu sâu về văn hóa, văn học và ngôn ngữ của người Anh và các nước sử dụng tiếng Anh.",
+        "img": "./major/nguvananh.jpg"
+    },
+    {
+        "maj_id": 6,
+        "fal_id": 23,
+        "name": "Ngành Ngữ văn Nga",
+        "desc": "Ngành Ngữ văn Nga nghiên cứu về văn hóa, văn học và ngôn ngữ của người Nga và các nước sử dụng tiếng Nga, từ đó hiểu sâu về lịch sử và văn hóa của khu vực này.",
+        "img": "./major/nguvannga.jpg"
+    },
+    {
+        "maj_id": 7,
+        "fal_id": 50,
+        "name": "Ngành Quản trị Kinh doanh",
+        "desc": "Ngành Quản trị Kinh doanh tập trung vào việc nghiên cứu, phát triển và thực hiện các chiến lược và quy trình quản trị để điều hành hiệu quả các tổ chức và doanh nghiệp trong môi trường kinh doanh đa dạng và biến đổi.",
+        "img": "./major/quantrikinhdoanh.jpg"
+    },
+    {
+        "maj_id": 8,
+        "fal_id": 51,
+        "name": "Ngành Kinh tế, Tài chính và Kế toán",
+        "desc": "Ngành Kinh tế, Tài chính và Kế toán nghiên cứu về các khía cạnh của kinh tế, tài chính và kế toán, từ việc phân tích dữ liệu tài chính đến việc đưa ra các quyết định chiến lược về tài chính và kinh doanh.",
+        "img": "./major/kinhtetaichinhvakteoan.jpg"
+    },
+    {
+        "maj_id": 9,
+        "fal_id": 60,
+        "name": "Ngành Khoa học máy tính",
+        "desc": "Ngành Khoa học máy tính nghiên cứu về các khía cạnh của khoa học máy tính, từ lập trình cơ bản đến phát triển và áp dụng các thuật toán phức tạp trong các lĩnh vực như trí tuệ nhân tạo, học máy, và xử lý ngôn ngữ tự nhiên.",
+        "img": "./major/khoahocmaytinh.jpg"
+    },
+    {
+        "maj_id": 10,
+        "fal_id": 61,
+        "name": "Ngành Kỹ thuật phần mềm",
+        "desc": "Ngành Kỹ thuật phần mềm tập trung vào việc phát triển và quản lý các sản phẩm phần mềm, từ quy trình phát triển đến kiểm thử và triển khai.",
+        "img": "./major/kythuatphanmem.jpg"
+    },
+    {
+        "maj_id": 11,
+        "fal_id": 62,
+        "name": "Ngành Kỹ thuật máy tính",
+        "desc": "Ngành Kỹ thuật máy tính tập trung vào việc nghiên cứu, thiết kế và phát triển các hệ thống phần cứng và phần mềm của máy tính.",
+        "img": "./major/kythuatmaytinh.jpg"
+    },
+    {
+        "maj_id": 12,
+        "fal_id": 63,
+        "name": "Ngành Hệ thống thông tin",
+        "desc": "Ngành Hệ thống thông tin nghiên cứu và phát triển các hệ thống thông tin, từ cơ sở dữ liệu đến hệ thống quản lý thông tin và hệ thống thông tin quản lý.",
+        "img": "./major/hethongthongtin.jpg"
+    },
+    {
+        "maj_id": 13,
+        "fal_id": 64,
+        "name": "Ngành Mạng máy tính và truyền thông dữ liệu",
+        "desc": "Ngành Mạng máy tính và truyền thông dữ liệu tập trung vào việc nghiên cứu, thiết kế và quản lý các mạng máy tính và hệ thống truyền thông.",
+        "img": "./major/mangmaytinhvatruyenthongdulieu.jpg"
+    },
+    {
+        "maj_id": 14,
+        "fal_id": 65,
+        "name": "Ngành Công nghệ thông tin",
+        "desc": "Ngành Công nghệ thông tin kết hợp giữa kiến thức về khoa học máy tính và kỹ thuật thông tin để nghiên cứu và phát triển các hệ thống thông tin và ứng dụng.",
+        "img": "./major/congnghethongtin.jpg"
+    },
+    {
+        "maj_id": 15,
+        "fal_id": 63,
+        "name": "Ngành Thương mại Điện tử",
+        "desc": "Ngành Thương mại điện tử tập trung vào việc sử dụng công nghệ thông tin để thực hiện các giao dịch thương mại trên mạng internet. Nó không chỉ bao gồm việc mua bán hàng hóa và dịch vụ trực tuyến mà còn bao gồm các hoạt động như quảng cáo trực tuyến, marketing số, và quản lý quan hệ khách hàng. Ngành này đòi hỏi hiểu biết sâu rộng về cả các quy trình thương mại và công nghệ thông tin, đồng thời cũng cần phải hiểu rõ về quy định pháp lý và các vấn đề bảo mật trong thương mại điện tử.",
+        "img": "./major/thuongmaidientu.jpg"
+    },
+    {
+        "maj_id": 16,
+        "fal_id": 64,
+        "name": "Ngành An toàn thông tin",
+        "desc": "Ngành An toàn thông tin tập trung vào việc bảo vệ thông tin và dữ liệu quan trọng khỏi các mối đe dọa và tấn công mạng. Các chuyên gia trong ngành này thường tìm kiếm và phát triển các giải pháp bảo mật để ngăn chặn các cuộc tấn công mạng, bảo vệ hệ thống và mạng máy tính khỏi vi rút, phần mềm độc hại và truy cập trái phép. Công việc trong ngành này đòi hỏi sự am hiểu sâu rộng về các phương pháp tấn công và biện pháp bảo vệ, cũng như luôn cập nhật với các xu hướng mới và tiến triển trong lĩnh vực an ninh mạng.",
+        "img": "./major/antoanthongtin.jpg"
+    },
+    {
+        "maj_id": 17,
+        "fal_id": 60,
+        "name": "Ngành Trí tuệ Nhân tạo",
+        "desc": "Ngành Trí tuệ nhân tạo tập trung vào việc nghiên cứu và phát triển các hệ thống và máy tính có khả năng tự học và tự thích nghi. Các ứng dụng của trí tuệ nhân tạo bao gồm nhận diện giọng nói, nhận diện hình ảnh, tự động lái xe, và xử lý ngôn ngữ tự nhiên. Công việc trong ngành này đòi hỏi sự hiểu biết vững chắc về các thuật toán máy học, học sâu và học tăng cường, cũng như khả năng áp dụng chúng vào các vấn đề thực tế.",
+        "img": "./major/trituenhantao.jpg"
+    },
+    {
+        "maj_id": 18,
+        "fal_id": 65,
+        "name": "Ngành Công nghệ thông tin Việt-Nhật",
+        "desc": "Ngành Công nghệ thông tin Việt-Nhật tập trung vào việc hợp tác và phát triển các công nghệ thông tin giữa Việt Nam và Nhật Bản. Công việc trong ngành này có thể bao gồm nghiên cứu và phát triển các sản phẩm và dịch vụ công nghệ thông tin dựa trên nền tảng công nghệ của Nhật Bản, cũng như việc hỗ trợ và tương tác với các đối tác và khách hàng Nhật Bản.",
+        "img": "./major/congnghethongtinvietnhat.jpg"
+    },
+    {
+        "maj_id": 19,
+        "fal_id": 65,
+        "name": "Ngành Khoa học dữ liệu",
+        "desc": "Ngành Khoa học dữ liệu tập trung vào việc thu thập, phân tích và áp dụng dữ liệu để đưa ra các quyết định thông minh và hiểu biết sâu rộng về các mô hình và xu hướng trong dữ liệu. Công việc trong ngành này đòi hỏi sự thành thạo về các kỹ thuật xử lý dữ liệu, khai phá dữ liệu và học máy, cũng như khả năng tạo ra giá trị từ dữ liệu thông qua phân tích và hình dung.",
+        "img": "./major/khoahocdulieu.jpg"
+    },
+    {
+        "maj_id": 20,
+        "fal_id": 62,
+        "name": "Ngành Thiết kế vi mạch",
+        "desc": "Ngành Thiết kế Vi mạch là một lĩnh vực chuyên sâu trong ngành Kỹ thuật máy tính. Ngành này tập trung vào việc nghiên cứu, phát triển và thiết kế các hệ thống vi mạch tích hợp trên nền tảng các bản mạch điện tử. Các vi mạch này thường được tích hợp vào các sản phẩm điện tử, như điện thoại di động, máy tính, thiết bị y tế, ô tô thông minh và nhiều ứng dụng khác.",
+        "img": "./major/thietkevimach.jpg"
+    },
+    {
+        "maj_id": 21,
+        "fal_id": 66,
+        "name": "Ngành Kinh tế",
+        "desc": "Ngành Kinh tế tập trung vào việc nghiên cứu về cách tổ chức và quản lý các nguồn lực kinh tế để đạt được mục tiêu của tổ chức hoặc quốc gia. Nó bao gồm nghiên cứu về sản xuất, phân phối và tiêu thụ hàng hóa và dịch vụ trong nền kinh tế.",
+        "img": "./major/kinhte.jpg"
+    },
+    {
+        "maj_id": 22,
+        "fal_id": 67,
+        "name": "Ngành Kinh tế đối ngoại",
+        "desc": "Ngành Kinh tế đối ngoại tập trung vào việc nghiên cứu về các quan hệ kinh tế giữa các quốc gia và vùng lãnh thổ khác nhau trên thế giới. Nó bao gồm nghiên cứu về thương mại quốc tế, đầu tư trực tiếp nước ngoài, tài chính quốc tế và các vấn đề liên quan đến hợp tác kinh tế quốc tế.",
+        "img": "./major/kinhtedoingoai.jpg"
+    }
+]
+
+
+
+

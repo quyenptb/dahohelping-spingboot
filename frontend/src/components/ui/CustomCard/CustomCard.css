@@ -1,0 +1,89 @@
+.custom-card-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card-header {
+    background-color: #1995AD;
+    color: white;
+    padding: 8px 16px;
+  }
+  .custom-card-header-title {
+    display: flex;
+    align-items: center;
+  }
+  .card-award {
+    display: inline;
+    float: right;
+    margin-right: 0;
+    border:#f8f9fa 1px solid;
+    border-radius: 5px;
+  }
+  
+  .custom-card-body {
+    padding: 16px;
+    background-color: #A1D6E2;
+    color: white;
+  }
+  
+  .custom-card-question-title {
+    margin-bottom: 8px;
+  }
+  
+  .custom-card-question-content {
+    margin-bottom: 16px;
+  }
+  
+  .custom-card-footer {
+    background-color: #fbfef9;
+    padding: 8px 16px;
+    color: black;
+  }
+  
+  .custom-card-form-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .custom-card-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .custom-card-submit-btn, .custom-card-save-btn, .custom-card-report-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 1vh;
+  }
+
+  .custom-card-comments-title {
+    margin-bottom: 8px;
+  }
+  
+  .custom-card-comment {
+    background-color: #f8f9fa;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .custom-card-comments-content {
+    border: 2px grey solid;
+    border-radius: 5px;
+    margin-bottom: 4vh;
+    background-color: #88e78c;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  

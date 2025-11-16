@@ -1,0 +1,85 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Thêm vào */
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    overflow:hidden;
+    box-sizing: border-box;
+  }
+  
+  .login-card {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .login-checkboxLabel {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .login-checkbox {
+    margin-right: 8px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+
+  .login-logo {
+    width: 45vh;
+    height: 45vh;
+}
+
+  @media (max-width: 912px) {
+    .login-logo {
+      width: 30vh;
+      height: 30vh;
+      margin-bottom: 20px; /* Cân chỉnh khoảng cách giữa hình ảnh và thẻ */
+    }
+    .login-container {
+        background-color: #fff;
+    }
+
+  }

@@ -1,0 +1,922 @@
+[
+            {
+                "sub_id": 1,
+                "maj_id": 1,
+                "name": "Cơ lý thuyết",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Cơ lý thuyết cung cấp kiến thức về các nguyên lý cơ bản của cơ học."
+            },
+            {
+                "sub_id": 2,
+                "maj_id": 1,
+                "name": "Thiết kế cơ khí",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Thiết kế cơ khí tập trung vào quy trình thiết kế và ứng dụng các phần mềm CAD trong ngành cơ khí."
+            },
+            {
+                "sub_id": 3,
+                "maj_id": 1,
+                "name": "CNC và sản xuất",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học CNC và sản xuất giúp sinh viên hiểu về quy trình sản xuất và vận hành các máy CNC."
+            },
+            {
+                "sub_id": 4,
+                "maj_id": 1,
+                "name": "Vật liệu và cấu tạo cơ khí",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Vật liệu và cấu tạo cơ khí giới thiệu về các vật liệu và cấu tạo cơ bản trong ngành cơ khí."
+            },
+            {
+                "sub_id": 5,
+                "maj_id": 1,
+                "name": "Kỹ thuật nhiệt",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Kỹ thuật nhiệt tập trung vào nghiên cứu về truyền nhiệt và ứng dụng trong ngành cơ khí."
+            },
+            {
+                "sub_id": 6,
+                "maj_id": 2,
+                "name": "Cấu trúc và tính chất vật liệu",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Cấu trúc và tính chất vật liệu giúp sinh viên hiểu về cấu trúc và các tính chất của vật liệu."
+            },
+            {
+                "sub_id": 7,
+                "maj_id": 2,
+                "name": "Tổ hợp vật liệu",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Tổ hợp vật liệu giới thiệu về các quy trình và ứng dụng của việc kết hợp các loại vật liệu khác nhau."
+            },
+            {
+                "sub_id": 8,
+                "maj_id": 2,
+                "name": "Công nghệ gia công vật liệu",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Công nghệ gia công vật liệu tập trung vào các phương pháp gia công và ứng dụng trong sản xuất vật liệu."
+            },
+            {
+                "sub_id": 9,
+                "maj_id": 2,
+                "name": "Vật liệu chịu lực",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Vật liệu chịu lực nghiên cứu về các loại vật liệu được sử dụng trong các ứng dụng chịu lực và cơ khí."
+            },
+            {
+                "sub_id": 10,
+                "maj_id": 2,
+                "name": "Vật liệu chuyển đổi nhiệt",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Vật liệu chuyển đổi nhiệt tập trung vào các vật liệu được sử dụng trong các ứng dụng chuyển đổi nhiệt và năng lượng."
+            },
+            {
+                "sub_id": 11,
+                "maj_id": 3,
+                "name": "Lập trình C",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Lập trình C giúp sinh viên hiểu về cú pháp và nguyên tắc lập trình bằng ngôn ngữ lập trình C cơ bản."
+            },
+            {
+                "sub_id": 12,
+                "maj_id": 3,
+                "name": "Cơ sở dữ liệu",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Cơ sở dữ liệu giới thiệu về các khái niệm cơ bản và quy trình thiết kế cơ sở dữ liệu."
+            },
+            {
+                "sub_id": 13,
+                "maj_id": 3,
+                "name": "Hệ điều hành",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Hệ điều hành tập trung vào nghiên cứu về nguyên lý hoạt động và quản lý của hệ điều hành."
+            },
+            {
+                "sub_id": 14,
+                "maj_id": 3,
+                "name": "Mạng máy tính",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Mạng máy tính giới thiệu về các khái niệm cơ bản và quy trình thiết kế, triển khai và quản lý mạng máy tính."
+            },
+            {
+                "sub_id": 15,
+                "maj_id": 3,
+                "name": "Phát triển ứng dụng web",
+                "icon": "src/assets/icon/default_icon.png",
+                "img": "src/assets/icon/default_desc.webp",
+                "desc": "Môn học Phát triển ứng dụng web tập trung vào việc lập trình và phát triển các ứng dụng web hiện đại."
+            },
+                {
+                    "sub_id": 16,
+                    "maj_id": 4,
+                    "name": "Giải tích",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Giải tích giúp sinh viên hiểu và áp dụng các phương pháp giải tích trong giải quyết các vấn đề toán học và tin học."
+                },
+                {
+                    "sub_id": 17,
+                    "maj_id": 4,
+                    "name": "Lập trình Java",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Lập trình Java giúp sinh viên hiểu về ngôn ngữ lập trình Java và phát triển các ứng dụng sử dụng Java."
+                },
+                {
+                    "sub_id": 18,
+                    "maj_id": 4,
+                    "name": "Cấu trúc dữ liệu và giải thuật",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Cấu trúc dữ liệu và giải thuật giúp sinh viên hiểu về cấu trúc dữ liệu và các giải thuật phổ biến trong lập trình."
+                },
+                {
+                    "sub_id": 19,
+                    "maj_id": 4,
+                    "name": "Hệ thống điều khiển",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Hệ thống điều khiển tập trung vào nghiên cứu về nguyên lý hoạt động và ứng dụng của hệ thống điều khiển tự động."
+                },
+                {
+                    "sub_id": 20,
+                    "maj_id": 4,
+                    "name": "Trí tuệ nhân tạo",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Trí tuệ nhân tạo giới thiệu về các khái niệm và ứng dụng của trí tuệ nhân tạo trong lĩnh vực máy tính và tin học."
+                },
+                {
+                    "sub_id": 21,
+                    "maj_id": 5,
+                    "name": "Văn học Anh",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Văn học Anh tập trung vào việc nghiên cứu về các tác phẩm văn học tiếng Anh và văn hóa Anh Quốc."
+                },
+                {
+                    "sub_id": 22,
+                    "maj_id": 5,
+                    "name": "Ngôn ngữ Anh phổ thông",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Ngôn ngữ Anh phổ thông giúp sinh viên cải thiện kỹ năng nghe, nói, đọc và viết tiếng Anh."
+                },
+                {
+                    "sub_id": 23,
+                    "maj_id": 5,
+                    "name": "Lịch sử và văn hóa Anh",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Lịch sử và văn hóa Anh giúp sinh viên hiểu sâu về lịch sử và văn hóa của người Anh và các nước sử dụng tiếng Anh."
+                },
+                {
+                    "sub_id": 24,
+                    "maj_id": 5,
+                    "name": "Kỹ năng viết luận",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kỹ năng viết luận giúp sinh viên rèn luyện kỹ năng phân tích và viết luận trong tiếng Anh."
+                },
+                {
+                    "sub_id": 25,
+                    "maj_id": 5,
+                    "name": "Ngôn ngữ và văn hóa Anh Mỹ",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Ngôn ngữ và văn hóa Anh Mỹ giúp sinh viên hiểu về ngôn ngữ và văn hóa của người Mỹ."
+                },
+                {
+                    "sub_id": 26,
+                    "maj_id": 6,
+                    "name": "Văn học Nga",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Văn học Nga giúp sinh viên hiểu về các tác phẩm văn học tiếng Nga và văn hóa Nga."
+                },
+                {
+                    "sub_id": 27,
+                    "maj_id": 6,
+                    "name": "Ngôn ngữ Nga phổ thông",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Ngôn ngữ Nga phổ thông giúp sinh viên cải thiện kỹ năng nghe, nói, đọc và viết tiếng Nga."
+                },
+                {
+                    "sub_id": 28,
+                    "maj_id": 6,
+                    "name": "Lịch sử và văn hóa Nga",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Lịch sử và văn hóa Nga giúp sinh viên hiểu sâu về lịch sử và văn hóa của người Nga và các nước sử dụng tiếng Nga."
+                },
+                {
+                    "sub_id": 29,
+                    "maj_id": 6,
+                    "name": "Kỹ năng phiên dịch",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kỹ năng phiên dịch giúp sinh viên rèn luyện kỹ năng phiên dịch giữa tiếng Nga và tiếng Việt."
+                },
+                {
+                    "sub_id": 30,
+                    "maj_id": 6,
+                    "name": "Ngôn ngữ và văn hóa Nga - Liên Xô",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Ngôn ngữ và văn hóa Nga - Liên Xô giúp sinh viên hiểu về ngôn ngữ và văn hóa của Liên Xô."
+                },
+                {
+                    "sub_id": 31,
+                    "maj_id": 7,
+                    "name": "Quản trị tài chính",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản trị tài chính giúp sinh viên hiểu về quản lý tài chính trong doanh nghiệp và các quyết định tài chính chiến lược."
+                },
+                {
+                    "sub_id": 32,
+                    "maj_id": 7,
+                    "name": "Quản trị nhân sự",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản trị nhân sự giúp sinh viên hiểu về quản lý nhân sự và các phương pháp tạo động lực cho nhân viên."
+                },
+                {
+                    "sub_id": 33,
+                    "maj_id": 7,
+                    "name": "Quản trị chiến lược",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản trị chiến lược giúp sinh viên hiểu về quyết định chiến lược và quản lý chiến lược trong doanh nghiệp."
+                },
+                {
+                    "sub_id": 34,
+                    "maj_id": 7,
+                    "name": "Marketing quốc tế",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Marketing quốc tế giúp sinh viên hiểu về các phương pháp tiếp thị và quảng cáo trên thị trường quốc tế."
+                },
+                {
+                    "sub_id": 35,
+                    "maj_id": 7,
+                    "name": "Quản trị chuỗi cung ứng",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản trị chuỗi cung ứng giúp sinh viên hiểu về quản lý và tối ưu hóa chuỗi cung ứng trong doanh nghiệp."
+                },
+                {
+                    "sub_id": 36,
+                    "maj_id": 8,
+                    "name": "Kinh tế học",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kinh tế học giúp sinh viên hiểu về các nguyên lý cơ bản của kinh tế và quy luật hoạt động của nền kinh tế."
+                },
+                {
+                    "sub_id": 37,
+                    "maj_id": 8,
+                    "name": "Tài chính doanh nghiệp",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Tài chính doanh nghiệp giúp sinh viên hiểu về quản lý tài chính trong doanh nghiệp và quyết định tài chính chiến lược."
+                },
+                {
+                    "sub_id": 38,
+                    "maj_id": 8,
+                    "name": "Kế toán quản trị",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kế toán quản trị giúp sinh viên hiểu về các phương pháp kế toán quản trị và công cụ quản lý tài chính."
+                },
+                {
+                    "sub_id": 39,
+                    "maj_id": 8,
+                    "name": "Nguyên lý và phương pháp thống kê",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Nguyên lý và phương pháp thống kê giúp sinh viên hiểu về các phương pháp thống kê và ứng dụng trong kinh doanh và nghiên cứu."
+                },
+                {
+                    "sub_id": 40,
+                    "maj_id": 8,
+                    "name": "Quản lý rủi ro tài chính",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản lý rủi ro tài chính giúp sinh viên hiểu về các phương pháp quản lý và đánh giá rủi ro tài chính trong doanh nghiệp."
+                },
+                {
+                    "sub_id": 41,
+                    "maj_id": 9,
+                    "name": "Lập trình C++",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Lập trình C++ giúp sinh viên hiểu về ngôn ngữ lập trình C++ và phát triển các ứng dụng sử dụng C++."
+                },
+                {
+                    "sub_id": 42,
+                    "maj_id": 9,
+                    "name": "Cơ sở dữ liệu",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Cơ sở dữ liệu giúp sinh viên hiểu về cấu trúc và quản lý cơ sở dữ liệu trong các ứng dụng máy tính."
+                },
+                {
+                    "sub_id": 43,
+                    "maj_id": 9,
+                    "name": "Mạng máy tính",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Mạng máy tính giúp sinh viên hiểu về cấu trúc và hoạt động của mạng máy tính và các dịch vụ mạng."
+                },
+                {
+                    "sub_id": 44,
+                    "maj_id": 9,
+                    "name": "An toàn và bảo mật thông tin",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học An toàn và bảo mật thông tin giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+                },
+                {
+                    "sub_id": 45,
+                    "maj_id": 9,
+                    "name": "Trí tuệ nhân tạo",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Trí tuệ nhân tạo giới thiệu về các khái niệm và ứng dụng của trí tuệ nhân tạo trong lĩnh vực máy tính và tin học."
+                },
+                {
+                    "sub_id": 46,
+                    "maj_id": 10,
+                    "name": "Phát triển ứng dụng di động",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Phát triển ứng dụng di động giúp sinh viên hiểu về quy trình phát triển ứng dụng di động trên các nền tảng khác nhau."
+                },
+                {
+                    "sub_id": 47,
+                    "maj_id": 10,
+                    "name": "Kiến trúc phần mềm",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kiến trúc phần mềm giúp sinh viên hiểu về cấu trúc và thiết kế phần mềm hiện đại."
+                },
+                {
+                    "sub_id": 48,
+                    "maj_id": 10,
+                    "name": "Quản lý dự án phần mềm",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Quản lý dự án phần mềm giúp sinh viên hiểu về quy trình quản lý dự án phần mềm và các công cụ hỗ trợ quản lý dự án."
+                },
+                {
+                    "sub_id": 49,
+                    "maj_id": 10,
+                    "name": "Phân tích và thiết kế hệ thống",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Phân tích và thiết kế hệ thống giúp sinh viên hiểu về quy trình phân tích và thiết kế hệ thống phần mềm."
+                },
+                {
+                    "sub_id": 50,
+                    "maj_id": 10,
+                    "name": "Kiểm thử phần mềm",
+                    "icon": "src/assets/icon/default_icon.png",
+                    "img": "src/assets/icon/default_desc.webp",
+                    "desc": "Môn học Kiểm thử phần mềm giúp sinh viên hiểu về các phương pháp kiểm thử phần mềm và quy trình kiểm thử phần mềm."
+                },
+                    {
+                        "sub_id": 51,
+                        "maj_id": 11,
+                        "name": "Kiến trúc máy tính",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Kiến trúc máy tính giúp sinh viên hiểu về cấu trúc nội bộ của máy tính và cách thiết kế các hệ thống máy tính."
+                    },
+                    {
+                        "sub_id": 52,
+                        "maj_id": 11,
+                        "name": "Hệ điều hành",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Hệ điều hành giúp sinh viên hiểu về cấu trúc và hoạt động của hệ điều hành trong các hệ thống máy tính."
+                    },
+                    {
+                        "sub_id": 53,
+                        "maj_id": 11,
+                        "name": "Mạng máy tính",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Mạng máy tính giúp sinh viên hiểu về cấu trúc và hoạt động của mạng máy tính và các dịch vụ mạng."
+                    },
+                    {
+                        "sub_id": 54,
+                        "maj_id": 11,
+                        "name": "Lập trình hệ thống",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Lập trình hệ thống giúp sinh viên hiểu về việc phát triển các ứng dụng và hệ thống trong môi trường máy tính."
+                    },
+                    {
+                        "sub_id": 55,
+                        "maj_id": 11,
+                        "name": "Thiết kế và phân tích thuật toán",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Thiết kế và phân tích thuật toán giúp sinh viên hiểu về các phương pháp thiết kế và phân tích thuật toán trong máy tính."
+                    },
+                    {
+                        "sub_id": 56,
+                        "maj_id": 12,
+                        "name": "Quản lý dự án hệ thống thông tin",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Quản lý dự án hệ thống thông tin giúp sinh viên hiểu về quy trình quản lý dự án trong lĩnh vực hệ thống thông tin."
+                    },
+                    {
+                        "sub_id": 57,
+                        "maj_id": 12,
+                        "name": "Phát triển ứng dụng web",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Phát triển ứng dụng web giúp sinh viên hiểu về quy trình phát triển các ứng dụng web và các công nghệ web hiện đại."
+                    },
+                    {
+                        "sub_id": 58,
+                        "maj_id": 12,
+                        "name": "Hệ thống trí tuệ nhân tạo",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Hệ thống trí tuệ nhân tạo giới thiệu về các ứng dụng của trí tuệ nhân tạo trong lĩnh vực hệ thống thông tin và máy tính."
+                    },
+                    {
+                        "sub_id": 59,
+                        "maj_id": 12,
+                        "name": "Cơ sở dữ liệu phân tán",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Cơ sở dữ liệu phân tán giúp sinh viên hiểu về cấu trúc và quản lý các hệ thống cơ sở dữ liệu phân tán."
+                    },
+                    {
+                        "sub_id": 60,
+                        "maj_id": 12,
+                        "name": "An toàn thông tin và bảo mật",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học An toàn thông tin và bảo mật giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+                    },
+                    {
+                        "sub_id": 61,
+                        "maj_id": 13,
+                        "name": "Thiết kế và quản lý mạng máy tính",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Thiết kế và quản lý mạng máy tính giúp sinh viên hiểu về quy trình thiết kế và quản lý mạng máy tính trong doanh nghiệp và tổ chức."
+                    },
+                    {
+                        "sub_id": 62,
+                        "maj_id": 13,
+                        "name": "Các giao thức mạng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Các giao thức mạng giúp sinh viên hiểu về các giao thức và các công nghệ liên quan đến mạng máy tính và truyền thông dữ liệu."
+                    },
+                    {
+                        "sub_id": 63,
+                        "maj_id": 13,
+                        "name": "An toàn mạng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học An toàn mạng giúp sinh viên hiểu về các biện pháp bảo mật mạng máy tính và phòng tránh các mối đe dọa mạng."
+                    },
+                    {
+                        "sub_id": 64,
+                        "maj_id": 13,
+                        "name": "Phân tích dữ liệu mạng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Phân tích dữ liệu mạng giúp sinh viên hiểu về quy trình phân tích dữ liệu mạng và các kỹ thuật phân tích dữ liệu trong mạng máy tính."
+                    },
+                    {
+                        "sub_id": 65,
+                        "maj_id": 13,
+                        "name": "Truyền thông dữ liệu",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Truyền thông dữ liệu giúp sinh viên hiểu về các công nghệ và giao thức truyền thông dữ liệu trong mạng máy tính."
+                    },
+                    {
+                        "sub_id": 66,
+                        "maj_id": 14,
+                        "name": "Công nghệ Internet",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Công nghệ Internet giúp sinh viên hiểu về các công nghệ và ứng dụng của Internet trong đời sống hàng ngày và trong doanh nghiệp."
+                    },
+                    {
+                        "sub_id": 67,
+                        "maj_id": 14,
+                        "name": "Cơ sở dữ liệu",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Cơ sở dữ liệu giúp sinh viên hiểu về cấu trúc và quản lý cơ sở dữ liệu trong các hệ thống thông tin và doanh nghiệp."
+                    },
+                    {
+                        "sub_id": 68,
+                        "maj_id": 14,
+                        "name": "Hệ thống thông tin doanh nghiệp",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Hệ thống thông tin doanh nghiệp giúp sinh viên hiểu về quy trình xây dựng và quản lý hệ thống thông tin trong doanh nghiệp."
+                    },
+                    {
+                        "sub_id": 69,
+                        "maj_id": 14,
+                        "name": "Phát triển ứng dụng di động",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Phát triển ứng dụng di động giúp sinh viên hiểu về quy trình phát triển ứng dụng di động trên các nền tảng khác nhau."
+                    },
+                    {
+                        "sub_id": 70,
+                        "maj_id": 14,
+                        "name": "An toàn thông tin",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học An toàn thông tin giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+                    },
+                    {
+                        "sub_id": 71,
+                        "maj_id": 15,
+                        "name": "Thương mại điện tử",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Thương mại điện tử giúp sinh viên hiểu về quy trình và các công nghệ trong thương mại điện tử."
+                    },
+                    {
+                        "sub_id": 72,
+                        "maj_id": 15,
+                        "name": "Marketing trực tuyến",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Marketing trực tuyến giúp sinh viên hiểu về cách thực hiện chiến lược marketing trực tuyến và sử dụng các công cụ marketing số."
+                    },
+                    {
+                        "sub_id": 73,
+                        "maj_id": 15,
+                        "name": "Quản lý quan hệ khách hàng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Quản lý quan hệ khách hàng giúp sinh viên hiểu về quy trình quản lý và chăm sóc khách hàng trong môi trường thương mại điện tử."
+                    },
+                    {
+                        "sub_id": 74,
+                        "maj_id": 15,
+                        "name": "Pháp lý và đạo đức trong thương mại điện tử",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Pháp lý và đạo đức trong thương mại điện tử giúp sinh viên hiểu về các quy định pháp lý và các vấn đề đạo đức trong thương mại điện tử."
+                    },
+                    {
+                        "sub_id": 75,
+                        "maj_id": 15,
+                        "name": "Logistics và chuỗi cung ứng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Logistics và chuỗi cung ứng giúp sinh viên hiểu về quy trình quản lý logistics và chuỗi cung ứng trong thương mại điện tử."
+                    },
+                    {
+                        "sub_id": 76,
+                        "maj_id": 16,
+                        "name": "Quản lý rủi ro an toàn thông tin",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Quản lý rủi ro an toàn thông tin giúp sinh viên hiểu về quy trình quản lý và đánh giá rủi ro an toàn thông tin trong tổ chức."
+                    },
+                    {
+                        "sub_id": 77,
+                        "maj_id": 16,
+                        "name": "Kiểm thử bảo mật",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Kiểm thử bảo mật giúp sinh viên hiểu về các phương pháp kiểm thử và đánh giá bảo mật trong hệ thống thông tin và ứng dụng."
+                    },
+                    {
+                        "sub_id": 78,
+                        "maj_id": 16,
+                        "name": "Phân tích mã độc và xâm nhập",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Phân tích mã độc và xâm nhập giúp sinh viên hiểu về cách phát hiện, phân tích và ngăn chặn các cuộc tấn công mạng và mã độc."
+                    },
+                    {
+                        "sub_id": 79,
+                        "maj_id": 16,
+                        "name": "Quản trị hệ thống bảo mật",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học Quản trị hệ thống bảo mật giúp sinh viên hiểu về quy trình quản trị và bảo mật hệ thống thông tin và mạng máy tính."
+                    },
+                    {
+                        "sub_id": 80,
+                        "maj_id": 16,
+                        "name": "An ninh mạng",
+                        "icon": "src/assets/icon/default_icon.png",
+                        "img": "src/assets/icon/default_desc.webp",
+                        "desc": "Môn học An ninh mạng giúp sinh viên hiểu về các biện pháp bảo mật mạng máy tính và phòng tránh các mối đe dọa mạng."
+                    },
+                        {
+                            "sub_id": 81,
+                            "maj_id": 17,
+                            "name": "Học máy",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Học máy giúp sinh viên hiểu về các thuật toán và phương pháp học máy để xây dựng và huấn luyện các mô hình dự đoán và phân loại."
+                        },
+                        {
+                            "sub_id": 82,
+                            "maj_id": 17,
+                            "name": "Xử lý ngôn ngữ tự nhiên",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Xử lý ngôn ngữ tự nhiên giúp sinh viên hiểu về các phương pháp và công nghệ xử lý và hiểu ngôn ngữ tự nhiên bằng máy tính."
+                        },
+                        {
+                            "sub_id": 83,
+                            "maj_id": 17,
+                            "name": "Học sâu",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Học sâu giúp sinh viên hiểu về các mô hình học sâu như mạng nơ-ron hồi quy, mạng nơ-ron tích chập và mạng nơ-ron tái lập."
+                        },
+                        {
+                            "sub_id": 84,
+                            "maj_id": 17,
+                            "name": "Học tăng cường",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Học tăng cường giúp sinh viên hiểu về các phương pháp và thuật toán trong học tăng cường để xây dựng các hệ thống tự động học."
+                        },
+                        {
+                            "sub_id": 85,
+                            "maj_id": 17,
+                            "name": "Ứng dụng trí tuệ nhân tạo",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Ứng dụng trí tuệ nhân tạo giúp sinh viên áp dụng các công nghệ trí tuệ nhân tạo vào các lĩnh vực thực tế như y tế, ô tô tự lái và tự động hóa."
+                        },
+                        {
+                            "sub_id": 86,
+                            "maj_id": 18,
+                            "name": "Tiếng Nhật căn bản",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Tiếng Nhật căn bản giúp sinh viên nắm vững các nguyên tắc cơ bản và từ vựng phổ biến trong tiếng Nhật."
+                        },
+                        {
+                            "sub_id": 87,
+                            "maj_id": 18,
+                            "name": "Tiếng Nhật nâng cao",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Tiếng Nhật nâng cao giúp sinh viên rèn luyện và phát triển kỹ năng giao tiếp và viết tiếng Nhật ở mức cao hơn."
+                        },
+                        {
+                            "sub_id": 88,
+                            "maj_id": 18,
+                            "name": "Văn hóa và xã hội Nhật Bản",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Văn hóa và xã hội Nhật Bản giúp sinh viên hiểu về văn hóa, lịch sử và xã hội của Nhật Bản để tạo nền tảng cho việc học tiếng Nhật và làm việc với đối tác Nhật Bản."
+                        },
+                        {
+                            "sub_id": 89,
+                            "maj_id": 18,
+                            "name": "Công nghệ thông tin và ứng dụng",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Công nghệ thông tin và ứng dụng giúp sinh viên hiểu về các công nghệ thông tin phổ biến và áp dụng chúng vào các dự án liên quan đến Việt Nam và Nhật Bản."
+                        },
+                        {
+                            "sub_id": 90,
+                            "maj_id": 18,
+                            "name": "Hợp tác phát triển phần mềm",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Hợp tác phát triển phần mềm giúp sinh viên làm việc nhóm và hợp tác với các đối tác phát triển phần mềm ở Nhật Bản để xây dựng các sản phẩm phần mềm chất lượng cao."
+                        },
+                        {
+                            "sub_id": 91,
+                            "maj_id": 19,
+                            "name": "Khám phá dữ liệu",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Khám phá dữ liệu giúp sinh viên nắm vững các kỹ thuật khai phá dữ liệu để phân tích và trực quan hóa dữ liệu."
+                        },
+                        {
+                            "sub_id": 92,
+                            "maj_id": 19,
+                            "name": "Mô hình hóa dữ liệu",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Mô hình hóa dữ liệu giúp sinh viên hiểu về các phương pháp và công cụ để mô hình hóa dữ liệu trong các dự án khoa học dữ liệu."
+                        },
+                        {
+                            "sub_id": 93,
+                            "maj_id": 19,
+                            "name": "Xử lý dữ liệu lớn",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Xử lý dữ liệu lớn giúp sinh viên hiểu về các phương pháp và công nghệ để xử lý và phân tích dữ liệu lớn trong môi trường phân tán."
+                        },
+                        {
+                            "sub_id": 94,
+                            "maj_id": 19,
+                            "name": "Học máy và dự đoán",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Học máy và dự đoán giúp sinh viên áp dụng các thuật toán học máy để xây dựng và đánh giá các mô hình dự đoán từ dữ liệu."
+                        },
+                        {
+                            "sub_id": 95,
+                            "maj_id": 19,
+                            "name": "Khoa học dữ liệu và doanh nghiệp",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Khoa học dữ liệu và doanh nghiệp giúp sinh viên áp dụng khoa học dữ liệu vào các lĩnh vực doanh nghiệp như marketing, tài chính và dự báo kinh doanh."
+                        },
+                        {
+                            "sub_id": 96,
+                            "maj_id": 20,
+                            "name": "Kiến trúc vi mạch",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Kiến trúc vi mạch giúp sinh viên hiểu về các kiến trúc phần cứng của vi mạch điện tử và thiết kế các mạch tích hợp."
+                        },
+                        {
+                            "sub_id": 97,
+                            "maj_id": 20,
+                            "name": "Mô phỏng vi mạch",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Mô phỏng vi mạch giúp sinh viên sử dụng các công cụ mô phỏng để đánh giá và cải tiến hiệu suất và độ tin cậy của vi mạch."
+                        },
+                        {
+                            "sub_id": 98,
+                            "maj_id": 20,
+                            "name": "Thiết kế hệ thống vi mạch số",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Thiết kế hệ thống vi mạch số giúp sinh viên hiểu về các phương pháp và công cụ để thiết kế hệ thống vi mạch số phức tạp."
+                        },
+                        {
+                            "sub_id": 99,
+                            "maj_id": 20,
+                            "name": "Chẩn đoán và kiểm tra vi mạch",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Chẩn đoán và kiểm tra vi mạch giúp sinh viên hiểu về các phương pháp và công cụ để chẩn đoán và kiểm tra vi mạch điện tử."
+                        },
+                        {
+                            "sub_id": 100,
+                            "maj_id": 20,
+                            "name": "Ứng dụng vi mạch trong thiết kế sản phẩm",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Ứng dụng vi mạch trong thiết kế sản phẩm giúp sinh viên áp dụng kiến thức và kỹ năng thiết kế vi mạch vào việc phát triển sản phẩm điện tử."
+                        },
+                        {
+                            "sub_id": 101,
+                            "maj_id": 21,
+                            "name": "Bảo mật hệ thống",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Bảo mật hệ thống giúp sinh viên hiểu về các nguyên lý, phương pháp và công nghệ bảo mật thông tin trong hệ thống máy tính."
+                        },
+                        {
+                            "sub_id": 102,
+                            "maj_id": 21,
+                            "name": "Phân tích mã độc",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Phân tích mã độc giúp sinh viên hiểu về cách phát hiện, phân tích và ngăn chặn mã độc trong các hệ thống thông tin."
+                        },
+                        {
+                            "sub_id": 103,
+                            "maj_id": 21,
+                            "name": "Bảo mật mạng",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Bảo mật mạng giúp sinh viên hiểu về các kỹ thuật và công nghệ bảo mật mạng để bảo vệ thông tin trên internet và mạng nội bộ của tổ chức."
+                        },
+                        {
+                            "sub_id": 104,
+                            "maj_id": 21,
+                            "name": "Bảo mật ứng dụng web",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học Bảo mật ứng dụng web giúp sinh viên hiểu về các lỗ hổng bảo mật và phương pháp tấn công trong ứng dụng web để phòng tránh và bảo vệ."
+                        },
+                        {
+                            "sub_id": 105,
+                            "maj_id": 21,
+                            "name": "An ninh mạng và hệ thống",
+                            "icon": "src/assets/icon/default_icon.png",
+                            "img": "src/assets/icon/default_desc.webp",
+                            "desc": "Môn học An ninh mạng và hệ thống giúp sinh viên hiểu về các biện pháp bảo mật mạng và hệ thống để đảm bảo an toàn cho thông tin và dịch vụ trực tuyến."
+                        },
+                    {
+                                "sub_id": 106,
+                                "maj_id": 22,
+                                "name": "Kinh tế học cơ bản",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Kinh tế học cơ bản giúp sinh viên hiểu về các nguyên lý cơ bản của kinh tế, bao gồm cung cầu, giá cả, và hệ thống tài chính."
+                            },
+                            {
+                                "sub_id": 107,
+                                "maj_id": 22,
+                                "name": "Phân tích kinh tế",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Phân tích kinh tế giúp sinh viên áp dụng các phương pháp phân tích dữ liệu để đánh giá hiệu suất kinh tế và dự báo xu hướng."
+                            },
+                            {
+                                "sub_id": 108,
+                                "maj_id": 22,
+                                "name": "Kinh tế quốc tế",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Kinh tế quốc tế giúp sinh viên hiểu về các quan hệ kinh tế giữa các quốc gia và tác động của các chính sách quốc tế."
+                            },
+                            {
+                                "sub_id": 109,
+                                "maj_id": 22,
+                                "name": "Kinh tế phát triển",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Kinh tế phát triển giúp sinh viên hiểu về các vấn đề kinh tế đặc biệt của các quốc gia đang phát triển và các biện pháp phát triển."
+                            },
+                            {
+                                "sub_id": 110,
+                                "maj_id": 22,
+                                "name": "Kinh tế học ứng dụng",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Kinh tế học ứng dụng giúp sinh viên áp dụng các nguyên lý kinh tế vào thực tiễn kinh doanh và quản lý."
+                            },
+                            {
+                                "sub_id": 111,
+                                "maj_id": 23,
+                                "name": "Luật thương mại quốc tế",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Luật thương mại quốc tế giúp sinh viên hiểu về các nguyên tắc và quy định của thương mại quốc tế và các hiệp định thương mại."
+                            },
+                            {
+                                "sub_id": 112,
+                                "maj_id": 23,
+                                "name": "Quản lý đầu tư nước ngoài",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Quản lý đầu tư nước ngoài giúp sinh viên hiểu về quy trình và chiến lược quản lý đầu tư của các doanh nghiệp quốc tế."
+                            },
+                            {
+                                "sub_id": 113,
+                                "maj_id": 23,
+                                "name": "Thị trường và tiếp thị quốc tế",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Thị trường và tiếp thị quốc tế giúp sinh viên hiểu về cách tiếp cận và tiếp thị sản phẩm trên thị trường quốc tế."
+                            },
+                            {
+                                "sub_id": 114,
+                                "maj_id": 23,
+                                "name": "Chiến lược kinh doanh toàn cầu",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Chiến lược kinh doanh toàn cầu giúp sinh viên hiểu về các chiến lược và phương pháp quản lý kinh doanh trên phạm vi toàn cầu."
+                            },
+                            {
+                                "sub_id": 115,
+                                "maj_id": 23,
+                                "name": "Quản lý rủi ro và hợp pháp hóa kinh doanh",
+                                "icon": "src/assets/icon/default_icon.png",
+                                "img": "src/assets/icon/default_desc.webp",
+                                "desc": "Môn học Quản lý rủi ro và hợp pháp hóa kinh doanh giúp sinh viên hiểu về các biện pháp quản lý rủi ro và tuân thủ pháp luật trong kinh doanh quốc tế."
+                            }
+]

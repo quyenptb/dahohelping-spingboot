@@ -1,0 +1,446 @@
+[
+    {
+        "fal_id": 1,
+        "uni_id": 1,
+        "name": "Khoa Cơ khí",
+        "code": "cokhi"
+    },
+    {
+        "fal_id": 2,
+        "uni_id": 1,
+        "name": "Khoa Công nghệ Vật liệu",
+        "code": "congnghevatlieu"
+    },
+    {
+        "fal_id": 3,
+        "uni_id": 1,
+        "name": "Khoa Điện - Điện tử",
+        "code": "diendientu"
+    },
+    {
+        "fal_id": 4,
+        "uni_id": 1,
+        "name": "Khoa Khoa học Ứng dụng",
+        "code": "khoahocungdung"
+    },
+    {
+        "fal_id": 5,
+        "uni_id": 1,
+        "name": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "code": "khoahocvakythuatmaytinh"
+    },
+    {
+        "fal_id": 6,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Địa chất và Dầu khí",
+        "code": "kythuatdiachatvadaukhi"
+    },
+    {
+        "fal_id": 7,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Giao thông",
+        "code": "kythuatgiaothong"
+    },
+    {
+        "fal_id": 8,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Hóa học",
+        "code": "kythuathoahoc"
+    },
+    {
+        "fal_id": 9,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Xây dựng",
+        "code": "kythuatxaydung"
+    },
+    {
+        "fal_id": 10,
+        "uni_id": 1,
+        "name": "Khoa Môi trường và Tài nguyên",
+        "code": "moitruongvatainguyen"
+    },
+    {
+        "fal_id": 11,
+        "uni_id": 1,
+        "name": "Khoa Quản lý Công nghiệp",
+        "code": "quanlycongnghiep"
+    },
+    {
+        "fal_id": 12,
+        "uni_id": 2,
+        "name": "Khoa Công nghệ thông tin",
+        "code": "congnghethongtin"
+    },
+    {
+        "fal_id": 13,
+        "uni_id": 2,
+        "name": "Khoa Toán – Tin học",
+        "code": "toantinhoc"
+    },
+    {
+        "fal_id": 14,
+        "uni_id": 2,
+        "name": "Khoa Vật lý – Vật lý Kỹ thuật",
+        "code": "vatlyvatlykythuat"
+    },
+    {
+        "fal_id": 15,
+        "uni_id": 2,
+        "name": "Khoa Hóa học",
+        "code": "hoahoc"
+    },
+    {
+        "fal_id": 16,
+        "uni_id": 2,
+        "name": "Khoa Sinh học & Công nghệ Sinh học",
+        "code": "sinhhoccongnghesinhoc"
+    },
+    {
+        "fal_id": 17,
+        "uni_id": 2,
+        "name": "Khoa Môi trường",
+        "code": "moitruong"
+    },
+    {
+        "fal_id": 18,
+        "uni_id": 2,
+        "name": "Khoa Khoa học và Công nghệ vật liệu",
+        "code": "khoahocvacongnghieuvatlieu"
+    },
+    {
+        "fal_id": 19,
+        "uni_id": 2,
+        "name": "Khoa Địa chất",
+        "code": "diachat"
+    },
+    {
+        "fal_id": 20,
+        "uni_id": 2,
+        "name": "Khoa Điện tử Viễn thông",
+        "code": "dientuviensong"
+    },
+    {
+        "fal_id": 21,
+        "uni_id": 3,
+        "name": "Khoa Báo chí và truyền thông",
+        "code": "baochivatruyenthong"
+    },
+    {
+        "fal_id": 22,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Anh",
+        "code": "nguvananh"
+    },
+    {
+        "fal_id": 23,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Nga",
+        "code": "nguvannga"
+    },
+    {
+        "fal_id": 24,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Pháp",
+        "code": "nguvanphap"
+    },
+    {
+        "fal_id": 25,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Trung Quốc",
+        "code": "nguvantrungquoc"
+    },
+    {
+        "fal_id": 26,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Đức",
+        "code": "nguvanduc"
+    },
+    {
+        "fal_id": 27,
+        "uni_id": 3,
+        "name": "Khoa Hàn Quốc học",
+        "code": "hanquochoc"
+    },
+    {
+        "fal_id": 28,
+        "uni_id": 3,
+        "name": "Khoa Nhật Bản học",
+        "code": "nhatbanhoc"
+    },
+    {
+        "fal_id": 29,
+        "uni_id": 3,
+        "name": "Khoa Văn hóa học",
+        "code": "vanhoahoc"
+    },
+    {
+        "fal_id": 30,
+        "uni_id": 3,
+        "name": "Khoa Nhân học",
+        "code": "nhanhoc"
+    },
+    {
+        "fal_id": 31,
+        "uni_id": 3,
+        "name": "Khoa Triết học",
+        "code": "triethoc"
+    },
+    {
+        "fal_id": 32,
+        "uni_id": 3,
+        "name": "Khoa Lịch sử",
+        "code": "lichsu"
+    },
+    {
+        "fal_id": 33,
+        "uni_id": 3,
+        "name": "Khoa Văn học",
+        "code": "vanhoc"
+    },
+    {
+        "fal_id": 34,
+        "uni_id": 3,
+        "name": "Khoa Giáo dục",
+        "code": "giaoduc"
+    },
+    {
+        "fal_id": 35,
+        "uni_id": 3,
+        "name": "Khoa Xã hội học",
+        "code": "xahoihoc"
+    },
+    {
+        "fal_id": 36,
+        "uni_id": 3,
+        "name": "Khoa Quan hệ quốc tế",
+        "code": "quanhequocte"
+    },
+    {
+        "fal_id": 37,
+        "uni_id": 3,
+        "name": "Khoa Thư viện - Thông tin học",
+        "code": "thuvienthongtinhoc"
+    },
+    {
+        "fal_id": 38,
+        "uni_id": 3,
+        "name": "Khoa Ngôn ngữ học",
+        "code": "ngonnguhoc"
+    },
+    {
+        "fal_id": 39,
+        "uni_id": 3,
+        "name": "Khoa Việt Nam học",
+        "code": "vietnamhoc"
+    },
+    {
+        "fal_id": 40,
+        "uni_id": 3,
+        "name": "Khoa Đông phương học",
+        "code": "dongphuonghoc"
+    },
+    {
+        "fal_id": 41,
+        "uni_id": 3,
+        "name": "Khoa Công tác xã hội",
+        "code": "congtacxahoi"
+    },
+    {
+        "fal_id": 42,
+        "uni_id": 3,
+        "name": "Khoa Đô thị học",
+        "code": "dothihoc"
+    },
+    {
+        "fal_id": 43,
+        "uni_id": 3,
+        "name": "Khoa Du lịch",
+        "code": "dulich"
+    },
+    {
+        "fal_id": 44,
+        "uni_id": 3,
+        "name": "Khoa Tâm lý học",
+        "code": "tamlyhoc"
+    },
+    {
+        "fal_id": 45,
+        "uni_id": 3,
+        "name": "Khoa Giáo dục",
+        "code": "giaoduc"
+    },
+    {
+        "fal_id": 46,
+        "uni_id": 3,
+        "name": "Khoa Lưu trữ học và quản trị văn phòng",
+        "code": "luutruhovaquantrivanphong"
+    },
+    {
+        "fal_id": 47,
+        "uni_id": 3,
+        "name": "Khoa Địa lý",
+        "code": "dialy"
+    },
+    {
+        "fal_id": 48,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Tây Ban Nha - Italia",
+        "code": "nguvantaybanhaitalia"
+    },
+    {
+        "fal_id": 49,
+        "uni_id": 3,
+        "name": "Khoa Khoa học liên ngành",
+        "code": "khoahoclienganh"
+    },
+    {
+        "fal_id": 50,
+        "uni_id": 4,
+        "name": "Khoa Quản trị Kinh doanh",
+        "code": "quantrikinhdoanh"
+    },
+    {
+        "fal_id": 51,
+        "uni_id": 4,
+        "name": "Khoa Kinh tế, Tài chính và Kế toán",
+        "code": "kinhtetaichinhvakteoan"
+    },
+    {
+        "fal_id": 52,
+        "uni_id": 4,
+        "name": "Khoa Công nghệ Thông tin",
+        "code": "congnghethongtin"
+    },
+    {
+        "fal_id": 53,
+        "uni_id": 4,
+        "name": "Khoa Điện tử Viễn thông",
+        "code": "dientuviensong"
+    },
+    {
+        "fal_id": 54,
+        "uni_id": 4,
+        "name": "Khoa Công nghệ Sinh học",
+        "code": "congnghesinhoc"
+    },
+    {
+        "fal_id": 55,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật Y sinh",
+        "code": "kythuatysinh"
+    },
+    {
+        "fal_id": 56,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật và Quản lý Công nghiệp",
+        "code": "kythuatvaquanlycongnghiep"
+    },
+    {
+        "fal_id": 57,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật Hóa học và Môi trường",
+        "code": "kythuathoahocvamoitruong"
+    },
+    {
+        "fal_id": 58,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật và Quản lý Xây dựng",
+        "code": "kythuatvaquanlyxaydung"
+    },
+    {
+        "fal_id": 59,
+        "uni_id": 4,
+        "name": "Khoa Ngôn ngữ",
+        "code": "ngonngu"
+    },
+    {
+        "fal_id": 60,
+        "uni_id": 5,
+        "name": "Khoa Khoa học máy tính",
+        "code": "khoahocmaytinh"
+    },
+    {
+        "fal_id": 61,
+        "uni_id": 5,
+        "name": "Khoa Công nghệ phần mềm",
+        "code": "congnghephanmem"
+    },
+    {
+        "fal_id": 62,
+        "uni_id": 5,
+        "name": "Khoa Kỹ thuật máy tính",
+        "code": "kythuatmaytinh"
+    },
+    {
+        "fal_id": 63,
+        "uni_id": 5,
+        "name": "Khoa Hệ thống thông tin",
+        "code": "hethongthongtin"
+    },
+    {
+        "fal_id": 64,
+        "uni_id": 5,
+        "name": "Khoa Mạng máy tính và truyền thông",
+        "code": "mangmaytinhvatruyenthong"
+    },
+    {
+        "fal_id": 65,
+        "uni_id": 5,
+        "name": "Khoa Khoa học và Kỹ thuật Thông tin",
+        "code": "khoahocvakythuatthongtin"
+    },
+    {
+        "fal_id": 66,
+        "uni_id": 6,
+        "name": "Khoa Kinh tế",
+        "code": "kinhte"
+    },
+    {
+        "fal_id": 67,
+        "uni_id": 6,
+        "name": "Khoa Kinh tế đối ngoại",
+        "code": "kinhtedoingoai"
+    },
+    {
+        "fal_id": 68,
+        "uni_id": 6,
+        "name": "Khoa Tài chính – Ngân hàng",
+        "code": "taichinhnganhang"
+    },
+    {
+        "fal_id": 69,
+        "uni_id": 6,
+        "name": "Khoa Kế toán - Kiểm toán",
+        "code": "ketoankiemtoan"
+    },
+    {
+        "fal_id": 70,
+        "uni_id": 6,
+        "name": "Khoa Quản trị kinh doanh",
+        "code": "quantrikinhdoanh2"
+    },
+    {
+        "fal_id": 71,
+        "uni_id": 6,
+        "name": "Khoa Hệ thống thông tin",
+        "code": "hethongthongtin2"
+    },
+    {
+        "fal_id": 72,
+        "uni_id": 6,
+        "name": "Khoa Toán kinh tế",
+        "code": "toankinhte"
+    },
+    {
+        "fal_id": 73,
+        "uni_id": 6,
+        "name": "Khoa Luật",
+        "code": "luat"
+    },
+    {
+        "fal_id": 74,
+        "uni_id": 6,
+        "name": "Khoa Luật kinh tế",
+        "code": "luatkinhte"
+    }
+]

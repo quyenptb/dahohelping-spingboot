@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "Trần Ngọc Minh Thi",
+      "uni": "src/assets/icon/ptnk.png",
+      "score": "900"
+    },
+    {
+      "id": 2,
+      "name": "Phạm Hải Anh",
+      "uni": "khtn",
+      "score": "800"
+    },
+    {
+      "id": 3,
+      "name": "Hà Ngọc Hân",
+      "uni": "ussh",
+      "score": "720"
+    },
+    {
+      "id": 4,
+      "name": "Nguyễn Thành Đạt",
+      "uni": "uit",
+      "score": "700"
+    },
+    {
+      "id": 5,
+      "name": "Lưu Bình Minh",
+      "uni": "uel",
+      "score": "690"
+    }
+  ]
+  

@@ -1,0 +1,2523 @@
+{
+    "ranking":
+    [
+      {
+        "id": 1,
+        "name": "Trần Ngọc Minh Thi",
+        "uni": "src/assets/icons/ptnk.png",
+        "score": "900"
+      },
+      {
+        "id": 2,
+        "name": "Phạm Hải Anh",
+        "uni": "khtn",
+        "score": "800"
+      },
+      {
+        "id": 3,
+        "name": "Hà Ngọc Hân",
+        "uni": "ussh",
+        "score": "720"
+      },
+      {
+        "id": 4,
+        "name": "Nguyễn Thành Đạt",
+        "uni": "uit",
+        "score": "700"
+      },
+      {
+        "id": 5,
+        "name": "Lưu Bình Minh",
+        "uni": "uel",
+        "score": "690"
+      }
+    ],
+  
+    "card": [
+      {
+        "card_id": 1,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Giúp mình giải bài này với ạ mọi người ới!!!",
+        "award": 50,
+        "created_date": "1989-07-01",
+        "time": "",
+        "text": "When you nest content inside a JSX tag, the parent component will receive that content in a prop called children",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 2,
+        "sub_id": 5,
+        "user_id": 4,
+        "daho_id": 0,
+        "title": "Câu hỏi khác nè, ai giúp em với",
+        "award": 50,
+        "created_date": "1990-08-02",
+        "time": "",
+        "text": "State in React is an object that represents the parts of the app that can change.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 3,
+        "sub_id": 0,
+        "user_id": 5,
+        "daho_id": 3,
+        "title": "UIT sáng mai có nghỉ không vậy mọi người?",
+        "award": 10,
+        "created_date": "1991-09-03",
+        "time": "",
+        "text": "Props are short for properties and they are used to pass data between React components.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 4,
+        "sub_id": 2,
+        "user_id": 6,
+        "daho_id": 0,
+        "title": "React question here, please help!",
+        "award": 50,
+        "created_date": "1992-10-04",
+        "time": "",
+        "text": "The Virtual DOM is a lightweight copy of the Real DOM. It's a JavaScript object which represents a DOM tree.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 5,
+        "sub_id": 3,
+        "user_id": 7,
+        "daho_id": 0,
+        "title": "Câu hỏi mới nữa đây, mong mọi người giúp đỡ",
+        "award": 50,
+        "created_date": "1993-11-05",
+        "time": "",
+        "text": "JSX is a syntax extension for JavaScript written to be used with React. It looks similar to HTML but it's not exactly HTML.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 6,
+        "sub_id": 4,
+        "user_id": 8,
+        "daho_id": 0,
+        "title": "Another React problem, need assistance!",
+        "award": 50,
+        "created_date": "1994-12-06",
+        "time": "",
+        "text": "React is a JavaScript library for building user interfaces.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 7,
+        "sub_id": 4,
+        "user_id": 9,
+        "daho_id": 0,
+        "title": "Câu hỏi khó, mong được giúp đỡ",
+        "award": 50,
+        "created_date": "1995-01-07",
+        "time": "",
+        "text": "Redux is a predictable state container for JavaScript apps.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 8,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Help needed with my React project",
+        "award": 50,
+        "created_date": "1996-02-08",
+        "time": "",
+        "text": "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 9,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React Native question, any advice?",
+        "award": 50,
+        "created_date": "1997-03-09",
+        "time": "",
+        "text": "React Native is a framework for building native apps using React.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 10,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React newbie here, looking for guidance",
+        "award": 50,
+        "created_date": "1998-04-10",
+        "time": "",
+        "text": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 11,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Mới học React, có gì khó khăn không vậy mọi người?",
+        "award": 50,
+        "created_date": "1999-05-11",
+        "time": "",
+        "text": "React Router is a standard library for routing in React.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 12,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React là gì? Mình cần một cái giải thích đơn giản",
+        "award": 50,
+        "created_date": "2000-06-12",
+        "time": "",
+        "text": "React là một thư viện JavaScript để xây dựng giao diện người dùng.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 13,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React Native có khó không khi mới bắt đầu?",
+        "award": 50,
+        "created_date": "2001-07-13",
+        "time": "",
+        "text": "React Native là một framework để xây dựng ứng dụng di động sử dụng React.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 14,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Mong được giúp đỡ về vấn đề này trong React",
+        "award": 50,
+        "created_date": "2002-08-14",
+        "time": "",
+        "text": "Lifecycle methods are special methods that get called automatically by React at different points in the component's life cycle.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 15,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Vấn đề với Redux, mong mọi người giúp đỡ",
+        "award": 50,
+        "created_date": "2003-09-15",
+        "time": "",
+        "text": "Redux helps you manage globalstate - state that is needed across many parts of your application.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 16,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Ai giúp mình với vấn đề này trong React?",
+        "award": 50,
+        "created_date": "2004-10-16",
+        "time": "",
+        "text": "React components let you split the UI into independent, reusable pieces, and think about each piece in isolation.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 17,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Mình đang gặp lỗi này trong React, có ai biết cách sửa không?",
+        "award": 50,
+        "created_date": "2005-11-17",
+        "time": "",
+        "text": "Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 18,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React newbie here, any tips?",
+        "award": 50,
+        "created_date": "2006-12-18",
+        "time": "",
+        "text": "React is declarative: you tell React what state you want the UI to be in, and it takes care of rendering that state.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 19,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "Mình đang gặp khó khăn với state trong React, ai giúp mình với?",
+        "award": 50,
+        "created_date": "2007-01-19",
+        "time": "",
+        "text": "State allows React components to change their output over time in response to user actions, network responses, and anything else.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      },
+      {
+        "card_id": 20,
+        "sub_id": 4,
+        "user_id": 3,
+        "daho_id": 0,
+        "title": "React question, need urgent help!",
+        "award": 50,
+        "created_date": "2008-02-20",
+        "time": "",
+        "text": "A key is a special string attribute you need to include when creating lists of elements in React.",
+        "img": "",
+        "is_reported": false,
+        "is_answered": false
+      }
+    ],
+  
+    "university":
+    [
+      {
+        "id": 1,
+        "name": "Trường Đại học Bách Khoa",
+        "icon": "./icons/bku.webp",
+        "code": "bku",
+        "src": ["'./CarouselImage/bku1.webp'", "./CarouselImage/bku2.webp", "./CarouselImage/bku3.jpg"],
+        "drl": 1,
+        "desc": "Được thành lập vào năm 1957, Trường Đại học Bách Khoa là một trong những trường đại học hàng đầu về kỹ thuật và công nghệ tại Việt Nam. Trường có nhiều chương trình đào tạo từ cử nhân đến tiến sĩ, với một lượng lớn sinh viên và đội ngũ giảng viên chất lượng cao. Trường Đại học Bách Khoa không chỉ nổi tiếng với chất lượng đào tạo mà còn với môi trường nghiên cứu sôi động, thu hút nhiều học giả và nhà nghiên cứu hàng đầu."
+      },
+      {
+        "id": 2,
+        "name": "Trường Đại học Khoa học tự nhiên",
+        "icon": "./icons/khtn.webp",
+        "code": "khtn",
+        "src": ["./CarouselImage/khtn1.jpg", "./CarouselImage/khtn2.jpg", "./CarouselImage/khtn3.jpg"],
+        "drl": 2,
+        "desc": "Trường Đại học Khoa học tự nhiên, thành lập vào năm 1996, là một trường đại học nổi tiếng với các chương trình đào tạo trong lĩnh vực khoa học tự nhiên như toán học, vật lý, hóa học, sinh học, và nhiều ngành khác. Trường có một đội ngũ giảng viên tận tâm và nhiều cơ sở vật chất hiện đại, tạo điều kiện tốt nhất cho sinh viên nghiên cứu và học tập."
+      },
+      {
+        "id": 3,
+        "name": "Trường Đại học Khoa học Xã hội và Nhân văn",
+        "icon": "./icons/ussh.png",
+        "code": "ussh",
+        "src": ["./CarouselImage/ussh1.jpg", "./CarouselImage/ussh2.jpg", "./CarouselImage/ussh3.jpg"],
+        "drl": 1,
+        "desc": "Trường Đại học Khoa học Xã hội và Nhân văn, một trong những thành viên đầu tiên của ĐHQG HCM, được thành lập vào năm 1957. Trường tập trung vào các ngành học trong lĩnh vực xã hội và nhân văn, bao gồm lịch sử, văn học, triết học, ngôn ngữ học, và nhiều ngành khác."
+      },
+      {
+        "id": 4,
+        "name": "Trường Đại học Quốc tế",
+        "icon": "./icons/iu.png",
+        "code": "iu",
+        "src": ["./CarouselImage/iu1.jpg", "./CarouselImage/iu2.jpg", "./CarouselImage/iu3.jpg"],
+        "drl": 5,
+        "desc": "Trường Đại học Quốc tế, một thành viên của Đại học Quốc gia Hồ Chí Minh, được thành lập vào năm 2003. Trường cung cấp một môi trường học tập quốc tế với nhiều chương trình đào tạo bằng tiếng Anh và có nhiều cơ hội học tập tại nước ngoài. Trường Đại học Quốc tế đặc biệt mạnh về các ngành học như Kinh doanh và Quản trị, Khoa học và Công nghệ, và Khoa học Xã hội và Nhân văn."
+      },
+      {
+        "id": 5,
+        "name": "Trường Đại học Công nghệ thông tin",
+        "icon": "./icons/uit.png",
+        "code": "uit",
+        "src": ["./CarouselImage/uit1.jpg", "./CarouselImage/uit2.jpg", "./CarouselImage/uit3.jpg"],
+        "drl": 3,
+        "desc": "Trường Đại học Công nghệ thông tin, thành lập vào năm 2006, là một trường đại học chuyên về đào tạo trong lĩnh vực công nghệ thông tin và kỹ thuật máy tính. Trường có mục tiêu đào tạo ra những chuyên gia công nghệ thông tin hàng đầu, có khả năng cạnh tranh với các chuyên gia quốc tế."
+      },
+      {
+        "id": 6,
+        "name": "Trường Đại học Kinh tế - Luật",
+        "icon": "./icons/uel.png",
+        "code": "uel",
+        "src": ["./CarouselImage/uel1.jpg", "./CarouselImage/uel2.jpg", "./CarouselImage/uel3.jpg"],
+        "drl": 5,
+        "desc": "Trường Đại học Kinh tế - Luật, thành lập vào năm 2010, là một trường đại học chuyên về kinh tế và luật. Trường cung cấp các chương trình đào tạo từ cử nhân đến tiến sĩ, giúp sinh viên phát triển kỹ năng phân tích và hiểu biết sâu rộng về kinh tế và hệ thống pháp luật."
+      },
+      {
+        "id": 7,
+        "name": "Trường Đại học An Giang",
+        "icon": "./icons/agu.png",
+        "code": "agu",
+        "src": ["./CarouselImage/agu1.jpg", "./CarouselImage/agu2.jpg", "./CarouselImage/agu3.jpg"],
+        "drl": 10,
+        "desc": "Trường Đại học An Giang, thành lập vào năm 1999, là một trường đại học đa ngành, đa bậc, đa hình thức, đáp ứng nhu cầu đào tạo nguồn nhân lực chất lượng cao cho khu vực Đồng bằng sông Cửu Long nói chung và tỉnh An Giang nói riêng."
+      },
+      {
+        "id": 8,
+        "name": "Trường Đại học Khoa học sức khỏe",
+        "icon": "./icons/khsk.png",
+        "code": "khsk",
+        "src": ["./CarouselImage/khsk1.jpg", "./CarouselImage/khsk2.jpg", "./CarouselImage/khsk3.jpg"],
+        "drl": 1,
+        "desc": "Trường Đại học Khoa học sức khỏe, tiền thân là Khoa Y - ĐHQG HCM được thành lập vào năm 2009, là trường đại học chuyên về đào tạo trong lĩnh vực y tế và sức khỏe. Trường có mục tiêu đào tạo ra những chuyên gia y tế chất lượng cao, có khả năng cung cấp dịch vụ y tế chất lượng cho cộng đồng."
+  
+      },
+      {
+        "id": 9,
+        "name": "Viện Môi trường - Tài nguyên",
+        "icon": "./icons/mttn.png",
+        "code": "mttn",
+        "src": ["./CarouselImage/mttn1.jpg", "./CarouselImage/mttn2.jpg", "./CarouselImage/mttn3.jpg"],
+        "desc": "Viện Môi trường - Tài nguyên, thành lập vào năm 1996 , là một đơn vị trực thuộc Đại học Quốc gia Hồ Chí Minh. Viện tập trung vào nghiên cứu và đào tạo trong lĩnh vực quản lý môi trường và tài nguyên, giúp sinh viên hiểu rõ về tầm quan trọng của việc bảo vệ môi trường và sử dụng tài nguyên một cách bền vững."
+      },
+      {
+        "id": 10,
+        "name": "Khoa Chính trị - Hành chính",
+        "icon": "./icons/tthc.png",
+        "code": "tthc",
+        "src": ["./CarouselImage/tthc2.jpg", "./CarouselImage/tthc3.jpg", "./CarouselImage/tthc1.jpg"],
+        "desc": "Khoa chính trị - Hành chính là đơn vị trực thuộc ĐHQG-HCM. Khoa được thành lập vào năm 2019 trên cơ sở nâng cấp Trung tâm lý luận chính trị. Khoa cung cấp các chương trình đào tạo trong lĩnh vực chính trị học và quản lý công, giúp sinh viên phát triển kỹ năng lãnh đạo và hiểu biết về hệ thống chính trị."
+      },
+      {
+        "id": 11,
+        "name": "Phân hiệu ĐHQG tại Bến Tre",
+        "icon": "./icons/bentre.png",
+        "code": "bentre",
+        "src": ["./CarouselImage/bentre1.jpg", "./CarouselImage/bentre2.jpg", "./CarouselImage/bentre3.jpg"],
+        "desc": "Phân hiệu ĐHQG tại Bến Tre, thành lập vào năm 2017, là một đơn vị trực thuộc Đại học Quốc gia Hồ Chí Minh. Phân hiệu cung cấp nhiều chương trình đào tạo đa dạng để phục vụ nhu cầu đào tạo nguồn nhân lực cho khu vực."
+      },
+      {
+        "id": 12,
+        "name": "Trường Phổ thông Năng khiếu",
+        "icon": "./icons/ptnk.png",
+        "code": "ptnk",
+        "src": ["./CarouselImage/ptnk1.jpg", "./CarouselImage/ptnk2.jpg", "./CarouselImage/ptnk3.jpg"],
+        "desc": "Trường Phổ thông Năng khiếu, thành lập vào năm 1996, là một trường phổ thông chuyên chất lượng cao của Đại học Quốc gia Hồ Chí Minh. Trường cung cấp một môi trường học tập chất lượng cao cho học sinh phổ thông, với mục tiêu phát triển toàn diện cả về học thuật và năng khiếu."
+      },
+      {
+        "id": 13,
+        "name": "Trường Trung học Thực hành sư phạm An Giang",
+        "icon": "./icons/thsp.png",
+        "code": "thsp",
+        "src": ["./CarouselImage/thsp1.jpg", "./CarouselImage/thsp2.jpg", "./CarouselImage/thsp3.jpg"],
+        "desc": "Trường Trung học Thực hành sư phạm An Giang, thành lập vào năm 1989, là một trường trung học chất lượng cao của Trường Đại học An Giang. Trường là nơi thực hành sư phạm cho sinh viên ngành Giáo dục, đồng thời cung cấp một môi trường học tập chất lượng cho học sinh trên địa bàn tỉnh An Giang nói riêng và vùng Đồng bằng Sông Cửu Long nói chung."
+      }
+    ],
+    "fal":
+    [
+      {
+        "fal_id": 1,
+        "uni_id": 1,
+        "name": "Khoa Cơ khí",
+        "code": "cokhi"
+      },
+      {
+        "fal_id": 2,
+        "uni_id": 1,
+        "name": "Khoa Công nghệ Vật liệu",
+        "code": "congnghevatlieu"
+      },
+      {
+        "fal_id": 3,
+        "uni_id": 1,
+        "name": "Khoa Điện - Điện tử",
+        "code": "diendientu"
+      },
+      {
+        "fal_id": 4,
+        "uni_id": 1,
+        "name": "Khoa Khoa học Ứng dụng",
+        "code": "khoahocungdung"
+      },
+      {
+        "fal_id": 5,
+        "uni_id": 1,
+        "name": "Khoa Khoa học và Kỹ thuật Máy tính",
+        "code": "khoahocvakythuatmaytinh"
+      },
+      {
+        "fal_id": 6,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Địa chất và Dầu khí",
+        "code": "kythuatdiachatvadaukhi"
+      },
+      {
+        "fal_id": 7,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Giao thông",
+        "code": "kythuatgiaothong"
+      },
+      {
+        "fal_id": 8,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Hóa học",
+        "code": "kythuathoahoc"
+      },
+      {
+        "fal_id": 9,
+        "uni_id": 1,
+        "name": "Khoa Kỹ thuật Xây dựng",
+        "code": "kythuatxaydung"
+      },
+      {
+        "fal_id": 10,
+        "uni_id": 1,
+        "name": "Khoa Môi trường và Tài nguyên",
+        "code": "moitruongvatainguyen"
+      },
+      {
+        "fal_id": 11,
+        "uni_id": 1,
+        "name": "Khoa Quản lý Công nghiệp",
+        "code": "quanlycongnghiep"
+      },
+      {
+        "fal_id": 12,
+        "uni_id": 2,
+        "name": "Khoa Công nghệ thông tin",
+        "code": "congnghethongtin"
+      },
+      {
+        "fal_id": 13,
+        "uni_id": 2,
+        "name": "Khoa Toán – Tin học",
+        "code": "toantinhoc"
+      },
+      {
+        "fal_id": 14,
+        "uni_id": 2,
+        "name": "Khoa Vật lý – Vật lý Kỹ thuật",
+        "code": "vatlyvatlykythuat"
+      },
+      {
+        "fal_id": 15,
+        "uni_id": 2,
+        "name": "Khoa Hóa học",
+        "code": "hoahoc"
+      },
+      {
+        "fal_id": 16,
+        "uni_id": 2,
+        "name": "Khoa Sinh học & Công nghệ Sinh học",
+        "code": "sinhhoccongnghesinhoc"
+      },
+      {
+        "fal_id": 17,
+        "uni_id": 2,
+        "name": "Khoa Môi trường",
+        "code": "moitruong"
+      },
+      {
+        "fal_id": 18,
+        "uni_id": 2,
+        "name": "Khoa Khoa học và Công nghệ vật liệu",
+        "code": "khoahocvacongnghieuvatlieu"
+      },
+      {
+        "fal_id": 19,
+        "uni_id": 2,
+        "name": "Khoa Địa chất",
+        "code": "diachat"
+      },
+      {
+        "fal_id": 20,
+        "uni_id": 2,
+        "name": "Khoa Điện tử Viễn thông",
+        "code": "dientuviensong"
+      },
+      {
+        "fal_id": 21,
+        "uni_id": 3,
+        "name": "Khoa Báo chí và truyền thông",
+        "code": "baochivatruyenthong"
+      },
+      {
+        "fal_id": 22,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Anh",
+        "code": "nguvananh"
+      },
+      {
+        "fal_id": 23,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Nga",
+        "code": "nguvannga"
+      },
+      {
+        "fal_id": 24,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Pháp",
+        "code": "nguvanphap"
+      },
+      {
+        "fal_id": 25,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Trung Quốc",
+        "code": "nguvantrungquoc"
+      },
+      {
+        "fal_id": 26,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Đức",
+        "code": "nguvanduc"
+      },
+      {
+        "fal_id": 27,
+        "uni_id": 3,
+        "name": "Khoa Hàn Quốc học",
+        "code": "hanquochoc"
+      },
+      {
+        "fal_id": 28,
+        "uni_id": 3,
+        "name": "Khoa Nhật Bản học",
+        "code": "nhatbanhoc"
+      },
+      {
+        "fal_id": 29,
+        "uni_id": 3,
+        "name": "Khoa Văn hóa học",
+        "code": "vanhoahoc"
+      },
+      {
+        "fal_id": 30,
+        "uni_id": 3,
+        "name": "Khoa Nhân học",
+        "code": "nhanhoc"
+      },
+      {
+        "fal_id": 31,
+        "uni_id": 3,
+        "name": "Khoa Triết học",
+        "code": "triethoc"
+      },
+      {
+        "fal_id": 32,
+        "uni_id": 3,
+        "name": "Khoa Lịch sử",
+        "code": "lichsu"
+      },
+      {
+        "fal_id": 33,
+        "uni_id": 3,
+        "name": "Khoa Văn học",
+        "code": "vanhoc"
+      },
+      {
+        "fal_id": 34,
+        "uni_id": 3,
+        "name": "Khoa Giáo dục",
+        "code": "giaoduc"
+      },
+      {
+        "fal_id": 35,
+        "uni_id": 3,
+        "name": "Khoa Xã hội học",
+        "code": "xahoihoc"
+      },
+      {
+        "fal_id": 36,
+        "uni_id": 3,
+        "name": "Khoa Quan hệ quốc tế",
+        "code": "quanhequocte"
+      },
+      {
+        "fal_id": 37,
+        "uni_id": 3,
+        "name": "Khoa Thư viện - Thông tin học",
+        "code": "thuvienthongtinhoc"
+      },
+      {
+        "fal_id": 38,
+        "uni_id": 3,
+        "name": "Khoa Ngôn ngữ học",
+        "code": "ngonnguhoc"
+      },
+      {
+        "fal_id": 39,
+        "uni_id": 3,
+        "name": "Khoa Việt Nam học",
+        "code": "vietnamhoc"
+      },
+      {
+        "fal_id": 40,
+        "uni_id": 3,
+        "name": "Khoa Đông phương học",
+        "code": "dongphuonghoc"
+      },
+      {
+        "fal_id": 41,
+        "uni_id": 3,
+        "name": "Khoa Công tác xã hội",
+        "code": "congtacxahoi"
+      },
+      {
+        "fal_id": 42,
+        "uni_id": 3,
+        "name": "Khoa Đô thị học",
+        "code": "dothihoc"
+      },
+      {
+        "fal_id": 43,
+        "uni_id": 3,
+        "name": "Khoa Du lịch",
+        "code": "dulich"
+      },
+      {
+        "fal_id": 44,
+        "uni_id": 3,
+        "name": "Khoa Tâm lý học",
+        "code": "tamlyhoc"
+      },
+      {
+        "fal_id": 45,
+        "uni_id": 3,
+        "name": "Khoa Giáo dục",
+        "code": "giaoduc"
+      },
+      {
+        "fal_id": 46,
+        "uni_id": 3,
+        "name": "Khoa Lưu trữ học và quản trị văn phòng",
+        "code": "luutruhovaquantrivanphong"
+      },
+      {
+        "fal_id": 47,
+        "uni_id": 3,
+        "name": "Khoa Địa lý",
+        "code": "dialy"
+      },
+      {
+        "fal_id": 48,
+        "uni_id": 3,
+        "name": "Khoa Ngữ văn Tây Ban Nha - Italia",
+        "code": "nguvantaybanhaitalia"
+      },
+      {
+        "fal_id": 49,
+        "uni_id": 3,
+        "name": "Khoa Khoa học liên ngành",
+        "code": "khoahoclienganh"
+      },
+      {
+        "fal_id": 50,
+        "uni_id": 4,
+        "name": "Khoa Quản trị Kinh doanh",
+        "code": "quantrikinhdoanh"
+      },
+      {
+        "fal_id": 51,
+        "uni_id": 4,
+        "name": "Khoa Kinh tế, Tài chính và Kế toán",
+        "code": "kinhtetaichinhvakteoan"
+      },
+      {
+        "fal_id": 52,
+        "uni_id": 4,
+        "name": "Khoa Công nghệ Thông tin",
+        "code": "congnghethongtin"
+      },
+      {
+        "fal_id": 53,
+        "uni_id": 4,
+        "name": "Khoa Điện tử Viễn thông",
+        "code": "dientuviensong"
+      },
+      {
+        "fal_id": 54,
+        "uni_id": 4,
+        "name": "Khoa Công nghệ Sinh học",
+        "code": "congnghesinhoc"
+      },
+      {
+        "fal_id": 55,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật Y sinh",
+        "code": "kythuatysinh"
+      },
+      {
+        "fal_id": 56,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật và Quản lý Công nghiệp",
+        "code": "kythuatvaquanlycongnghiep"
+      },
+      {
+        "fal_id": 57,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật Hóa học và Môi trường",
+        "code": "kythuathoahocvamoitruong"
+      },
+      {
+        "fal_id": 58,
+        "uni_id": 4,
+        "name": "Khoa Kỹ thuật và Quản lý Xây dựng",
+        "code": "kythuatvaquanlyxaydung"
+      },
+      {
+        "fal_id": 59,
+        "uni_id": 4,
+        "name": "Khoa Ngôn ngữ",
+        "code": "ngonngu"
+      },
+      {
+        "fal_id": 60,
+        "uni_id": 5,
+        "name": "Khoa Khoa học máy tính",
+        "code": "khoahocmaytinh"
+      },
+      {
+        "fal_id": 61,
+        "uni_id": 5,
+        "name": "Khoa Công nghệ phần mềm",
+        "code": "congnghephanmem"
+      },
+      {
+        "fal_id": 62,
+        "uni_id": 5,
+        "name": "Khoa Kỹ thuật máy tính",
+        "code": "kythuatmaytinh"
+      },
+      {
+        "fal_id": 63,
+        "uni_id": 5,
+        "name": "Khoa Hệ thống thông tin",
+        "code": "hethongthongtin"
+      },
+      {
+        "fal_id": 64,
+        "uni_id": 5,
+        "name": "Khoa Mạng máy tính và truyền thông",
+        "code": "mangmaytinhvatruyenthong"
+      },
+      {
+        "fal_id": 65,
+        "uni_id": 5,
+        "name": "Khoa Khoa học và Kỹ thuật Thông tin",
+        "code": "khoahocvakythuatthongtin"
+      },
+      {
+        "fal_id": 66,
+        "uni_id": 6,
+        "name": "Khoa Kinh tế",
+        "code": "kinhte"
+      },
+      {
+        "fal_id": 67,
+        "uni_id": 6,
+        "name": "Khoa Kinh tế đối ngoại",
+        "code": "kinhtedoingoai"
+      },
+      {
+        "fal_id": 68,
+        "uni_id": 6,
+        "name": "Khoa Tài chính – Ngân hàng",
+        "code": "taichinhnganhang"
+      },
+      {
+        "fal_id": 69,
+        "uni_id": 6,
+        "name": "Khoa Kế toán - Kiểm toán",
+        "code": "ketoankiemtoan"
+      },
+      {
+        "fal_id": 70,
+        "uni_id": 6,
+        "name": "Khoa Quản trị kinh doanh",
+        "code": "quantrikinhdoanh2"
+      },
+      {
+        "fal_id": 71,
+        "uni_id": 6,
+        "name": "Khoa Hệ thống thông tin",
+        "code": "hethongthongtin2"
+      },
+      {
+        "fal_id": 72,
+        "uni_id": 6,
+        "name": "Khoa Toán kinh tế",
+        "code": "toankinhte"
+      },
+      {
+        "fal_id": 73,
+        "uni_id": 6,
+        "name": "Khoa Luật",
+        "code": "luat"
+      },
+      {
+        "fal_id": 74,
+        "uni_id": 6,
+        "name": "Khoa Luật kinh tế",
+        "code": "luatkinhte"
+      }
+    ],
+    "maj":
+    [
+      {
+        "maj_id": 1,
+        "fal_id": 1,
+        "name": "Ngành Cơ khí",
+        "desc": "Ngành Cơ khí liên quan đến việc thiết kế, sản xuất và vận hành các hệ thống cơ khí, máy móc và công cụ.",
+        "img": "./major/cokhi.jpg"
+      },
+      {
+        "maj_id": 2,
+        "fal_id": 2,
+        "name": "Ngành Công nghệ Vật liệu",
+        "desc": "Ngành Công nghệ Vật liệu nghiên cứu và ứng dụng các vật liệu mới, cũng như cải tiến và chế tạo các vật liệu hiện có để đáp ứng nhu cầu của công nghiệp và xã hội.",
+        "img": "./major/congnghevatlieu.jpg"
+      },
+      {
+        "maj_id": 3,
+        "fal_id": 12,
+        "name": "Ngành Công nghệ thông tin",
+        "desc": "Ngành Công nghệ thông tin liên quan đến việc nghiên cứu, phát triển và ứng dụng các công nghệ và phần mềm để xây dựng các hệ thống thông tin và giải quyết các vấn đề liên quan đến thông tin trong xã hội và doanh nghiệp.",
+        "img": "./major/congnghethongtin.jpg"
+      },
+      {
+        "maj_id": 4,
+        "fal_id": 13,
+        "name": "Ngành Toán – Tin học",
+        "desc": "Ngành Toán – Tin học kết hợp giữa kiến thức toán học và công nghệ thông tin để nghiên cứu và giải quyết các vấn đề phức tạp trong nhiều lĩnh vực khác nhau như khoa học máy tính, trí tuệ nhân tạo, khoa học dữ liệu, và các hệ thống thông tin.",
+        "img": "./major/toantinhoc.jpg"
+      },
+      {
+        "maj_id": 5,
+        "fal_id": 22,
+        "name": "Ngành Ngữ văn Anh",
+        "desc": "Ngành Ngữ văn Anh tập trung vào việc nghiên cứu và hiểu sâu về văn hóa, văn học và ngôn ngữ của người Anh và các nước sử dụng tiếng Anh.",
+        "img": "./major/nguvananh.jpg"
+      },
+      {
+        "maj_id": 6,
+        "fal_id": 23,
+        "name": "Ngành Ngữ văn Nga",
+        "desc": "Ngành Ngữ văn Nga nghiên cứu về văn hóa, văn học và ngôn ngữ của người Nga và các nước sử dụng tiếng Nga, từ đó hiểu sâu về lịch sử và văn hóa của khu vực này.",
+        "img": "./major/nguvannga.jpg"
+      },
+      {
+        "maj_id": 7,
+        "fal_id": 50,
+        "name": "Ngành Quản trị Kinh doanh",
+        "desc": "Ngành Quản trị Kinh doanh tập trung vào việc nghiên cứu, phát triển và thực hiện các chiến lược và quy trình quản trị để điều hành hiệu quả các tổ chức và doanh nghiệp trong môi trường kinh doanh đa dạng và biến đổi.",
+        "img": "./major/quantrikinhdoanh.jpg"
+      },
+      {
+        "maj_id": 8,
+        "fal_id": 51,
+        "name": "Ngành Kinh tế, Tài chính và Kế toán",
+        "desc": "Ngành Kinh tế, Tài chính và Kế toán nghiên cứu về các khía cạnh của kinh tế, tài chính và kế toán, từ việc phân tích dữ liệu tài chính đến việc đưa ra các quyết định chiến lược về tài chính và kinh doanh.",
+        "img": "./major/kinhtetaichinhvakteoan.jpg"
+      },
+      {
+        "maj_id": 9,
+        "fal_id": 60,
+        "name": "Ngành Khoa học máy tính",
+        "desc": "Ngành Khoa học máy tính nghiên cứu về các khía cạnh của khoa học máy tính, từ lập trình cơ bản đến phát triển và áp dụng các thuật toán phức tạp trong các lĩnh vực như trí tuệ nhân tạo, học máy, và xử lý ngôn ngữ tự nhiên.",
+        "img": "./major/khoahocmaytinh.jpg"
+      },
+      {
+        "maj_id": 10,
+        "fal_id": 61,
+        "name": "Ngành Kỹ thuật phần mềm",
+        "desc": "Ngành Kỹ thuật phần mềm tập trung vào việc phát triển và quản lý các sản phẩm phần mềm, từ quy trình phát triển đến kiểm thử và triển khai.",
+        "img": "./major/kythuatphanmem.jpg"
+      },
+      {
+        "maj_id": 11,
+        "fal_id": 62,
+        "name": "Ngành Kỹ thuật máy tính",
+        "desc": "Ngành Kỹ thuật máy tính tập trung vào việc nghiên cứu, thiết kế và phát triển các hệ thống phần cứng và phần mềm của máy tính.",
+        "img": "./major/kythuatmaytinh.jpg"
+      },
+      {
+        "maj_id": 12,
+        "fal_id": 63,
+        "name": "Ngành Hệ thống thông tin",
+        "desc": "Ngành Hệ thống thông tin nghiên cứu và phát triển các hệ thống thông tin, từ cơ sở dữ liệu đến hệ thống quản lý thông tin và hệ thống thông tin quản lý.",
+        "img": "./major/hethongthongtin.jpg"
+      },
+      {
+        "maj_id": 13,
+        "fal_id": 64,
+        "name": "Ngành Mạng máy tính và truyền thông dữ liệu",
+        "desc": "Ngành Mạng máy tính và truyền thông dữ liệu tập trung vào việc nghiên cứu, thiết kế và quản lý các mạng máy tính và hệ thống truyền thông.",
+        "img": "./major/mangmaytinhvatruyenthongdulieu.jpg"
+      },
+      {
+        "maj_id": 14,
+        "fal_id": 65,
+        "name": "Ngành Công nghệ thông tin",
+        "desc": "Ngành Công nghệ thông tin kết hợp giữa kiến thức về khoa học máy tính và kỹ thuật thông tin để nghiên cứu và phát triển các hệ thống thông tin và ứng dụng.",
+        "img": "./major/congnghethongtin.jpg"
+      },
+      {
+        "maj_id": 15,
+        "fal_id": 63,
+        "name": "Ngành Thương mại Điện tử",
+        "desc": "Ngành Thương mại điện tử tập trung vào việc sử dụng công nghệ thông tin để thực hiện các giao dịch thương mại trên mạng internet. Nó không chỉ bao gồm việc mua bán hàng hóa và dịch vụ trực tuyến mà còn bao gồm các hoạt động như quảng cáo trực tuyến, marketing số, và quản lý quan hệ khách hàng. Ngành này đòi hỏi hiểu biết sâu rộng về cả các quy trình thương mại và công nghệ thông tin, đồng thời cũng cần phải hiểu rõ về quy định pháp lý và các vấn đề bảo mật trong thương mại điện tử.",
+        "img": "./major/thuongmaidientu.jpg"
+      },
+      {
+        "maj_id": 16,
+        "fal_id": 64,
+        "name": "Ngành An toàn thông tin",
+        "desc": "Ngành An toàn thông tin tập trung vào việc bảo vệ thông tin và dữ liệu quan trọng khỏi các mối đe dọa và tấn công mạng. Các chuyên gia trong ngành này thường tìm kiếm và phát triển các giải pháp bảo mật để ngăn chặn các cuộc tấn công mạng, bảo vệ hệ thống và mạng máy tính khỏi vi rút, phần mềm độc hại và truy cập trái phép. Công việc trong ngành này đòi hỏi sự am hiểu sâu rộng về các phương pháp tấn công và biện pháp bảo vệ, cũng như luôn cập nhật với các xu hướng mới và tiến triển trong lĩnh vực an ninh mạng.",
+        "img": "./major/antoanthongtin.jpg"
+      },
+      {
+        "maj_id": 17,
+        "fal_id": 60,
+        "name": "Ngành Trí tuệ Nhân tạo",
+        "desc": "Ngành Trí tuệ nhân tạo tập trung vào việc nghiên cứu và phát triển các hệ thống và máy tính có khả năng tự học và tự thích nghi. Các ứng dụng của trí tuệ nhân tạo bao gồm nhận diện giọng nói, nhận diện hình ảnh, tự động lái xe, và xử lý ngôn ngữ tự nhiên. Công việc trong ngành này đòi hỏi sự hiểu biết vững chắc về các thuật toán máy học, học sâu và học tăng cường, cũng như khả năng áp dụng chúng vào các vấn đề thực tế.",
+        "img": "./major/trituenhantao.jpg"
+      },
+      {
+        "maj_id": 18,
+        "fal_id": 65,
+        "name": "Ngành Công nghệ thông tin Việt-Nhật",
+        "desc": "Ngành Công nghệ thông tin Việt-Nhật tập trung vào việc hợp tác và phát triển các công nghệ thông tin giữa Việt Nam và Nhật Bản. Công việc trong ngành này có thể bao gồm nghiên cứu và phát triển các sản phẩm và dịch vụ công nghệ thông tin dựa trên nền tảng công nghệ của Nhật Bản, cũng như việc hỗ trợ và tương tác với các đối tác và khách hàng Nhật Bản.",
+        "img": "./major/congnghethongtinvietnhat.jpg"
+      },
+      {
+        "maj_id": 19,
+        "fal_id": 65,
+        "name": "Ngành Khoa học dữ liệu",
+        "desc": "Ngành Khoa học dữ liệu tập trung vào việc thu thập, phân tích và áp dụng dữ liệu để đưa ra các quyết định thông minh và hiểu biết sâu rộng về các mô hình và xu hướng trong dữ liệu. Công việc trong ngành này đòi hỏi sự thành thạo về các kỹ thuật xử lý dữ liệu, khai phá dữ liệu và học máy, cũng như khả năng tạo ra giá trị từ dữ liệu thông qua phân tích và hình dung.",
+        "img": "./major/khoahocdulieu.jpg"
+      },
+      {
+        "maj_id": 20,
+        "fal_id": 62,
+        "name": "Ngành Thiết kế vi mạch",
+        "desc": "Ngành Thiết kế Vi mạch là một lĩnh vực chuyên sâu trong ngành Kỹ thuật máy tính. Ngành này tập trung vào việc nghiên cứu, phát triển và thiết kế các hệ thống vi mạch tích hợp trên nền tảng các bản mạch điện tử. Các vi mạch này thường được tích hợp vào các sản phẩm điện tử, như điện thoại di động, máy tính, thiết bị y tế, ô tô thông minh và nhiều ứng dụng khác.",
+        "img": "./major/thietkevimach.jpg"
+      },
+      {
+        "maj_id": 21,
+        "fal_id": 66,
+        "name": "Ngành Kinh tế",
+        "desc": "Ngành Kinh tế tập trung vào việc nghiên cứu về cách tổ chức và quản lý các nguồn lực kinh tế để đạt được mục tiêu của tổ chức hoặc quốc gia. Nó bao gồm nghiên cứu về sản xuất, phân phối và tiêu thụ hàng hóa và dịch vụ trong nền kinh tế.",
+        "img": "./major/kinhte.jpg"
+      },
+      {
+        "maj_id": 22,
+        "fal_id": 67,
+        "name": "Ngành Kinh tế đối ngoại",
+        "desc": "Ngành Kinh tế đối ngoại tập trung vào việc nghiên cứu về các quan hệ kinh tế giữa các quốc gia và vùng lãnh thổ khác nhau trên thế giới. Nó bao gồm nghiên cứu về thương mại quốc tế, đầu tư trực tiếp nước ngoài, tài chính quốc tế và các vấn đề liên quan đến hợp tác kinh tế quốc tế.",
+        "img": "./major/kinhtedoingoai.jpg"
+      }
+    ],
+    "sub":
+    [
+      {
+        "sub_id": 1,
+        "maj_id": 1,
+        "name": "Cơ lý thuyết",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cơ lý thuyết cung cấp kiến thức về các nguyên lý cơ bản của cơ học."
+      },
+      {
+        "sub_id": 2,
+        "maj_id": 1,
+        "name": "Thiết kế cơ khí",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thiết kế cơ khí tập trung vào quy trình thiết kế và ứng dụng các phần mềm CAD trong ngành cơ khí."
+      },
+      {
+        "sub_id": 3,
+        "maj_id": 1,
+        "name": "CNC và sản xuất",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học CNC và sản xuất giúp sinh viên hiểu về quy trình sản xuất và vận hành các máy CNC."
+      },
+      {
+        "sub_id": 4,
+        "maj_id": 1,
+        "name": "Vật liệu và cấu tạo cơ khí",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Vật liệu và cấu tạo cơ khí giới thiệu về các vật liệu và cấu tạo cơ bản trong ngành cơ khí."
+      },
+      {
+        "sub_id": 5,
+        "maj_id": 1,
+        "name": "Kỹ thuật nhiệt",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kỹ thuật nhiệt tập trung vào nghiên cứu về truyền nhiệt và ứng dụng trong ngành cơ khí."
+      },
+      {
+        "sub_id": 6,
+        "maj_id": 2,
+        "name": "Cấu trúc và tính chất vật liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cấu trúc và tính chất vật liệu giúp sinh viên hiểu về cấu trúc và các tính chất của vật liệu."
+      },
+      {
+        "sub_id": 7,
+        "maj_id": 2,
+        "name": "Tổ hợp vật liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Tổ hợp vật liệu giới thiệu về các quy trình và ứng dụng của việc kết hợp các loại vật liệu khác nhau."
+      },
+      {
+        "sub_id": 8,
+        "maj_id": 2,
+        "name": "Công nghệ gia công vật liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Công nghệ gia công vật liệu tập trung vào các phương pháp gia công và ứng dụng trong sản xuất vật liệu."
+      },
+      {
+        "sub_id": 9,
+        "maj_id": 2,
+        "name": "Vật liệu chịu lực",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Vật liệu chịu lực nghiên cứu về các loại vật liệu được sử dụng trong các ứng dụng chịu lực và cơ khí."
+      },
+      {
+        "sub_id": 10,
+        "maj_id": 2,
+        "name": "Vật liệu chuyển đổi nhiệt",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Vật liệu chuyển đổi nhiệt tập trung vào các vật liệu được sử dụng trong các ứng dụng chuyển đổi nhiệt và năng lượng."
+      },
+      {
+        "sub_id": 11,
+        "maj_id": 3,
+        "name": "Lập trình C",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lập trình C giúp sinh viên hiểu về cú pháp và nguyên tắc lập trình bằng ngôn ngữ lập trình C cơ bản."
+      },
+      {
+        "sub_id": 12,
+        "maj_id": 3,
+        "name": "Cơ sở dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cơ sở dữ liệu giới thiệu về các khái niệm cơ bản và quy trình thiết kế cơ sở dữ liệu."
+      },
+      {
+        "sub_id": 13,
+        "maj_id": 3,
+        "name": "Hệ điều hành",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hệ điều hành tập trung vào nghiên cứu về nguyên lý hoạt động và quản lý của hệ điều hành."
+      },
+      {
+        "sub_id": 14,
+        "maj_id": 3,
+        "name": "Mạng máy tính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Mạng máy tính giới thiệu về các khái niệm cơ bản và quy trình thiết kế, triển khai và quản lý mạng máy tính."
+      },
+      {
+        "sub_id": 15,
+        "maj_id": 3,
+        "name": "Phát triển ứng dụng web",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phát triển ứng dụng web tập trung vào việc lập trình và phát triển các ứng dụng web hiện đại."
+      },
+      {
+        "sub_id": 16,
+        "maj_id": 4,
+        "name": "Giải tích",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Giải tích giúp sinh viên hiểu và áp dụng các phương pháp giải tích trong giải quyết các vấn đề toán học và tin học."
+      },
+      {
+        "sub_id": 17,
+        "maj_id": 4,
+        "name": "Lập trình Java",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lập trình Java giúp sinh viên hiểu về ngôn ngữ lập trình Java và phát triển các ứng dụng sử dụng Java."
+      },
+      {
+        "sub_id": 18,
+        "maj_id": 4,
+        "name": "Cấu trúc dữ liệu và giải thuật",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cấu trúc dữ liệu và giải thuật giúp sinh viên hiểu về cấu trúc dữ liệu và các giải thuật phổ biến trong lập trình."
+      },
+      {
+        "sub_id": 19,
+        "maj_id": 4,
+        "name": "Hệ thống điều khiển",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hệ thống điều khiển tập trung vào nghiên cứu về nguyên lý hoạt động và ứng dụng của hệ thống điều khiển tự động."
+      },
+      {
+        "sub_id": 20,
+        "maj_id": 4,
+        "name": "Trí tuệ nhân tạo",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Trí tuệ nhân tạo giới thiệu về các khái niệm và ứng dụng của trí tuệ nhân tạo trong lĩnh vực máy tính và tin học."
+      },
+      {
+        "sub_id": 21,
+        "maj_id": 5,
+        "name": "Văn học Anh",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Văn học Anh tập trung vào việc nghiên cứu về các tác phẩm văn học tiếng Anh và văn hóa Anh Quốc."
+      },
+      {
+        "sub_id": 22,
+        "maj_id": 5,
+        "name": "Ngôn ngữ Anh phổ thông",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ngôn ngữ Anh phổ thông giúp sinh viên cải thiện kỹ năng nghe, nói, đọc và viết tiếng Anh."
+      },
+      {
+        "sub_id": 23,
+        "maj_id": 5,
+        "name": "Lịch sử và văn hóa Anh",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lịch sử và văn hóa Anh giúp sinh viên hiểu sâu về lịch sử và văn hóa của người Anh và các nước sử dụng tiếng Anh."
+      },
+      {
+        "sub_id": 24,
+        "maj_id": 5,
+        "name": "Kỹ năng viết luận",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kỹ năng viết luận giúp sinh viên rèn luyện kỹ năng phân tích và viết luận trong tiếng Anh."
+      },
+      {
+        "sub_id": 25,
+        "maj_id": 5,
+        "name": "Ngôn ngữ và văn hóa Anh Mỹ",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ngôn ngữ và văn hóa Anh Mỹ giúp sinh viên hiểu về ngôn ngữ và văn hóa của người Mỹ."
+      },
+      {
+        "sub_id": 26,
+        "maj_id": 6,
+        "name": "Văn học Nga",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Văn học Nga giúp sinh viên hiểu về các tác phẩm văn học tiếng Nga và văn hóa Nga."
+      },
+      {
+        "sub_id": 27,
+        "maj_id": 6,
+        "name": "Ngôn ngữ Nga phổ thông",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ngôn ngữ Nga phổ thông giúp sinh viên cải thiện kỹ năng nghe, nói, đọc và viết tiếng Nga."
+      },
+      {
+        "sub_id": 28,
+        "maj_id": 6,
+        "name": "Lịch sử và văn hóa Nga",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lịch sử và văn hóa Nga giúp sinh viên hiểu sâu về lịch sử và văn hóa của người Nga và các nước sử dụng tiếng Nga."
+      },
+      {
+        "sub_id": 29,
+        "maj_id": 6,
+        "name": "Kỹ năng phiên dịch",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kỹ năng phiên dịch giúp sinh viên rèn luyện kỹ năng phiên dịch giữa tiếng Nga và tiếng Việt."
+      },
+      {
+        "sub_id": 30,
+        "maj_id": 6,
+        "name": "Ngôn ngữ và văn hóa Nga - Liên Xô",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ngôn ngữ và văn hóa Nga - Liên Xô giúp sinh viên hiểu về ngôn ngữ và văn hóa của Liên Xô."
+      },
+      {
+        "sub_id": 31,
+        "maj_id": 7,
+        "name": "Quản trị tài chính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản trị tài chính giúp sinh viên hiểu về quản lý tài chính trong doanh nghiệp và các quyết định tài chính chiến lược."
+      },
+      {
+        "sub_id": 32,
+        "maj_id": 7,
+        "name": "Quản trị nhân sự",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản trị nhân sự giúp sinh viên hiểu về quản lý nhân sự và các phương pháp tạo động lực cho nhân viên."
+      },
+      {
+        "sub_id": 33,
+        "maj_id": 7,
+        "name": "Quản trị chiến lược",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản trị chiến lược giúp sinh viên hiểu về quyết định chiến lược và quản lý chiến lược trong doanh nghiệp."
+      },
+      {
+        "sub_id": 34,
+        "maj_id": 7,
+        "name": "Marketing quốc tế",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Marketing quốc tế giúp sinh viên hiểu về các phương pháp tiếp thị và quảng cáo trên thị trường quốc tế."
+      },
+      {
+        "sub_id": 35,
+        "maj_id": 7,
+        "name": "Quản trị chuỗi cung ứng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản trị chuỗi cung ứng giúp sinh viên hiểu về quản lý và tối ưu hóa chuỗi cung ứng trong doanh nghiệp."
+      },
+      {
+        "sub_id": 36,
+        "maj_id": 8,
+        "name": "Kinh tế học",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kinh tế học giúp sinh viên hiểu về các nguyên lý cơ bản của kinh tế và quy luật hoạt động của nền kinh tế."
+      },
+      {
+        "sub_id": 37,
+        "maj_id": 8,
+        "name": "Tài chính doanh nghiệp",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Tài chính doanh nghiệp giúp sinh viên hiểu về quản lý tài chính trong doanh nghiệp và quyết định tài chính chiến lược."
+      },
+      {
+        "sub_id": 38,
+        "maj_id": 8,
+        "name": "Kế toán quản trị",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kế toán quản trị giúp sinh viên hiểu về các phương pháp kế toán quản trị và công cụ quản lý tài chính."
+      },
+      {
+        "sub_id": 39,
+        "maj_id": 8,
+        "name": "Nguyên lý và phương pháp thống kê",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Nguyên lý và phương pháp thống kê giúp sinh viên hiểu về các phương pháp thống kê và ứng dụng trong kinh doanh và nghiên cứu."
+      },
+      {
+        "sub_id": 40,
+        "maj_id": 8,
+        "name": "Quản lý rủi ro tài chính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý rủi ro tài chính giúp sinh viên hiểu về các phương pháp quản lý và đánh giá rủi ro tài chính trong doanh nghiệp."
+      },
+      {
+        "sub_id": 41,
+        "maj_id": 9,
+        "name": "Lập trình C++",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lập trình C++ giúp sinh viên hiểu về ngôn ngữ lập trình C++ và phát triển các ứng dụng sử dụng C++."
+      },
+      {
+        "sub_id": 42,
+        "maj_id": 9,
+        "name": "Cơ sở dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cơ sở dữ liệu giúp sinh viên hiểu về cấu trúc và quản lý cơ sở dữ liệu trong các ứng dụng máy tính."
+      },
+      {
+        "sub_id": 43,
+        "maj_id": 9,
+        "name": "Mạng máy tính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Mạng máy tính giúp sinh viên hiểu về cấu trúc và hoạt động của mạng máy tính và các dịch vụ mạng."
+      },
+      {
+        "sub_id": 44,
+        "maj_id": 9,
+        "name": "An toàn và bảo mật thông tin",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An toàn và bảo mật thông tin giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+      },
+      {
+        "sub_id": 45,
+        "maj_id": 9,
+        "name": "Trí tuệ nhân tạo",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Trí tuệ nhân tạo giới thiệu về các khái niệm và ứng dụng của trí tuệ nhân tạo trong lĩnh vực máy tính và tin học."
+      },
+      {
+        "sub_id": 46,
+        "maj_id": 10,
+        "name": "Phát triển ứng dụng di động",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phát triển ứng dụng di động giúp sinh viên hiểu về quy trình phát triển ứng dụng di động trên các nền tảng khác nhau."
+      },
+      {
+        "sub_id": 47,
+        "maj_id": 10,
+        "name": "Kiến trúc phần mềm",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kiến trúc phần mềm giúp sinh viên hiểu về cấu trúc và thiết kế phần mềm hiện đại."
+      },
+      {
+        "sub_id": 48,
+        "maj_id": 10,
+        "name": "Quản lý dự án phần mềm",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý dự án phần mềm giúp sinh viên hiểu về quy trình quản lý dự án phần mềm và các công cụ hỗ trợ quản lý dự án."
+      },
+      {
+        "sub_id": 49,
+        "maj_id": 10,
+        "name": "Phân tích và thiết kế hệ thống",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phân tích và thiết kế hệ thống giúp sinh viên hiểu về quy trình phân tích và thiết kế hệ thống phần mềm."
+      },
+      {
+        "sub_id": 50,
+        "maj_id": 10,
+        "name": "Kiểm thử phần mềm",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kiểm thử phần mềm giúp sinh viên hiểu về các phương pháp kiểm thử phần mềm và quy trình kiểm thử phần mềm."
+      },
+      {
+        "sub_id": 51,
+        "maj_id": 11,
+        "name": "Kiến trúc máy tính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kiến trúc máy tính giúp sinh viên hiểu về cấu trúc nội bộ của máy tính và cách thiết kế các hệ thống máy tính."
+      },
+      {
+        "sub_id": 52,
+        "maj_id": 11,
+        "name": "Hệ điều hành",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hệ điều hành giúp sinh viên hiểu về cấu trúc và hoạt động của hệ điều hành trong các hệ thống máy tính."
+      },
+      {
+        "sub_id": 53,
+        "maj_id": 11,
+        "name": "Mạng máy tính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Mạng máy tính giúp sinh viên hiểu về cấu trúc và hoạt động của mạng máy tính và các dịch vụ mạng."
+      },
+      {
+        "sub_id": 54,
+        "maj_id": 11,
+        "name": "Lập trình hệ thống",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Lập trình hệ thống giúp sinh viên hiểu về việc phát triển các ứng dụng và hệ thống trong môi trường máy tính."
+      },
+      {
+        "sub_id": 55,
+        "maj_id": 11,
+        "name": "Thiết kế và phân tích thuật toán",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thiết kế và phân tích thuật toán giúp sinh viên hiểu về các phương pháp thiết kế và phân tích thuật toán trong máy tính."
+      },
+      {
+        "sub_id": 56,
+        "maj_id": 12,
+        "name": "Quản lý dự án hệ thống thông tin",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý dự án hệ thống thông tin giúp sinh viên hiểu về quy trình quản lý dự án trong lĩnh vực hệ thống thông tin."
+      },
+      {
+        "sub_id": 57,
+        "maj_id": 12,
+        "name": "Phát triển ứng dụng web",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phát triển ứng dụng web giúp sinh viên hiểu về quy trình phát triển các ứng dụng web và các công nghệ web hiện đại."
+      },
+      {
+        "sub_id": 58,
+        "maj_id": 12,
+        "name": "Hệ thống trí tuệ nhân tạo",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hệ thống trí tuệ nhân tạo giới thiệu về các ứng dụng của trí tuệ nhân tạo trong lĩnh vực hệ thống thông tin và máy tính."
+      },
+      {
+        "sub_id": 59,
+        "maj_id": 12,
+        "name": "Cơ sở dữ liệu phân tán",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cơ sở dữ liệu phân tán giúp sinh viên hiểu về cấu trúc và quản lý các hệ thống cơ sở dữ liệu phân tán."
+      },
+      {
+        "sub_id": 60,
+        "maj_id": 12,
+        "name": "An toàn thông tin và bảo mật",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An toàn thông tin và bảo mật giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+      },
+      {
+        "sub_id": 61,
+        "maj_id": 13,
+        "name": "Thiết kế và quản lý mạng máy tính",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thiết kế và quản lý mạng máy tính giúp sinh viên hiểu về quy trình thiết kế và quản lý mạng máy tính trong doanh nghiệp và tổ chức."
+      },
+      {
+        "sub_id": 62,
+        "maj_id": 13,
+        "name": "Các giao thức mạng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Các giao thức mạng giúp sinh viên hiểu về các giao thức và các công nghệ liên quan đến mạng máy tính và truyền thông dữ liệu."
+      },
+      {
+        "sub_id": 63,
+        "maj_id": 13,
+        "name": "An toàn mạng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An toàn mạng giúp sinh viên hiểu về các biện pháp bảo mật mạng máy tính và phòng tránh các mối đe dọa mạng."
+      },
+      {
+        "sub_id": 64,
+        "maj_id": 13,
+        "name": "Phân tích dữ liệu mạng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phân tích dữ liệu mạng giúp sinh viên hiểu về quy trình phân tích dữ liệu mạng và các kỹ thuật phân tích dữ liệu trong mạng máy tính."
+      },
+      {
+        "sub_id": 65,
+        "maj_id": 13,
+        "name": "Truyền thông dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Truyền thông dữ liệu giúp sinh viên hiểu về các công nghệ và giao thức truyền thông dữ liệu trong mạng máy tính."
+      },
+      {
+        "sub_id": 66,
+        "maj_id": 14,
+        "name": "Công nghệ Internet",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Công nghệ Internet giúp sinh viên hiểu về các công nghệ và ứng dụng của Internet trong đời sống hàng ngày và trong doanh nghiệp."
+      },
+      {
+        "sub_id": 67,
+        "maj_id": 14,
+        "name": "Cơ sở dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Cơ sở dữ liệu giúp sinh viên hiểu về cấu trúc và quản lý cơ sở dữ liệu trong các hệ thống thông tin và doanh nghiệp."
+      },
+      {
+        "sub_id": 68,
+        "maj_id": 14,
+        "name": "Hệ thống thông tin doanh nghiệp",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hệ thống thông tin doanh nghiệp giúp sinh viên hiểu về quy trình xây dựng và quản lý hệ thống thông tin trong doanh nghiệp."
+      },
+      {
+        "sub_id": 69,
+        "maj_id": 14,
+        "name": "Phát triển ứng dụng di động",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phát triển ứng dụng di động giúp sinh viên hiểu về quy trình phát triển ứng dụng di động trên các nền tảng khác nhau."
+      },
+      {
+        "sub_id": 70,
+        "maj_id": 14,
+        "name": "An toàn thông tin",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An toàn thông tin giúp sinh viên hiểu về các biện pháp bảo mật thông tin và quản lý rủi ro trong hệ thống thông tin."
+      },
+      {
+        "sub_id": 71,
+        "maj_id": 15,
+        "name": "Thương mại điện tử",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thương mại điện tử giúp sinh viên hiểu về quy trình và các công nghệ trong thương mại điện tử."
+      },
+      {
+        "sub_id": 72,
+        "maj_id": 15,
+        "name": "Marketing trực tuyến",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Marketing trực tuyến giúp sinh viên hiểu về cách thực hiện chiến lược marketing trực tuyến và sử dụng các công cụ marketing số."
+      },
+      {
+        "sub_id": 73,
+        "maj_id": 15,
+        "name": "Quản lý quan hệ khách hàng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý quan hệ khách hàng giúp sinh viên hiểu về quy trình quản lý và chăm sóc khách hàng trong môi trường thương mại điện tử."
+      },
+      {
+        "sub_id": 74,
+        "maj_id": 15,
+        "name": "Pháp lý và đạo đức trong thương mại điện tử",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Pháp lý và đạo đức trong thương mại điện tử giúp sinh viên hiểu về các quy định pháp lý và các vấn đề đạo đức trong thương mại điện tử."
+      },
+      {
+        "sub_id": 75,
+        "maj_id": 15,
+        "name": "Logistics và chuỗi cung ứng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Logistics và chuỗi cung ứng giúp sinh viên hiểu về quy trình quản lý logistics và chuỗi cung ứng trong thương mại điện tử."
+      },
+      {
+        "sub_id": 76,
+        "maj_id": 16,
+        "name": "Quản lý rủi ro an toàn thông tin",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý rủi ro an toàn thông tin giúp sinh viên hiểu về quy trình quản lý và đánh giá rủi ro an toàn thông tin trong tổ chức."
+      },
+      {
+        "sub_id": 77,
+        "maj_id": 16,
+        "name": "Kiểm thử bảo mật",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kiểm thử bảo mật giúp sinh viên hiểu về các phương pháp kiểm thử và đánh giá bảo mật trong hệ thống thông tin và ứng dụng."
+      },
+      {
+        "sub_id": 78,
+        "maj_id": 16,
+        "name": "Phân tích mã độc và xâm nhập",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phân tích mã độc và xâm nhập giúp sinh viên hiểu về cách phát hiện, phân tích và ngăn chặn các cuộc tấn công mạng và mã độc."
+      },
+      {
+        "sub_id": 79,
+        "maj_id": 16,
+        "name": "Quản trị hệ thống bảo mật",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản trị hệ thống bảo mật giúp sinh viên hiểu về quy trình quản trị và bảo mật hệ thống thông tin và mạng máy tính."
+      },
+      {
+        "sub_id": 80,
+        "maj_id": 16,
+        "name": "An ninh mạng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An ninh mạng giúp sinh viên hiểu về các biện pháp bảo mật mạng máy tính và phòng tránh các mối đe dọa mạng."
+      },
+      {
+        "sub_id": 81,
+        "maj_id": 17,
+        "name": "Học máy",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Học máy giúp sinh viên hiểu về các thuật toán và phương pháp học máy để xây dựng và huấn luyện các mô hình dự đoán và phân loại."
+      },
+      {
+        "sub_id": 82,
+        "maj_id": 17,
+        "name": "Xử lý ngôn ngữ tự nhiên",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Xử lý ngôn ngữ tự nhiên giúp sinh viên hiểu về các phương pháp và công nghệ xử lý và hiểu ngôn ngữ tự nhiên bằng máy tính."
+      },
+      {
+        "sub_id": 83,
+        "maj_id": 17,
+        "name": "Học sâu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Học sâu giúp sinh viên hiểu về các mô hình học sâu như mạng nơ-ron hồi quy, mạng nơ-ron tích chập và mạng nơ-ron tái lập."
+      },
+      {
+        "sub_id": 84,
+        "maj_id": 17,
+        "name": "Học tăng cường",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Học tăng cường giúp sinh viên hiểu về các phương pháp và thuật toán trong học tăng cường để xây dựng các hệ thống tự động học."
+      },
+      {
+        "sub_id": 85,
+        "maj_id": 17,
+        "name": "Ứng dụng trí tuệ nhân tạo",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ứng dụng trí tuệ nhân tạo giúp sinh viên áp dụng các công nghệ trí tuệ nhân tạo vào các lĩnh vực thực tế như y tế, ô tô tự lái và tự động hóa."
+      },
+      {
+        "sub_id": 86,
+        "maj_id": 18,
+        "name": "Tiếng Nhật căn bản",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Tiếng Nhật căn bản giúp sinh viên nắm vững các nguyên tắc cơ bản và từ vựng phổ biến trong tiếng Nhật."
+      },
+      {
+        "sub_id": 87,
+        "maj_id": 18,
+        "name": "Tiếng Nhật nâng cao",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Tiếng Nhật nâng cao giúp sinh viên rèn luyện và phát triển kỹ năng giao tiếp và viết tiếng Nhật ở mức cao hơn."
+      },
+      {
+        "sub_id": 88,
+        "maj_id": 18,
+        "name": "Văn hóa và xã hội Nhật Bản",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Văn hóa và xã hội Nhật Bản giúp sinh viên hiểu về văn hóa, lịch sử và xã hội của Nhật Bản để tạo nền tảng cho việc học tiếng Nhật và làm việc với đối tác Nhật Bản."
+      },
+      {
+        "sub_id": 89,
+        "maj_id": 18,
+        "name": "Công nghệ thông tin và ứng dụng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Công nghệ thông tin và ứng dụng giúp sinh viên hiểu về các công nghệ thông tin phổ biến và áp dụng chúng vào các dự án liên quan đến Việt Nam và Nhật Bản."
+      },
+      {
+        "sub_id": 90,
+        "maj_id": 18,
+        "name": "Hợp tác phát triển phần mềm",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Hợp tác phát triển phần mềm giúp sinh viên làm việc nhóm và hợp tác với các đối tác phát triển phần mềm ở Nhật Bản để xây dựng các sản phẩm phần mềm chất lượng cao."
+      },
+      {
+        "sub_id": 91,
+        "maj_id": 19,
+        "name": "Khám phá dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Khám phá dữ liệu giúp sinh viên nắm vững các kỹ thuật khai phá dữ liệu để phân tích và trực quan hóa dữ liệu."
+      },
+      {
+        "sub_id": 92,
+        "maj_id": 19,
+        "name": "Mô hình hóa dữ liệu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Mô hình hóa dữ liệu giúp sinh viên hiểu về các phương pháp và công cụ để mô hình hóa dữ liệu trong các dự án khoa học dữ liệu."
+      },
+      {
+        "sub_id": 93,
+        "maj_id": 19,
+        "name": "Xử lý dữ liệu lớn",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Xử lý dữ liệu lớn giúp sinh viên hiểu về các phương pháp và công nghệ để xử lý và phân tích dữ liệu lớn trong môi trường phân tán."
+      },
+      {
+        "sub_id": 94,
+        "maj_id": 19,
+        "name": "Học máy và dự đoán",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Học máy và dự đoán giúp sinh viên áp dụng các thuật toán học máy để xây dựng và đánh giá các mô hình dự đoán từ dữ liệu."
+      },
+      {
+        "sub_id": 95,
+        "maj_id": 19,
+        "name": "Khoa học dữ liệu và doanh nghiệp",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Khoa học dữ liệu và doanh nghiệp giúp sinh viên áp dụng khoa học dữ liệu vào các lĩnh vực doanh nghiệp như marketing, tài chính và dự báo kinh doanh."
+      },
+      {
+        "sub_id": 96,
+        "maj_id": 20,
+        "name": "Kiến trúc vi mạch",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kiến trúc vi mạch giúp sinh viên hiểu về các kiến trúc phần cứng của vi mạch điện tử và thiết kế các mạch tích hợp."
+      },
+      {
+        "sub_id": 97,
+        "maj_id": 20,
+        "name": "Mô phỏng vi mạch",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Mô phỏng vi mạch giúp sinh viên sử dụng các công cụ mô phỏng để đánh giá và cải tiến hiệu suất và độ tin cậy của vi mạch."
+      },
+      {
+        "sub_id": 98,
+        "maj_id": 20,
+        "name": "Thiết kế hệ thống vi mạch số",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thiết kế hệ thống vi mạch số giúp sinh viên hiểu về các phương pháp và công cụ để thiết kế hệ thống vi mạch số phức tạp."
+      },
+      {
+        "sub_id": 99,
+        "maj_id": 20,
+        "name": "Chẩn đoán và kiểm tra vi mạch",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Chẩn đoán và kiểm tra vi mạch giúp sinh viên hiểu về các phương pháp và công cụ để chẩn đoán và kiểm tra vi mạch điện tử."
+      },
+      {
+        "sub_id": 100,
+        "maj_id": 20,
+        "name": "Ứng dụng vi mạch trong thiết kế sản phẩm",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Ứng dụng vi mạch trong thiết kế sản phẩm giúp sinh viên áp dụng kiến thức và kỹ năng thiết kế vi mạch vào việc phát triển sản phẩm điện tử."
+      },
+      {
+        "sub_id": 101,
+        "maj_id": 21,
+        "name": "Bảo mật hệ thống",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Bảo mật hệ thống giúp sinh viên hiểu về các nguyên lý, phương pháp và công nghệ bảo mật thông tin trong hệ thống máy tính."
+      },
+      {
+        "sub_id": 102,
+        "maj_id": 21,
+        "name": "Phân tích mã độc",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phân tích mã độc giúp sinh viên hiểu về cách phát hiện, phân tích và ngăn chặn mã độc trong các hệ thống thông tin."
+      },
+      {
+        "sub_id": 103,
+        "maj_id": 21,
+        "name": "Bảo mật mạng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Bảo mật mạng giúp sinh viên hiểu về các kỹ thuật và công nghệ bảo mật mạng để bảo vệ thông tin trên internet và mạng nội bộ của tổ chức."
+      },
+      {
+        "sub_id": 104,
+        "maj_id": 21,
+        "name": "Bảo mật ứng dụng web",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Bảo mật ứng dụng web giúp sinh viên hiểu về các lỗ hổng bảo mật và phương pháp tấn công trong ứng dụng web để phòng tránh và bảo vệ."
+      },
+      {
+        "sub_id": 105,
+        "maj_id": 21,
+        "name": "An ninh mạng và hệ thống",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học An ninh mạng và hệ thống giúp sinh viên hiểu về các biện pháp bảo mật mạng và hệ thống để đảm bảo an toàn cho thông tin và dịch vụ trực tuyến."
+      },
+      {
+        "sub_id": 106,
+        "maj_id": 22,
+        "name": "Kinh tế học cơ bản",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kinh tế học cơ bản giúp sinh viên hiểu về các nguyên lý cơ bản của kinh tế, bao gồm cung cầu, giá cả, và hệ thống tài chính."
+      },
+      {
+        "sub_id": 107,
+        "maj_id": 22,
+        "name": "Phân tích kinh tế",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Phân tích kinh tế giúp sinh viên áp dụng các phương pháp phân tích dữ liệu để đánh giá hiệu suất kinh tế và dự báo xu hướng."
+      },
+      {
+        "sub_id": 108,
+        "maj_id": 22,
+        "name": "Kinh tế quốc tế",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kinh tế quốc tế giúp sinh viên hiểu về các quan hệ kinh tế giữa các quốc gia và tác động của các chính sách quốc tế."
+      },
+      {
+        "sub_id": 109,
+        "maj_id": 22,
+        "name": "Kinh tế phát triển",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kinh tế phát triển giúp sinh viên hiểu về các vấn đề kinh tế đặc biệt của các quốc gia đang phát triển và các biện pháp phát triển."
+      },
+      {
+        "sub_id": 110,
+        "maj_id": 22,
+        "name": "Kinh tế học ứng dụng",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Kinh tế học ứng dụng giúp sinh viên áp dụng các nguyên lý kinh tế vào thực tiễn kinh doanh và quản lý."
+      },
+      {
+        "sub_id": 111,
+        "maj_id": 23,
+        "name": "Luật thương mại quốc tế",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Luật thương mại quốc tế giúp sinh viên hiểu về các nguyên tắc và quy định của thương mại quốc tế và các hiệp định thương mại."
+      },
+      {
+        "sub_id": 112,
+        "maj_id": 23,
+        "name": "Quản lý đầu tư nước ngoài",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý đầu tư nước ngoài giúp sinh viên hiểu về quy trình và chiến lược quản lý đầu tư của các doanh nghiệp quốc tế."
+      },
+      {
+        "sub_id": 113,
+        "maj_id": 23,
+        "name": "Thị trường và tiếp thị quốc tế",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Thị trường và tiếp thị quốc tế giúp sinh viên hiểu về cách tiếp cận và tiếp thị sản phẩm trên thị trường quốc tế."
+      },
+      {
+        "sub_id": 114,
+        "maj_id": 23,
+        "name": "Chiến lược kinh doanh toàn cầu",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Chiến lược kinh doanh toàn cầu giúp sinh viên hiểu về các chiến lược và phương pháp quản lý kinh doanh trên phạm vi toàn cầu."
+      },
+      {
+        "sub_id": 115,
+        "maj_id": 23,
+        "name": "Quản lý rủi ro và hợp pháp hóa kinh doanh",
+        "icon": "src/assets/icon/default_icon.png",
+        "img": "src/assets/icon/default_desc.webp",
+        "desc": "Môn học Quản lý rủi ro và hợp pháp hóa kinh doanh giúp sinh viên hiểu về các biện pháp quản lý rủi ro và tuân thủ pháp luật trong kinh doanh quốc tế."
+      }
+    ],
+    "dahohelping":
+    [
+      { "id": 1, "name": "DahoHelping" },
+      { "id": 2, "name": "Học tập" },
+      { "id": 3, "name": "Công việc" },
+      { "id": 4, "name": "Bạn bè" },
+      { "id": 5, "name": "Gia đình" },
+      { "id": 6, "name": "Tình cảm" },
+      { "id": 7, "name": "Tâm sự" },
+      { "id": 8, "name": "Góp ý" }
+    ],
+    "user":
+    [
+      {
+        "user_id": 1,
+        "username": "hieuthuhai",
+        "avatar": "avatar",
+        "fullname": "Trần Minh Hiếu",
+        "uni_id": 1,
+        "fal_id": "Khoa học máy tính",
+        "maj_id": "Khoa học máy tính",
+        "email": "minhhieutran@gmail.com",
+        "hometown": "Khánh Hòa",
+        "score": 300,
+        "hobby": "Lập trình, đọc sách",
+        "bio": "just a nice guy!!!"
+      },
+      {
+        "user_id": 2,
+        "username": "dieuhuyen098",
+        "avatar": "avatar1",
+        "fullname": "Nguyễn Diệu Huyền",
+        "uni_id": 3,
+        "fal_id": "Nhật Bản học",
+        "maj_id": "Nhật Bản học",
+        "email": "shijukukaizen@gmail.com",
+        "hometown": "Tuyên Quang",
+        "score": 450,
+        "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+        "bio": "Một yêu âm nhạc, thích ngủ ngày"
+      },
+    {
+        "user_id": 3,
+        "username": "suzzukia",
+        "avatar": "avatar1",
+        "fullname": "Nguyễn Diệu Huyền",
+        "uni_id": 3,
+        "fal_id": "Nhật Bản học",
+        "maj_id": "Nhật Bản học",
+        "email": "shijukukaizen@gmail.com",
+        "hometown": "Tuyên Quang",
+        "score": 450,
+        "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+        "bio": "Một yêu âm nhạc, thích ngủ ngày"
+    },
+  {
+      "user_id": 4,
+      "username": "hosiquan",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 5,
+      "username": "nguyenhaianhminh",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 6,
+      "username": "yminguyen",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 7,
+      "username": "banlaan",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 8,
+      "username": "quoctrung",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 9,
+      "username": "tungson",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  },
+  {
+      "user_id": 10,
+      "username": "mianh",
+      "avatar": "avatar1",
+      "fullname": "Nguyễn Diệu Huyền",
+      "uni_id": 3,
+      "fal_id": "Nhật Bản học",
+      "maj_id": "Nhật Bản học",
+      "email": "shijukukaizen@gmail.com",
+      "hometown": "Tuyên Quang",
+      "score": 450,
+      "hobby": "Nghe nhạc, học tiếng nhật, đọc sách",
+      "bio": "Một yêu âm nhạc, thích ngủ ngày"
+  }
+    ],
+    "search": 
+    [
+      {
+          "id": 1,
+          "title": "Học React cơ bản"
+      },
+      {
+          "id": 2,
+          "title": "Tìm hiểu về Node.js"
+      },
+      {
+          "id": 3,
+          "title": "Giới thiệu về Docker"
+      },
+      {
+          "id": 4,
+          "title": "Làm việc với GraphQL"
+      },
+      {
+          "id": 5,
+          "title": "Khám phá Vue.js"
+      },
+      {
+          "id": 6,
+          "title": "Bắt đầu với Angular"
+      },
+      {
+          "id": 7,
+          "title": "Hướng dẫn về Redux"
+      },
+      {
+          "id": 8,
+          "title": "Triển khai ứng dụng với AWS"
+      },
+      {
+          "id": 9,
+          "title": "Kiểm thử phần mềm với Jest"
+      },
+      {
+          "id": 10,
+          "title": "Tối ưu hóa hiệu suất React"
+      },
+      {
+          "id": 11,
+          "title": "Phát triển ứng dụng di động với React Native"
+      },
+      {
+          "id": 12,
+          "title": "Hiểu biết về TypeScript"
+      },
+      {
+          "id": 13,
+          "title": "Sử dụng Bootstrap để tạo giao diện"
+      },
+      {
+          "id": 14,
+          "title": "Lập trình Python cơ bản"
+      },
+      {
+          "id": 15,
+          "title": "Xây dựng API với Express.js"
+      },
+      {
+          "id": 16,
+          "title": "Làm việc với MongoDB"
+      },
+      {
+          "id": 17,
+          "title": "Kiểm thử ứng dụng với Cypress"
+      },
+      {
+          "id": 18,
+          "title": "Phân tích dữ liệu với Pandas"
+      },
+      {
+          "id": 19,
+          "title": "Tạo game với Unity"
+      },
+      {
+          "id": 20,
+          "title": "Hiểu về CSS Grid"
+      },
+      {
+          "id": 21,
+          "title": "Xây dựng website với HTML5"
+      },
+      {
+          "id": 22,
+          "title": "Lập trình JavaScript nâng cao"
+      },
+      {
+          "id": 23,
+          "title": "Sử dụng Webpack trong dự án"
+      },
+      {
+          "id": 24,
+          "title": "Phát triển ứng dụng với Django"
+      },
+      {
+          "id": 25,
+          "title": "Triển khai ứng dụng với Heroku"
+      },
+      {
+          "id": 26,
+          "title": "Làm việc với PostgreSQL"
+      },
+      {
+          "id": 27,
+          "title": "Tạo blog với Jekyll"
+      },
+      {
+          "id": 28,
+          "title": "Hướng dẫn Git và GitHub"
+      },
+      {
+          "id": 29,
+          "title": "Sử dụng Vim hiệu quả"
+      },
+      {
+          "id": 30,
+          "title": "Xây dựng RESTful API"
+      },
+      {
+          "id": 31,
+          "title": "Hiểu biết về HTTP/2"
+      },
+      {
+          "id": 32,
+          "title": "Xử lý ảnh với OpenCV"
+      },
+      {
+          "id": 33,
+          "title": "Lập trình với Swift"
+      },
+      {
+          "id": 34,
+          "title": "Tìm hiểu về Kubernetes"
+      },
+      {
+          "id": 35,
+          "title": "Phân tích dữ liệu với R"
+      },
+      {
+          "id": 36,
+          "title": "Lập trình với Kotlin"
+      },
+      {
+          "id": 37,
+          "title": "Xây dựng ứng dụng với Flutter"
+      },
+      {
+          "id": 38,
+          "title": "Tìm hiểu về Elasticsearch"
+      },
+      {
+          "id": 39,
+          "title": "Sử dụng GraphQL với Apollo"
+      },
+      {
+          "id": 40,
+          "title": "Tối ưu hóa SEO"
+      },
+      {
+          "id": 41,
+          "title": "Tạo ứng dụng với Vuex"
+      },
+      {
+          "id": 42,
+          "title": "Hiểu biết về Redux-Saga"
+      },
+      {
+          "id": 43,
+          "title": "Triển khai CI/CD với Jenkins"
+      },
+      {
+          "id": 44,
+          "title": "Học về DevOps"
+      },
+      {
+          "id": 45,
+          "title": "Xây dựng chatbot với Rasa"
+      },
+      {
+          "id": 46,
+          "title": "Sử dụng Tailwind CSS"
+      },
+      {
+          "id": 47,
+          "title": "Tạo ứng dụng với Electron"
+      },
+      {
+          "id": 48,
+          "title": "Phát triển game với Phaser"
+      },
+      {
+          "id": 49,
+          "title": "Tìm hiểu về Blockchain"
+      },
+      {
+          "id": 50,
+          "title": "Xây dựng ứng dụng với Svelte"
+      },
+      {
+          "id": 51,
+          "title": "Lập trình với Rust"
+      },
+      {
+          "id": 52,
+          "title": "Tạo trang web với Gatsby"
+      },
+      {
+          "id": 53,
+          "title": "Xây dựng microservices"
+      },
+      {
+          "id": 54,
+          "title": "Làm việc với Redis"
+      },
+      {
+          "id": 55,
+          "title": "Tìm hiểu về RabbitMQ"
+      },
+      {
+          "id": 56,
+          "title": "Phát triển ứng dụng với PWA"
+      },
+      {
+          "id": 57,
+          "title": "Hiểu biết về GraphQL Subscriptions"
+      },
+      {
+          "id": 58,
+          "title": "Lập trình game với Unreal Engine"
+      },
+      {
+          "id": 59,
+          "title": "Sử dụng Socket.IO"
+      },
+      {
+          "id": 60,
+          "title": "Xây dựng ứng dụng với Laravel"
+      },
+      {
+          "id": 61,
+          "title": "Hiểu biết về Service Workers"
+      },
+      {
+          "id": 62,
+          "title": "Phát triển ứng dụng với Ionic"
+      },
+      {
+          "id": 63,
+          "title": "Tạo ứng dụng với React"
+      },
+      {
+          "id": 64,
+          "title": "Học về API Gateway"
+      },
+      {
+          "id": 65,
+          "title": "Xây dựng ứng dụng với Next.js"
+      },
+      {
+          "id": 66,
+          "title": "Hiểu biết về Progressive Web Apps"
+      },
+      {
+          "id": 67,
+          "title": "Sử dụng GraphQL với Relay"
+      },
+      {
+          "id": 68,
+          "title": "Phát triển ứng dụng với Meteor"
+      },
+      {
+          "id": 69,
+          "title": "Hiểu về Docker Compose"
+      },
+      {
+          "id": 70,
+          "title": "Lập trình với Elm"
+      },
+      {
+          "id": 71,
+          "title": "Xây dựng ứng dụng với Gridsome"
+      },
+      {
+          "id": 72,
+          "title": "Tìm hiểu về WebAssembly"
+      },
+      {
+          "id": 73,
+          "title": "Phát triển ứng dụng với Quasar"
+      },
+      {
+          "id": 74,
+          "title": "Lập trình với F#"
+      },
+      {
+          "id": 75,
+          "title": "Hiểu biết về JAMstack"
+      },
+      {
+          "id": 76,
+          "title": "Sử dụng GraphQL với Hasura"
+      },
+      {
+          "id": 77,
+          "title": "Xây dựng ứng dụng với Nuxt.js"
+      },
+      {
+          "id": 78,
+          "title": "Tạo ứng dụng với Firebase"
+      },
+      {
+          "id": 79,
+          "title": "Tìm hiểu về GraphQL Federation"
+      },
+      {
+          "id": 80,
+          "title": "Xây dựng ứng dụng với Blitz.js"
+      },
+      {
+          "id": 81,
+          "title": "Lập trình với Scala"
+      },
+      {
+          "id": 82,
+          "title": "Sử dụng GraphQL với AWS AppSync"
+      },
+      {
+          "id": 83,
+          "title": "Tìm hiểu về Serverless Framework"
+      },
+      {
+          "id": 84,
+          "title": "Phát triển ứng dụng với Sanity"
+      },
+      {
+          "id": 85,
+          "title": "Lập trình với Go"
+      },
+      {
+          "id": 86,
+          "title": "Xây dựng ứng dụng với Amplify"
+      },
+      {
+          "id": 87,
+          "title": "Hiểu về GraphQL Directives"
+      },
+      {
+          "id": 88,
+          "title": "Sử dụng GraphQL với Prisma"
+      },
+      {
+          "id": 89,
+          "title": "Phát triển ứng dụng với Tauri"
+      },
+      {
+          "id": 90,
+          "title": "Tìm hiểu về GraphQL Mesh"
+      },
+      {
+          "id": 91,
+          "title": "Xây dựng ứng dụng với Strapi"
+      },
+      {
+          "id": 92,
+          "title": "Lập trình với Haskell"
+      },
+      {
+          "id": 93,
+          "title": "Sử dụng GraphQL với Dgraph"
+      },
+      {
+          "id": 94,
+          "title": "Phát triển ứng dụng với RedwoodJS"
+      },
+      {
+          "id": 95,
+          "title": "Lập trình với Reason"
+      },
+      {
+          "id": 96,
+          "title": "Hiểu về GraphQL Fragments"
+      },
+      {
+          "id": 97,
+          "title": "Xây dựng ứng dụng với Sapper"
+      },
+      {
+          "id": 98,
+          "title": "Phát triển ứng dụng với BaaS"
+      },
+      {
+          "id": 99,
+          "title": "Sử dụng GraphQL với Neo4j"
+      },
+      {
+          "id": 100,
+          "title": "Lập trình với Dart"
+      }
+  
+  ]
+  
+  }
+   
+  
