@@ -28,8 +28,12 @@ public class Card {
     @Size(max = 255)
     String title;
 
+    @Column(name = "award_text")
     @Size(max = 255)
-    String award;
+    String awardText;
+
+    @Column(name = "award_score")
+    Integer awardScore;
 
     @Lob
     @Column(name = "text_content")

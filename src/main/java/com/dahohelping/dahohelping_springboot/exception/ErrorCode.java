@@ -21,6 +21,8 @@ public enum ErrorCode {
     CARD_NOT_EXISTED(1011, "Card not existed", HttpStatus.NOT_FOUND),
     UNAUTHENTICATED(1009, "Unauthenticated", HttpStatus.UNAUTHORIZED),
     UNAUTHORIZED(1010, "You do not have permission", HttpStatus.FORBIDDEN),
+    COMMENT_NOT_EXISTED(1011, "Comment is not existed", HttpStatus.NOT_FOUND),
+    CARD_ALREADY_ANSWERED(1012, "Card is already answered", HttpStatus.BAD_REQUEST)
     ;
 
     ErrorCode(int code, String message, HttpStatusCode statusCode) {

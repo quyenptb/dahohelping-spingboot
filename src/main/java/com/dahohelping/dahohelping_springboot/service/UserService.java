@@ -1,13 +1,17 @@
 package com.dahohelping.dahohelping_springboot.service;
 
+import com.dahohelping.dahohelping_springboot.entity.Card;
+import com.dahohelping.dahohelping_springboot.entity.Comment;
 import com.dahohelping.dahohelping_springboot.entity.Role;
 import com.dahohelping.dahohelping_springboot.entity.User;
 import com.dahohelping.dahohelping_springboot.exception.AppException;
 import com.dahohelping.dahohelping_springboot.exception.ErrorCode;
-import com.dahohelping.dahohelping_springboot.exception.InvalidScoreException;
 import com.dahohelping.dahohelping_springboot.mapper.UserMapper;
+import com.dahohelping.dahohelping_springboot.repository.CardRepository;
+import com.dahohelping.dahohelping_springboot.repository.CommentRepository;
 import com.dahohelping.dahohelping_springboot.repository.UserRepository;
 import com.dahohelping.dahohelping_springboot.service.dto.request.UserCreationRequest;
+import com.dahohelping.dahohelping_springboot.service.dto.request.UserUpdateRequest;
 import com.dahohelping.dahohelping_springboot.service.dto.response.ApiResponse;
 import com.dahohelping.dahohelping_springboot.service.dto.response.UserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +19,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -23,7 +28,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.security.Principal;
-import java.util.*;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
@@ -38,6 +44,12 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private CommentRepository commentRepository;
+
+    @Autowired
+    private CardRepository cardRepository;
+
 
     public List<UserResponse> getRanking(int limit) {
         PageRequest top = PageRequest.of(0, limit);
@@ -49,50 +61,59 @@ public class UserService {
 
 
     public UserResponse getMyInfo() {
-        var auth = SecurityContextHolder.getContext().getAuthentication();
-        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
-        if (auth == null || auth.getName() == null) {
-            throw new AppException(ErrorCode.UNAUTHORIZED);
-        }
-        String username = auth.getName();
-        User user = userRepository.findByUsername(username);
-        if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
-        return userMapper.toUserResponse(user);
+        User authenticatedUser = getAuthenticatedUser();
+        return userMapper.toUserResponse(authenticatedUser);
     }
-
-    private Boolean isAuthenticatedUser(String username) {
-        var auth = SecurityContextHolder.getContext().getAuthentication();
-        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
-        if (auth == null || auth.getName() == null) {
-            return false;
-        }
-        return true;
-    }
-
 
     @Transactional
-    public void updateScoreById(Integer userId, Integer deltaScore) {
-        var auth = SecurityContextHolder.getContext().getAuthentication();
-        //never String username = auth.getName() here -> if auth is null, then NPE will be thrown before AppException is catch
-        if (auth == null || auth.getName() == null) {
-            throw new AppException(ErrorCode.UNAUTHORIZED);
-        }
-        String username = auth.getName();
-        User user = userRepository._findById(userId);
-        if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
+    public UserResponse updateMyProfile(UserUpdateRequest request) {
+        User authenticatedUser = getAuthenticatedUser();
 
-        if (deltaScore > 100_000_000 || deltaScore < 0) throw new InvalidScoreException("Số điểm không hợp lệ");
-        int newScore = user.getScore() - deltaScore;
-        user.setScore(Math.max(newScore, 0)); // tránh âm
-        userRepository.save(user);
+        authenticatedUser.setAvatar(request.getAvatar());
+        authenticatedUser.setFullName(request.getFullName());
+        authenticatedUser.setEmail(request.getEmail());
+        authenticatedUser.setHometown(request.getHometown());
+        authenticatedUser.setHobby(request.getHobby());
+        authenticatedUser.setBio(request.getBio());
+
+        User savedUser = userRepository.save(authenticatedUser);
+        return userMapper.toUserResponse(savedUser);
     }
 
-    /*
-    1. hàm này để user trigger update điểm thông qua action, điểm là output, là phần thưởng
-    2. check authentication đúng user đó mới được thêm.
-    3. nếu user biết endpoint này, có thể cố tình gian lận? ->
-     */
+    @Transactional
+    public void chooseTheBestQuestion(Integer commentId) {
+        User authenticatedUser = getAuthenticatedUser();
 
+        Comment comment = commentRepository.findById(commentId)
+                .orElseThrow(() -> new AppException(ErrorCode.COMMENT_NOT_EXISTED));
+
+        Card card = cardRepository.findById(comment.getCardId())
+                .orElseThrow(() -> new AppException(ErrorCode.CARD_NOT_EXISTED));
+
+        if (!card.getUser().getId().equals(authenticatedUser.getId())) {
+            throw new AppException(ErrorCode.UNAUTHORIZED);
+        }
+
+        if (card.getIsAnswered() != null && card.getIsAnswered()) {
+            throw new AppException(ErrorCode.CARD_ALREADY_ANSWERED);
+        }
+
+
+        User commenter = userRepository._findById(comment.getUserId());
+        if (commenter == null) {
+            throw new AppException(ErrorCode.USER_NOT_EXISTED);
+        }
+
+        Integer scoreAward = card.getAwardScore();
+
+        if (scoreAward != null && scoreAward > 0) {
+            commenter.setScore(commenter.getScore() + scoreAward);
+            userRepository.save(commenter);
+        }
+
+        card.setIsAnswered(true);
+        cardRepository.save(card);
+    }
 
     public Integer getScoreById(Integer userId) {
         User user = userRepository._findById(userId);
@@ -133,7 +154,7 @@ public class UserService {
 
 
     public ResponseEntity<ApiResponse<UserResponse>> createUser(UserCreationRequest request) {
-        if (userRepository.findByUsername(request.getUsername()) != null)
+        if (userRepository.existsByUsername(request.getUsername()))
             throw new AppException(ErrorCode.USER_EXISTED);
 
         User user = userMapper.toUser(request);
@@ -174,28 +195,14 @@ public class UserService {
         return ResponseEntity.ok("User deleted successfully");
     }
 
-
-    @Transactional
-    public void updateUser(Map<String, Object> updates, Integer userId) {
-        User user = userRepository._findById(userId);
+    private User getAuthenticatedUser() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth == null || auth.getName() == null) {
+            throw new AppException(ErrorCode.UNAUTHORIZED);
+        }
+        String username = auth.getName();
+        User user = userRepository.findByUsername(username);
         if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
-
-        updates.forEach((key, value) -> {
-            switch (key) {
-                case "username": user.setUsername((String) value); break;
-                case "password": 
-                    user.setPassword(passwordEncoder.encode((String) value)); 
-                    break;
-                case "avatar": user.setAvatar((String) value); break;
-                case "fullName": user.setFullName((String) value); break;
-                case "email": user.setEmail((String) value); break;
-                case "hometown": user.setHometown((String) value); break;
-                case "hobby": user.setHobby((String) value); break;
-                case "bio": user.setBio((String) value); break;
-                default: break;
-            }
-        });
-
-        userRepository.save(user);
+        return user;
     }
 }

@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class UserUpdateRequest {
     String username;
     String avatar;
-    String full_name;
+    String fullName;
     String email;
     String hometown;
     String hobby;

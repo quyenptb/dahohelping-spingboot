@@ -14,6 +14,8 @@ import java.util.Set;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, String> {
+
+    Boolean existsByUsername(String username);
     @Query("SELECT u FROM User u ORDER BY u.score DESC")
     List<User> getRanking(Pageable pageable);
 
