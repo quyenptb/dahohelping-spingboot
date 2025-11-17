@@ -85,9 +85,5 @@ DahoHelping is a web-based forum conceptualized for Vietnam National University 
 - Managed the full data layer: Designed Oracle DB schema and wrote efficient SQL queries for data management.
 - Ensured backend stability through thorough API testing and validation using Postman, independent of frontend.
 
-## Repository
-- [GitHub Repo](https://github.com/quyenptb/dahohelping-springboot) (Backend)
-- [Full Project Repo](https://github.com/quyenptb/NT208.O22-FinalProject)
-
 ## Contact
 Feel free to reach out for questions or collaborations: phanquyenbtx@gmail.com | LinkedIn/GitHub/Blogspot links in profile.
