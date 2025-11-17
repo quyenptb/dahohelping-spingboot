@@ -1,21 +1,27 @@
 package com.dahohelping.dahohelping_springboot;
 
 
-import com.dahohelping.dahohelping_springboot.entity.User;
+import com.dahohelping.dahohelping_springboot.entity.*;
 import com.dahohelping.dahohelping_springboot.exception.AppException;
 import com.dahohelping.dahohelping_springboot.mapper.UserMapper;
 import com.dahohelping.dahohelping_springboot.repository.UserRepository;
 import com.dahohelping.dahohelping_springboot.service.UserService;
+import com.dahohelping.dahohelping_springboot.service.dto.request.UserCreationRequest;
+import com.dahohelping.dahohelping_springboot.service.dto.response.ApiResponse;
 import com.dahohelping.dahohelping_springboot.service.dto.response.UserResponse;
+import jakarta.persistence.Column;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -24,8 +30,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import java.util.List;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -38,18 +43,58 @@ public class UserServiceTest {
 
     @InjectMocks
     private UserService userService;
-    
+
+    @Captor
+    private ArgumentCaptor<User> userCaptor;
+
+    @Mock
     private static PasswordEncoder passwordEncoder;
 
     private User happyUser;
 
+    private UserResponse userReponse;
+
+
 
     @BeforeEach
     void setUp() {
-        
-        //User happy path
-        happyUser = User.builder().username("happyUser").email("happyUser@gmail.com").password("happyUser").build();
-        
+
+        // University
+        University uni = University.builder()
+                .id(1)
+                .name("Đại học A")
+                .code("UA")
+                .icon("icon.png")
+                .build();
+
+        Faculty faculty = Faculty.builder()
+                .id(2)
+                .name("Khoa B")
+                .university(uni)
+                .build();
+
+        Major major = Major.builder()
+                .id(3)
+                .name("Ngành C")
+                .faculty(faculty)
+                .build();
+
+        Role userRole = Role.builder().name("User").description("For user").build();
+
+
+        happyUser = User.builder()
+                .username("happyUser")
+                .password("1234567")
+                .email("happyUser@gmail.com")
+                .university(uni)
+                .faculty(faculty)
+                .major(major)
+                .roles(Set.of(userRole))
+                .build();
+
+        userReponse = new UserResponse(happyUser.getUsername(), happyUser.getEmail());
+
+
     }
     
     @BeforeAll
@@ -182,7 +227,55 @@ public class UserServiceTest {
 
     }
 
+    @Test
+    @DisplayName("createUsser_whenUsernameExisted_shouldThrowException")
+    void createUsser_whenUsernameExisted_shouldThrowException() {
+        // Arrange
+        UserCreationRequest userCreationRequest = UserCreationRequest.builder()
+                .username("existedUser").password("123456789").fullName("Existed User").uniId("1").facId("2").majId("3")
+                .build();
+        // Act
+        when(userRepository.existsByUsername(userCreationRequest.getUsername())).thenReturn(true);
 
+        Exception thrown = assertThrows(AppException.class, () -> userService.createUser(userCreationRequest));
+        // Assert
+
+        verify(userRepository, never()).save(any(User.class));
+    }
+
+    @Test
+    @DisplayName("createUser_whenUserIsValid_shouldCreateUserSucessfully")
+    void createUser_whenUserIsValid_shouldCreateUserSucessfully() {
+        // Arrange
+        UserCreationRequest userCreationRequest = UserCreationRequest.builder()
+                .username("happyUser").password("1234567").email("happyUser@gmail.com").fullName("happyUser").uniId("1").facId("2").majId("3")
+                .build();
+
+        when(userRepository.existsByUsername(userCreationRequest.getUsername())).thenReturn(false);
+        when(userMapper.toUser(userCreationRequest)).thenReturn(happyUser);
+        when(passwordEncoder.encode(userCreationRequest.getPassword())).thenReturn("encodedPassword");
+        when(userRepository.save(any(User.class))).thenAnswer(invocation -> invocation.getArgument(0));
+        when(userMapper.toUserResponse(any(User.class))).thenReturn(
+                userReponse
+        );
+
+        // Act
+
+        UserResponse response = userService.createUser(userCreationRequest);
+
+        verify(userRepository).save(userCaptor.capture());
+
+        User savedUser = userCaptor.getValue();
+
+        // Assert
+        assertEquals("happyUser", savedUser.getUsername());
+        assertEquals("encodedPassword", savedUser.getPassword());
+        assertEquals(1, savedUser.getRoles().size());
+        assertTrue(savedUser.getRoles().stream().anyMatch(r -> r.getName().equals("USER")));
+
+        verify(userRepository, times(1)).save(any(User.class));
+
+    }
 
 
 }

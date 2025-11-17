@@ -69,12 +69,12 @@ public class UserService {
     public UserResponse updateMyProfile(UserUpdateRequest request) {
         User authenticatedUser = getAuthenticatedUser();
 
-        authenticatedUser.setAvatar(request.getAvatar());
-        authenticatedUser.setFullName(request.getFullName());
-        authenticatedUser.setEmail(request.getEmail());
-        authenticatedUser.setHometown(request.getHometown());
-        authenticatedUser.setHobby(request.getHobby());
-        authenticatedUser.setBio(request.getBio());
+        if (request.getAvatar() != null) authenticatedUser.setAvatar(request.getAvatar());
+        if (request.getFullName() != null) authenticatedUser.setFullName(request.getFullName());
+        if (request.getEmail() != null) authenticatedUser.setEmail(request.getEmail());
+        if (request.getHometown() != null) authenticatedUser.setHometown(request.getHometown());
+        if (request.getHobby() != null) authenticatedUser.setHobby(request.getHobby());
+        if (request.getBio() != null) authenticatedUser.setBio(request.getBio());
 
         User savedUser = userRepository.save(authenticatedUser);
         return userMapper.toUserResponse(savedUser);
@@ -137,13 +137,11 @@ public class UserService {
         return userMapper.toUserResponse(user);
     }
 
-
     public UserResponse getUserById(Integer userId) {
         User user = userRepository._findById(userId);
         if (user == null) throw new AppException(ErrorCode.USER_NOT_EXISTED);
         return userMapper.toUserResponse(user);
     }
-
 
     public List<UserResponse> getUsersByUsernameContaining(String keyword) {
         return userRepository.findByUsernameContaining(keyword)
@@ -152,13 +150,14 @@ public class UserService {
                 .collect(Collectors.toList());
     }
 
-
-    public ResponseEntity<ApiResponse<UserResponse>> createUser(UserCreationRequest request) {
+    public UserResponse createUser(UserCreationRequest request) {
+        //check if username is existed
         if (userRepository.existsByUsername(request.getUsername()))
             throw new AppException(ErrorCode.USER_EXISTED);
 
         User user = userMapper.toUser(request);
         user.setPassword(passwordEncoder.encode(request.getPassword()));
+
 
         Role role = new Role();
         role.setName(com.dahohelping.dahohelping_springboot.roles.Role.USER.name());
@@ -167,16 +166,8 @@ public class UserService {
         User savedUser = userRepository.save(user);
         UserResponse savedResponse = userMapper.toUserResponse(savedUser);
 
-        URI location = ServletUriComponentsBuilder
-                .fromCurrentRequest()
-                .path("/{username}")
-                .buildAndExpand(savedResponse.getUsername())
-                .toUri();
 
-        ApiResponse<UserResponse> response = new ApiResponse<>();
-        response.setResult(savedResponse);
-
-        return ResponseEntity.created(location).body(response);
+        return savedResponse;
     }
 
     @PreAuthorize("hasAuthority('SCOPE_ADMIN')")

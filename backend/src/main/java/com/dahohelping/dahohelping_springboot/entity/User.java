@@ -66,7 +66,6 @@ public class User {
     @OneToMany(mappedBy = "awardee")
     Set <Badge> badges;
 
-
     @OneToMany(mappedBy = "owner")
     Set <Notification> notificationsOwner;
 

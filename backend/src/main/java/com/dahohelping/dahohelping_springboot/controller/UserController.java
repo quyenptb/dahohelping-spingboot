@@ -14,7 +14,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.service.annotation.GetExchange;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.net.URI;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +32,17 @@ public class UserController {
     //pass
     @PostMapping("/signin")
    ResponseEntity<ApiResponse<UserResponse>> createUser(@RequestBody @Valid UserCreationRequest request) {
-        return userService.createUser(request);
+        UserResponse savedUser = userService.createUser(request);
+        URI location = ServletUriComponentsBuilder
+                .fromCurrentRequest()
+                .path("/{username}")
+                .buildAndExpand(savedUser.getUsername())
+                .toUri();
+
+        ApiResponse<UserResponse> response = new ApiResponse<>();
+        response.setResult(savedUser);
+
+        return ResponseEntity.created(location).body(response);
     }
 
     //you do not have permission
@@ -86,16 +98,36 @@ public class UserController {
         return userService.getScoreById(userId);
     }
 
+    /*
     @PatchMapping("/score/{userId}")
     public void updateScoreById(@RequestBody Integer score, @PathVariable("userId") Integer userId) {
         userService.updateScoreById(score, userId);
         return;
-    }
+    } */
 
-@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PATCH, RequestMethod.DELETE})
-@PatchMapping("/update/{userId}")
-public void updateUser(@RequestBody Map<String, Object> updates, @PathVariable("userId") Integer userId) {
-    userService.updateUser(updates, userId);
+/*
+String username;
+    String avatar;
+    String fullName;
+    String email;
+    String hometown;
+    String hobby;
+    String bio;
+ */
+
+@PatchMapping("/me")
+@ResponseStatus(HttpStatus.NO_CONTENT)
+public void updateMyProfile(@RequestBody Map<String, Object> updates, @PathVariable("userId") Integer userId) {
+    UserUpdateRequest userUpdateRequest = UserUpdateRequest.builder()
+            .username((String) updates.get("username"))
+            .avatar((String) updates.get("avatar"))
+            .fullName((String) updates.get("fullName"))
+            .email((String) updates.get("email"))
+            .hometown((String) updates.get("hometown"))
+            .hobby((String) updates.get("hobby"))
+            .bio((String) updates.get("bio"))
+            .build();
+    userService.updateMyProfile(userUpdateRequest);
 }
 
     @DeleteMapping("/delete/me")
